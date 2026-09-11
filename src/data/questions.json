@@ -145,26 +145,26 @@
         {
           "id": "r12",
           "seq_number": 12,
-          "question": "The word 'crust' in the second paragraph could best be replaced by:",
+          "question": "The word 'dense' in the second paragraph is closest in meaning to:",
           "choices": [
-            "A) Stone",
-            "B) Piece",
-            "C) Outer layer",
-            "D) Land"
+            "A) Thick and compact",
+            "B) Empty",
+            "C) Fragile",
+            "D) Transparent"
           ],
-          "answer": "C) Outer layer"
+          "answer": "A) Thick and compact"
         },
         {
           "id": "r13",
           "seq_number": 13,
-          "question": "What does the passage suggest the next paragraph would probably discuss?",
+          "question": "What does the passage suggest the following paragraph would probably discuss?",
           "choices": [
-            "A) The abundant gases",
-            "B) The atmosphere",
-            "C) The atmospheric gases",
-            "D) The unliving things"
+            "A) Specific examples of how a change in one sphere affects another",
+            "B) A detailed history of solar system exploration",
+            "C) The composition of unliving rocks in deep space",
+            "D) Why environmental science should be discontinued"
           ],
-          "answer": "B) The atmosphere"
+          "answer": "A) Specific examples of how a change in one sphere affects another"
         },
         {
           "id": "r14",
@@ -337,14 +337,14 @@
         {
           "id": "r27",
           "seq_number": 27,
-          "question": "The word 'honed' in the fourth paragraph is closest in meaning to:",
+          "question": "The word 'intriguing' in the fourth paragraph is closest in meaning to:",
           "choices": [
-            "A) Replaced",
-            "B) Refined",
-            "C) Abandoned",
-            "D) Ignored"
+            "A) Boring",
+            "B) Fascinating",
+            "C) Dangerous",
+            "D) Common"
           ],
-          "answer": "B) Refined"
+          "answer": "B) Fascinating"
         },
         {
           "id": "r28",
