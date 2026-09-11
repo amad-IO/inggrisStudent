@@ -1,809 +1,464 @@
 {
   "reading": [
     {
-      "title": "Supporting Black-Owned Businesses and Entrepreneurs",
-      "passage": "Social media influencers have redefined modern marketing. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are people who identify opportunities, take on the risks of a business, and organize resources to establish ventures. Influencers who start their own business certainly fall under this category. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs and paving the way to scale-up their operations quickly.",
+      "title": "Supporting Black-Owned Businesses",
+      "passage": "In today's economy, supporting Black-owned businesses has become an important topic of discussion. Venture capital, which is funding provided by investors to startup companies, is often highlighted as a key resource. However, studies show that Black entrepreneurs receive a disproportionately small share of venture capital funding compared to their peers.\n\nBank finance, rather than venture capital, serves as the real driver for a business to grow from small to medium, and medium to big. For the vast majority of entrepreneurs, access to fair lending from banks is far more impactful than the rare chance of securing venture capital. Improving access to bank finance is therefore the most meaningful way to support Black entrepreneurs in scaling their businesses.\n\nThe challenge goes beyond funding. Black business owners sometimes face cultural misunderstandings during presentations. For instance, a well-meaning white entrepreneur once offended a predominantly Black audience by making frivolous assumptions about their community. This illustrates the importance of relevance and sincerity in cross-cultural business communication.\n\nMany organizations have recognized these barriers and are working to create more inclusive entrepreneurship ecosystems. Programs that provide mentorship, networking opportunities, and leadership training aim to level the playing field. How can talented, highly motivated Black entrepreneurs achieve their full potential? The answer lies in systemic change — improving access to capital, education, and markets for all.",
       "questions": [
         {
-          "question": "What is the main idea of the text?",
-          "choices": {
-            "a": "Black-owned businesses are systematically prevented from accelerating",
-            "b": "Communicating local role models to help Black-owned businesses",
-            "c": "Ideas proposed to enhance Black-owned businesses",
-            "d": "The vital necessity of venture capital for minority startups"
-          },
-          "answer": "c",
-          "explanation": "The passage outlines numbered, actionable recommendations—specifically authentic communication and improved bank financing—aimed at supporting and scaling Black-owned businesses.",
-          "seq_number": 1
+          "id": "r1",
+          "seq_number": 1,
+          "question": "What is the main idea of this passage?",
+          "choices": [
+            "A) Meaningful ways to support Black entrepreneurs",
+            "B) How to start a venture capital firm",
+            "C) The history of American banking",
+            "D) Social media marketing strategies"
+          ],
+          "answer": "A) Meaningful ways to support Black entrepreneurs"
         },
         {
+          "id": "r2",
+          "seq_number": 2,
           "question": "According to the passage, what is the real driver for businesses to grow from small to medium and medium to big?",
-          "choices": {
-            "a": "Venture capital",
-            "b": "Bank finance",
-            "c": "Childhood background",
-            "d": "Pitch presentations"
-          },
-          "answer": "b",
-          "explanation": "The text states that bank finance is 'the main act' and 'the real driver for getting from small to medium, and medium to big.'",
-          "seq_number": 2
+          "choices": [
+            "A) Venture capital",
+            "B) Bank finance",
+            "C) Government grants",
+            "D) Crowdfunding"
+          ],
+          "answer": "B) Bank finance"
         },
         {
+          "id": "r3",
+          "seq_number": 3,
           "question": "What is the best title for this passage?",
-          "choices": {
-            "a": "Effective Ways to Support Black Entrepreneurs",
-            "b": "The Crucial Role of Venture Capital in Startup Growth",
-            "c": "Overcoming Racial Barriers in Corporate Presentations",
-            "d": "Navigating Commercial Bank Loans for Small Enterprises"
-          },
-          "answer": "a",
-          "explanation": "The passage provides numbered recommendations focused directly on addressing the genuine needs of Black business owners, covering culturally attuned communication and access to essential bank financing.",
-          "seq_number": 3
+          "choices": [
+            "A) Effective Ways to Support Black Entrepreneurs",
+            "B) Venture Capital 101",
+            "C) The Rise of Social Media",
+            "D) Modern Banking Systems"
+          ],
+          "answer": "A) Effective Ways to Support Black Entrepreneurs"
         },
         {
-          "question": "What is the tone of the passage?",
-          "choices": {
-            "a": "Absurd",
-            "b": "Informative",
-            "c": "Benevolent",
-            "d": "Melancholic"
-          },
-          "answer": "b",
-          "explanation": "The passage maintains a neutral, practical, and informative delivery of recommendations.",
-          "seq_number": 4
+          "id": "r4",
+          "seq_number": 4,
+          "question": "The word 'frivolous' in the third paragraph is closest in meaning to:",
+          "choices": [
+            "A) Thoughtful",
+            "B) Trivial",
+            "C) Important",
+            "D) Generous"
+          ],
+          "answer": "B) Trivial"
         },
         {
-          "question": "What is the main purpose of the passage?",
-          "choices": {
-            "a": "To support a theory",
-            "b": "To promote brands",
-            "c": "To provide information",
-            "d": "To sell products"
-          },
-          "answer": "c",
-          "explanation": "Informative texts aim primarily to provide objective details rather than persuade or sell.",
-          "seq_number": 5
+          "id": "r5",
+          "seq_number": 5,
+          "question": "Which of the following is NOT mentioned as a way to support Black entrepreneurs?",
+          "choices": [
+            "A) Mentorship programs",
+            "B) Networking opportunities",
+            "C) Reducing corporate taxes",
+            "D) Leadership training"
+          ],
+          "answer": "C) Reducing corporate taxes"
         },
         {
-          "question": "It can be inferred from the passage that...",
-          "choices": {
-            "a": "overcoming economic hardship inherently equips a speaker to understand racial business barriers",
-            "b": "traditional bank loans are more critical than venture capital for scaling most businesses",
-            "c": "venture capital provides the most dependable funding route for minority-owned startups",
-            "d": "Black entrepreneurs should prioritize venture capital pitches over seeking commercial loans"
-          },
-          "answer": "b",
-          "explanation": "Paragraph 3 identifies bank finance as the primary driver for expanding businesses from small to large, while labeling venture capital an unlikely side show.",
-          "seq_number": 6
+          "id": "r6",
+          "seq_number": 6,
+          "question": "The word 'achieve' in the last paragraph is closest in meaning to:",
+          "choices": [
+            "A) Attain",
+            "B) Pursue",
+            "C) Attempt",
+            "D) Undertake"
+          ],
+          "answer": "A) Attain"
         },
         {
-          "question": "The following statements are TRUE according to the text EXCEPT _____.",
-          "choices": {
-            "a": "Venture capital serves as the primary and most dependable catalyst for scaling Black-owned businesses.",
-            "b": "The white speaker caused unintended offense by assuming his past poverty mirrored the struggles of Black business owners.",
-            "c": "Securing venture capital funding is statistically improbable for the vast majority of pitch applicants.",
-            "d": "Access to commercial loans and bank credit represents a more significant growth driver than venture capital."
-          },
-          "answer": "a",
-          "explanation": "The passage states that bank finance, not venture capital, is the real driver for scaling businesses, describing the focus on venture capital as a diversion.",
-          "seq_number": 7
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for Questions 1-10",
-      "passage": "What is the most important part of our environment? Is it the land we walk on, the air we breathe, or the water we drink? It turns out that no single feature is more significant than the others are. The environment is made up of interactive systems, each as crucial as the next. There are five main systems, or spheres, on Earth: the geosphere, atmosphere, hydrosphere, cryosphere, and biosphere.\n\nThe geosphere consists of the interior and surface of Earth, both of which are made up of rocks. The atmosphere is the layer of gases surrounding Earth. The hydrosphere is composed of all the liquid water on Earth, while the cryosphere contains all the frozen water. Finally, the biosphere, a global ecosystem that encompasses all the living things on Earth, is the fifth system. Because these systems are interconnected, what affects one can affect another.",
-      "questions": [
-        {
-          "question": "According to the passage, which feature of Earth is considered the most significant?",
-          "choices": {
-            "a": "Plate tectonics",
-            "b": "Rainforests",
-            "c": "The geosphere",
-            "d": "No single feature is more significant than the others"
-          },
-          "answer": "d",
-          "explanation": "The text states directly that 'no single feature is more significant than the others are' and that each plays a vital role in Earth's system.",
-          "seq_number": 8
-        },
-        {
-          "question": "The paragraph following the passage will most likely discuss",
-          "choices": {
-            "a": "the abundant gases",
-            "b": "the atmosphere",
-            "c": "the atmospheric gases",
-            "d": "the unliving things"
-          },
-          "answer": "b",
-          "explanation": "The text lists Earth's five major spheres sequentially, making the next sphere, the atmosphere, the logical topic for the subsequent paragraph.",
-          "seq_number": 9
-        }
-      ]
-    },
-    {
-      "title": "Questions 1-10",
-      "passage": "What is the most important part of our environment? Is it the land we walk on, the air we breathe, or the water we drink? It turns out that no single feature is more significant than the others are. The environment is made up of interactive systems, each as crucial as the next. There are five main systems, or spheres, on Earth: the geosphere, atmosphere, hydrosphere, cryosphere, and biosphere.\n\nThe geosphere consists of the interior and surface of Earth, both of which are made up of rocks. The atmosphere is the layer of gases surrounding Earth. The hydrosphere is composed of all the liquid water on Earth, while the cryosphere contains all the frozen water. Finally, the biosphere, a global ecosystem that encompasses all the living things on Earth, is the fifth system. Because these systems are interconnected, what affects one can affect another.",
-      "questions": [
-        {
-          "question": "According to the passage, what is the biosphere?",
-          "choices": {
-            "a": "A global ecosystem that encompasses all living things on Earth",
-            "b": "The collection of all rocks that make up Earth's crust",
-            "c": "A network of glaciers scouring bedrock",
-            "d": "The process that breaks mountains down into sediments"
-          },
-          "answer": "a",
-          "explanation": "The passage explicitly defines the biosphere as 'a global ecosystem that encompasses all the living things on Earth.'",
-          "seq_number": 10
-        },
-        {
-          "question": "Based on the information you read in the article, what do you think is the best title for it?",
-          "choices": {
-            "a": "The Solar System",
-            "b": "Features of the Earth",
-            "c": "The Earth's Systems",
-            "d": "The Earth and Radiation"
-          },
-          "answer": "c",
-          "explanation": "The passage details the relationships among the hydrosphere, geosphere, cryosphere, and biosphere, which represent the Earth's systems.",
-          "seq_number": 11
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for Questions",
-      "passage": "Globalization is a process of interaction and integration among people, companies, and governments worldwide. Globalization was accelerated in the nineteenth century with the Industrial Revolution. This increase in global interactions has caused a growth in international trade and the exchange of ideas, beliefs, and culture. As a result, lifestyles and cultural habits across different nations are becoming more uniform, a phenomenon some call \"Americanization.\"\n\nTo increase trade, many countries have created free trade agreements with other countries. The North American Free Trade Agreement (NAFTA), which went into effect in 1994, is a well-known example. Most large corporations operate in many countries. Moreover, international law has also grown; in 2002, the International Criminal Court was established to prosecute crimes against humanity.",
-      "questions": [
-        {
-          "question": "The first paragraph mainly discusses _________",
-          "choices": {
-            "a": "the definition and broad characteristics of globalization",
-            "b": "the history and mechanical developments of the Industrial Revolution",
-            "c": "the health risks associated with American fast-food chains",
-            "d": "the political conflicts caused by international trade"
-          },
-          "answer": "a",
-          "explanation": "Paragraph 1 defines globalization, illustrates it through cultural and consumer examples, and describes how it connects different parts of the world.",
-          "seq_number": 12
+          "id": "r7",
+          "seq_number": 7,
+          "question": "The word 'talented' in the last paragraph is closest in meaning to:",
+          "choices": [
+            "A) Gifted",
+            "B) Unskilled",
+            "C) Inexperienced",
+            "D) Hesitant"
+          ],
+          "answer": "A) Gifted"
         }
       ]
     },
     {
       "title": "Earth's Major Systems and Spheres",
-      "passage": "What is the most important part of our environment? Is it the land we walk on, the air we breathe, or the water we drink? It turns out that no single feature is more significant than the others are. The environment is made up of interactive systems, each as crucial as the next. There are five main systems, or spheres, on Earth: the geosphere, atmosphere, hydrosphere, cryosphere, and biosphere.\n\nThe geosphere consists of the interior and surface of Earth, both of which are made up of rocks. The atmosphere is the layer of gases surrounding Earth. The hydrosphere is composed of all the liquid water on Earth, while the cryosphere contains all the frozen water. Finally, the biosphere, a global ecosystem that encompasses all the living things on Earth, is the fifth system. Because these systems are interconnected, what affects one can affect another.",
+      "passage": "What is the most important part of our environment? Is it the land we walk on, the air we breathe, or the water we drink? It turns out that no single feature is more significant than the others are. The environment is made up of interactive systems, each as crucial as the next. There are five main systems, or spheres, on Earth: the geosphere, atmosphere, hydrosphere, cryosphere, and biosphere.\n\nThe first system, the geosphere, consists of the interior and surface of Earth, both of which are made up of rocks. It includes everything from the thin layer of soil on the surface to the enormous, dense core at the center of the planet. The movement of tectonic plates, volcanic eruptions, and the formation of mountains are all processes within the geosphere.\n\nThe atmosphere is the layer of gases surrounding Earth. It protects life by absorbing ultraviolet radiation and regulating temperature. The hydrosphere is composed of all the liquid water on Earth — the oceans, rivers, and lakes that sustain life.\n\nThe cryosphere contains all the frozen water on Earth, including glaciers, ice caps, and permafrost. Finally, the biosphere, a global ecosystem that encompasses all the living things on Earth, is the fifth system. Each of these five enormous and complex systems interact with one another. Because these systems are interconnected, what affects one can affect another. Scientists study these interactions to understand how changes in one sphere can have cascading effects across the entire planet.",
       "questions": [
         {
-          "id": "r_5_1",
-          "question": "What is the main topic of this passage?",
+          "id": "r8",
+          "seq_number": 8,
+          "question": "According to the passage, which feature of Earth's environment is most significant?",
           "choices": [
-            "A) Overview of the topic",
-            "B) History of science",
-            "C) Economic challenges",
-            "D) Future predictions"
+            "A) The water we drink",
+            "B) The air we breathe",
+            "C) The land we walk on",
+            "D) No single feature is more significant than the others"
           ],
-          "answer": "A",
-          "seq_number": 13
-        }
-      ]
-    },
-    {
-      "title": "Social Media Influencers and Entrepreneurship",
-      "passage": "Social media influencers have redefined modern marketing. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are people who identify opportunities, take on the risks of a business, and organize resources to establish ventures. Influencers who start their own business certainly fall under this category. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs and paving the way to scale-up their operations quickly.",
-      "questions": [
-        {
-          "question": "From the passage, it can be inferred that the characteristics of influencers include _____.",
-          "choices": {
-            "a": "connecting with online audiences, shaping follower behavior, and persuading people to purchase products",
-            "b": "investing substantial startup capital, purchasing raw materials, and managing business operations",
-            "c": "conducting formal market research, avoiding commercial partnerships, and designing proprietary manufacturing systems",
-            "d": "taking on traditional financial liabilities, operating physical retail spaces, and distributing wholesale goods"
-          },
-          "answer": "a",
-          "explanation": "The passage defines an influencer as someone with the power to affect or change people and their behavior through social media, frequently to encourage them to buy products.",
-          "seq_number": 14
+          "answer": "D) No single feature is more significant than the others"
         },
         {
-          "question": "Based on the information you read in the paragraphs of the article, what is the main idea of the text?",
-          "choices": {
-            "a": "Influencers who use their platforms to launch commercial ventures share essential characteristics with entrepreneurs.",
-            "b": "Traditional entrepreneurs are increasingly dependent on social media influencers to drive retail sales.",
-            "c": "Social media influencers face fewer financial risks than business owners because of their online following.",
-            "d": "Running an independent online brand requires a completely different skill set than managing a conventional business."
-          },
-          "answer": "a",
-          "explanation": "The passage contrasts and connects influencers and entrepreneurs, concluding that influencers who build businesses from their platforms qualify as entrepreneurs because both organize ventures, take risks, and drive commerce.",
-          "seq_number": 15
+          "id": "r9",
+          "seq_number": 9,
+          "question": "What is the best title for this passage?",
+          "choices": [
+            "A) The Solar System",
+            "B) Environmental Scientists",
+            "C) Earth's Systems",
+            "D) Earth and Radiation"
+          ],
+          "answer": "C) Earth's Systems"
         },
         {
-          "question": "The following statements are TRUE according to the passage EXCEPT",
-          "choices": {
-            "a": "Entrepreneurs take on the risks and management of a business venture.",
-            "b": "Influencers possess the power to shape consumer behavior through social media.",
-            "c": "All social media influencers are categorized as entrepreneurs regardless of whether they launch a business.",
-            "d": "Entrepreneurs often establish businesses to address an identified need for products or services."
-          },
-          "answer": "c",
-          "explanation": "The passage states that influencers who start their own business fall under the definition of an entrepreneur, indicating that being an influencer does not automatically make one an entrepreneur.",
-          "seq_number": 16
+          "id": "r10",
+          "seq_number": 10,
+          "question": "According to the passage, what is the biosphere?",
+          "choices": [
+            "A) A global ecosystem that encompasses all living things on Earth",
+            "B) The frozen water on Earth",
+            "C) The layer of gases surrounding Earth",
+            "D) The interior of the planet"
+          ],
+          "answer": "A) A global ecosystem that encompasses all living things on Earth"
+        },
+        {
+          "id": "r11",
+          "seq_number": 11,
+          "question": "The word 'enormous' in the second paragraph could best be replaced by:",
+          "choices": [
+            "A) Wide",
+            "B) Large",
+            "C) Massive",
+            "D) Precious"
+          ],
+          "answer": "C) Massive"
+        },
+        {
+          "id": "r12",
+          "seq_number": 12,
+          "question": "The word 'crust' in the second paragraph could best be replaced by:",
+          "choices": [
+            "A) Stone",
+            "B) Piece",
+            "C) Outer layer",
+            "D) Land"
+          ],
+          "answer": "C) Outer layer"
+        },
+        {
+          "id": "r13",
+          "seq_number": 13,
+          "question": "What does the passage suggest the next paragraph would probably discuss?",
+          "choices": [
+            "A) The abundant gases",
+            "B) The atmosphere",
+            "C) The atmospheric gases",
+            "D) The unliving things"
+          ],
+          "answer": "B) The atmosphere"
+        },
+        {
+          "id": "r14",
+          "seq_number": 14,
+          "question": "What is the author's tone in this passage?",
+          "choices": [
+            "A) Pessimistic",
+            "B) Entertained",
+            "C) Informative",
+            "D) Amused"
+          ],
+          "answer": "C) Informative"
         }
       ]
     },
     {
-      "title": "Reading text 1",
-      "passage": "What is the most important part of our environment? Is it the land we walk on, the air we breathe, or the water we drink? It turns out that no single feature is more significant than the others are. The environment is made up of interactive systems, each as crucial as the next. There are five main systems, or spheres, on Earth: the geosphere, atmosphere, hydrosphere, cryosphere, and biosphere.\n\nThe geosphere consists of the interior and surface of Earth, both of which are made up of rocks. The atmosphere is the layer of gases surrounding Earth. The hydrosphere is composed of all the liquid water on Earth, while the cryosphere contains all the frozen water. Finally, the biosphere, a global ecosystem that encompasses all the living things on Earth, is the fifth system. Because these systems are interconnected, what affects one can affect another.",
+      "title": "Globalization and International Trade",
+      "passage": "Globalization is a process of interaction and integration among people, companies, and governments worldwide. As transportation and communication technologies have improved, the world has become increasingly connected. The experiences of people around the world have become more similar as a result.\n\nSome view globalization as a form of \"Americanization,\" or the exporting of American culture and values to other countries. However, globalization is not a one-way street; cultures influence each other in complex ways. Globalization was accelerated in the nineteenth century with the Industrial Revolution, as improved machinery and transportation allowed goods and ideas to cross borders more easily than ever before.\n\nTo increase trade, many countries have created free trade agreements with other countries. The North American Free Trade Agreement (NAFTA), which went into effect in 1994, is a well-known example. NAFTA eventually ended all tariffs on trade goods between the United States, Mexico, and Canada. Most large corporations now operate in many countries around the world.\n\nThe globalization of the economy has also led to the spread of international law. In 2002, the International Criminal Court was established to prosecute individuals for crimes against humanity. Some people argue that globalization has led to economic inequality between nations, while others contend that it has lifted millions out of poverty. Food patterns, cultural traditions, and even languages have been affected by the increasing interconnectedness of nations.\n\nDespite its benefits, globalization remains controversial. Critics point to outsourcing of jobs, environmental concerns, and the loss of local cultural identity as negative consequences. The continued growth of globalization in the twenty-first century will depend on how nations balance economic opportunity with social responsibility.",
       "questions": [
         {
-          "id": "r_7_1",
+          "id": "r15",
+          "seq_number": 15,
           "question": "What is the main topic of this passage?",
           "choices": [
-            "A) Overview of the topic",
-            "B) History of science",
-            "C) Economic challenges",
-            "D) Future predictions"
+            "A) The expansion and impact of global trade",
+            "B) American cultural dominance",
+            "C) The history of the United Nations",
+            "D) International law enforcement"
           ],
-          "answer": "A",
-          "seq_number": 17
+          "answer": "A) The expansion and impact of global trade"
+        },
+        {
+          "id": "r16",
+          "seq_number": 16,
+          "question": "The word 'accelerated' in the second paragraph could best be replaced by:",
+          "choices": [
+            "A) Delayed",
+            "B) Hindered",
+            "C) Advanced",
+            "D) Reversed"
+          ],
+          "answer": "C) Advanced"
+        },
+        {
+          "id": "r17",
+          "seq_number": 17,
+          "question": "According to the passage, why did many countries create free trade agreements?",
+          "choices": [
+            "A) To increase trade",
+            "B) To decrease imports",
+            "C) To isolate their economies",
+            "D) To restrict immigration"
+          ],
+          "answer": "A) To increase trade"
+        },
+        {
+          "id": "r18",
+          "seq_number": 18,
+          "question": "What was a direct outcome of NAFTA according to the passage?",
+          "choices": [
+            "A) It created new tariffs between nations",
+            "B) It eventually ended all tariffs on trade goods between the United States, Mexico, and Canada",
+            "C) It limited trade to agricultural products",
+            "D) It dissolved the European Union"
+          ],
+          "answer": "B) It eventually ended all tariffs on trade goods between the United States, Mexico, and Canada"
+        },
+        {
+          "id": "r19",
+          "seq_number": 19,
+          "question": "Which of the following is NOT discussed in the passage?",
+          "choices": [
+            "A) The history of globalization",
+            "B) Food patterns affected by globalization",
+            "C) The world's rejection of globalization",
+            "D) Free trade agreements"
+          ],
+          "answer": "C) The world's rejection of globalization"
+        },
+        {
+          "id": "r20",
+          "seq_number": 20,
+          "question": "Which of the following statements about the Industrial Revolution is TRUE according to the passage?",
+          "choices": [
+            "A) The Industrial Revolution helped accelerate the process of globalization",
+            "B) The Industrial Revolution significantly slowed down the spread of globalization",
+            "C) The Industrial Revolution had no effect on globalization",
+            "D) The Industrial Revolution only affected the United States"
+          ],
+          "answer": "A) The Industrial Revolution helped accelerate the process of globalization"
+        },
+        {
+          "id": "r21",
+          "seq_number": 21,
+          "question": "According to the passage, what does globalization lead to in terms of lifestyles?",
+          "choices": [
+            "A) People in different countries share more common lifestyle experiences today than in the past",
+            "B) People become more isolated from each other",
+            "C) Cultural diversity increases dramatically",
+            "D) Nations become completely independent"
+          ],
+          "answer": "A) People in different countries share more common lifestyle experiences today than in the past"
+        },
+        {
+          "id": "r22",
+          "seq_number": 22,
+          "question": "Which of the following is mentioned as a criticism of globalization?",
+          "choices": [
+            "A) Outsourcing of jobs",
+            "B) Increased literacy rates",
+            "C) Better healthcare access",
+            "D) Improved transportation"
+          ],
+          "answer": "A) Outsourcing of jobs"
+        },
+        {
+          "id": "r23",
+          "seq_number": 23,
+          "question": "All of the following are TRUE about globalization EXCEPT:",
+          "choices": [
+            "A) It involves interaction among people and governments",
+            "B) It was accelerated by the Industrial Revolution",
+            "C) It has led to the spread of international law",
+            "D) The work of globalization conflicts with the Sustainable Development Goals"
+          ],
+          "answer": "D) The work of globalization conflicts with the Sustainable Development Goals"
         }
       ]
     },
     {
-      "title": "Reading (page 1 of 5)",
-      "passage": "What is the most important part of our environment? Is it the land we walk on, the air we breathe, or the water we drink? It turns out that no single feature is more significant than the others are. The environment is made up of interactive systems, each as crucial as the next. There are five main systems, or spheres, on Earth: the geosphere, atmosphere, hydrosphere, cryosphere, and biosphere.\n\nThe geosphere consists of the interior and surface of Earth, both of which are made up of rocks. The atmosphere is the layer of gases surrounding Earth. The hydrosphere is composed of all the liquid water on Earth, while the cryosphere contains all the frozen water. Finally, the biosphere, a global ecosystem that encompasses all the living things on Earth, is the fifth system. Because these systems are interconnected, what affects one can affect another.",
+      "title": "Graphene for Solar Cells",
+      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29 percent. To surpass this limit, scientists have turned to tandem solar cells that combine silicon with newer materials such as perovskites. These tandem cells can theoretically achieve efficiencies above 30 percent by capturing a broader range of the solar spectrum.\n\nHowever, integrating perovskite layers with silicon efficiently has proven challenging. The interface between the two materials must allow charges to flow smoothly, or energy is lost. Researchers began to dig into the possibilities of using graphene — a single layer of carbon atoms arranged in a honeycomb pattern — as an interface material.\n\nScientists from the Graphene Flagship initiative, including Aldo di Carlo from the University of Rome Tor Vergata, demonstrated that graphene-based interface layers dramatically improve the performance of tandem cells. Their research, published in the journal Joule, showed tandem cells with graphene achieving record-breaking efficiency, paving the way towards breaking the 30 percent barrier and significantly reducing the Levelized Cost of Energy.\n\nThe Graphene Flagship's Spearhead Project GRAPES has set up a pilot production line for graphene-based perovskite-silicon tandem solar panels, with plans to produce panels that define the state of the art. The first graphene-based solar farm is being established this year. Emmanuel Kymakis, a co-author, noted that graphene has become the most intriguing material in solar energy research due to its versatility and conductivity.\n\nThe application of graphene to solar energy generation was recognized as a priority since the start of the Graphene Flagship. These new results underpin the following three years of work. The initiative strongly aligns with the United Nations Sustainable Development Goals, demonstrating how advanced materials research can contribute to a cleaner, more sustainable energy future.",
       "questions": [
         {
-          "question": "According to the passage, what does the geosphere consist of?",
-          "choices": {
-            "a": "Only the features that support human life",
-            "b": "The interior and surface of Earth, both made of rocks",
-            "c": "All five main systems functioning together",
-            "d": "The ocean waters and the atmosphere"
-          },
-          "answer": "b",
-          "explanation": "The passage directly states that the geosphere consists of the interior and surface of Earth, both of which are made up of rocks.",
-          "seq_number": 18
-        }
-      ]
-    },
-    {
-      "title": "Reading Text",
-      "passage": "Globalization is a process of interaction and integration among people, companies, and governments worldwide. Globalization was accelerated in the nineteenth century with the Industrial Revolution. This increase in global interactions has caused a growth in international trade and the exchange of ideas, beliefs, and culture. As a result, lifestyles and cultural habits across different nations are becoming more uniform, a phenomenon some call \"Americanization.\"\n\nTo increase trade, many countries have created free trade agreements with other countries. The North American Free Trade Agreement (NAFTA), which went into effect in 1994, is a well-known example. Most large corporations operate in many countries. Moreover, international law has also grown; in 2002, the International Criminal Court was established to prosecute crimes against humanity.",
-      "questions": [
+          "id": "r24",
+          "seq_number": 24,
+          "question": "What is the best title for this passage?",
+          "choices": [
+            "A) The History of Electricity",
+            "B) Traditional Silicon Manufacturing",
+            "C) Graphene for Solar Cells",
+            "D) The United Nations Energy Policy"
+          ],
+          "answer": "C) Graphene for Solar Cells"
+        },
         {
+          "id": "r25",
+          "seq_number": 25,
+          "question": "What is the author's tone in this passage?",
+          "choices": [
+            "A) Dramatic",
+            "B) Silly",
+            "C) Serious",
+            "D) Absurd"
+          ],
+          "answer": "C) Serious"
+        },
+        {
+          "id": "r26",
+          "seq_number": 26,
           "question": "What is probably the next paragraph about?",
-          "choices": {
-            "a": "Comments from national leaders about this matter",
-            "b": "The decline of local cultures due to foreign consumer goods",
-            "c": "The continued growth of globalization in the twentieth century",
-            "d": "Methods for supporting small domestic businesses against foreign competitors"
-          },
-          "answer": "c",
-          "explanation": "The final sentence establishes a chronological transition focusing on the historical acceleration of globalization during the Industrial Revolution. The next paragraph logically continues this historical timeline into subsequent eras such as the twentieth century.",
-          "seq_number": 19
-        },
-        {
-          "question": "It is implied from the passage that...",
-          "choices": {
-            "a": "National role models influence more than local role models.",
-            "b": "Lifestyles and cultural habits across different nations are becoming more uniform.",
-            "c": "The Industrial Revolution restricted companies to using domestic raw materials.",
-            "d": "American fast-food chains are solely responsible for modern globalization."
-          },
-          "answer": "b",
-          "explanation": "The passage notes that the movement of people, ideas, and goods makes experiences worldwide more similar, directly implying increased cultural and lifestyle uniformity.",
-          "seq_number": 20
-        },
-        {
-          "question": "The following statements are true, EXCEPT...",
-          "choices": {
-            "a": "Fast-food chains like McDonald's have become common in countries such as China.",
-            "b": "The Industrial Revolution significantly slowed down the spread of globalization.",
-            "c": "Greater mobility of people and goods makes global experiences increasingly similar.",
-            "d": "Factories and mills utilized raw materials sourced from distant regions."
-          },
-          "answer": "b",
-          "explanation": "The passage states globalization was accelerated by the Industrial Revolution, directly contradicting the claim that it slowed down.",
-          "seq_number": 21
-        },
-        {
-          "question": "It is most likely that ________.",
-          "choices": {
-            "a": "people in different countries share more common lifestyle experiences today than in the past",
-            "b": "the Industrial Revolution reduced international trade by focusing strictly on local factory production",
-            "c": "American fast-food brands have struggled to gain acceptance in Asian markets like China",
-            "d": "globalization prevents foreign corporations from acquiring raw materials from distant regions"
-          },
-          "answer": "a",
-          "explanation": "The passage states that easier movement of goods, people, and ideas makes world experiences more similar, illustrated by global brands like McDonald's.",
-          "seq_number": 22
-        },
-        {
-          "question": "Which of the following statements is TRUE according to the text?",
-          "choices": {
-            "a": "Western brands such as McDonald's are rarely seen in countries like China.",
-            "b": "The Industrial Revolution helped accelerate the process of globalization.",
-            "c": "The increased movement of goods has made people's life experiences less similar.",
-            "d": "Early industrial factories relied exclusively on locally sourced raw materials."
-          },
-          "answer": "b",
-          "explanation": "The passage states that globalization was accelerated with the Industrial Revolution as factories expanded and utilized raw materials from distant lands.",
-          "seq_number": 23
-        },
-        {
-          "question": "Which of the following statements is TRUE according to the passage?",
-          "choices": {
-            "a": "The Industrial Revolution accelerated the process of globalization.",
-            "b": "Global trade prevented companies from sourcing raw materials from distant regions.",
-            "c": "American brands like McDonald's have failed to establish a presence in China.",
-            "d": "The cross-border exchange of ideas has made people's daily lives increasingly dissimilar."
-          },
-          "answer": "a",
-          "explanation": "The passage directly states that globalization was accelerated during the Industrial Revolution as mills and factories expanded and used raw materials from distant regions.",
-          "seq_number": 24
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for Question 10",
-      "passage": "What is the most important part of our environment? Is it the land we walk on, the air we breathe, or the water we drink? It turns out that no single feature is more significant than the others are. The environment is made up of interactive systems, each as crucial as the next. There are five main systems, or spheres, on Earth: the geosphere, atmosphere, hydrosphere, cryosphere, and biosphere.\n\nThe geosphere consists of the interior and surface of Earth, both of which are made up of rocks. The atmosphere is the layer of gases surrounding Earth. The hydrosphere is composed of all the liquid water on Earth, while the cryosphere contains all the frozen water. Finally, the biosphere, a global ecosystem that encompasses all the living things on Earth, is the fifth system. Because these systems are interconnected, what affects one can affect another.",
-      "questions": [
-        {
-          "question": "The tone of the author is best described as",
-          "choices": {
-            "a": "pessimistic",
-            "b": "entertained",
-            "c": "informative",
-            "d": "amused"
-          },
-          "answer": "c",
-          "explanation": "The author presents factual, educational details about Earth's systems in an objective, neutral manner to educate the reader.",
-          "seq_number": 25
-        }
-      ]
-    },
-    {
-      "title": "Reading (page 2 of 5)",
-      "passage": "Globalization is a process of interaction and integration among people, companies, and governments worldwide. Globalization was accelerated in the nineteenth century with the Industrial Revolution. This increase in global interactions has caused a growth in international trade and the exchange of ideas, beliefs, and culture. As a result, lifestyles and cultural habits across different nations are becoming more uniform, a phenomenon some call \"Americanization.\"\n\nTo increase trade, many countries have created free trade agreements with other countries. The North American Free Trade Agreement (NAFTA), which went into effect in 1994, is a well-known example. Most large corporations operate in many countries. Moreover, international law has also grown; in 2002, the International Criminal Court was established to prosecute crimes against humanity.",
-      "questions": [
-        {
-          "question": "Based on the information you read in the article, what is the main idea of the passage?",
-          "choices": {
-            "a": "The expansion and impact of global trade",
-            "b": "The rise of the global computer network",
-            "c": "The beginnings of the information age",
-            "d": "The economic dominance of multinational corporations"
-          },
-          "answer": "a",
-          "explanation": "The passage focuses primarily on how the international economy has become globalized through international trade, free trade agreements, and import-export relationships between nations.",
-          "seq_number": 26
-        },
-        {
-          "question": "Which of the following terms is NOT discussed in the text?",
-          "choices": {
-            "a": "Globalization in history",
-            "b": "The influence of globalization on food pattern",
-            "c": "The world's rejection of globalization",
-            "d": "A world without borders due to globalization"
-          },
-          "answer": "c",
-          "explanation": "Standard texts on this topic cover historical trade routes, cultural and food exchanges, and borderless economies, while an outright rejection of globalization is omitted.",
-          "seq_number": 27
-        },
-        {
-          "question": "According to the passage, what was one direct outcome of the North American Free Trade Agreement (NAFTA)?",
-          "choices": {
-            "a": "It prohibited Microsoft from selling software outside North America.",
-            "b": "It eventually ended all tariffs on trade goods between the United States, Mexico, and Canada.",
-            "c": "It made the economy of Saudi Arabia dependent on American imports.",
-            "d": "It restricted the movement of people and ideas across North American borders."
-          },
-          "answer": "b",
-          "explanation": "The passage directly states that NAFTA 'eventually ended all tariffs on trade goods between the three nations.'",
-          "seq_number": 28
-        },
-        {
-          "question": "According to the passage, why do many countries establish free trade agreements?",
-          "choices": {
-            "a": "To increase trade",
-            "b": "To protect domestic software monopolies",
-            "c": "To introduce new tariffs on imports",
-            "d": "To restrict the movement of people and ideas"
-          },
-          "answer": "a",
-          "explanation": "The text explicitly states: 'To increase trade, many countries have created free trade agreements with other countries.'",
-          "seq_number": 29
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for Qu...",
-      "passage": "Countrie...\nagreemen...\nborders to ...\nneeded to ...\nBecause pe...\ninformation m...\ncountries are in...\ncrime. The idea o...\nalso grown. In 2002...\nwas established. This ...\nas war crimes, has a ...\ncountries have accepted...",
-      "questions": [
-        {
-          "id": "r_12_1",
-          "question": "What is the main topic of this passage?",
           "choices": [
-            "A) Overview of the topic",
-            "B) History of science",
-            "C) Economic challenges",
-            "D) Future predictions"
+            "A) Mechanical instruction on solar panel energy",
+            "B) Specific details of the low-cost manufacturing process for tandem cells",
+            "C) The history of coal mining",
+            "D) Ocean wave energy"
           ],
-          "answer": "A",
-          "seq_number": 30
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for Questions 11-",
-      "passage": "Globalization is a process of interaction and integration among people, companies, and governments worldwide. Globalization was accelerated in the nineteenth century with the Industrial Revolution. This increase in global interactions has caused a growth in international trade and the exchange of ideas, beliefs, and culture. As a result, lifestyles and cultural habits across different nations are becoming more uniform, a phenomenon some call \"Americanization.\"\n\nTo increase trade, many countries have created free trade agreements with other countries. The North American Free Trade Agreement (NAFTA), which went into effect in 1994, is a well-known example. Most large corporations operate in many countries. Moreover, international law has also grown; in 2002, the International Criminal Court was established to prosecute crimes against humanity.",
-      "questions": [
-        {
-          "question": "[The word \"accelerated\" in] paragraph two could best be replaced by ___.",
-          "choices": {
-            "a": "postponed",
-            "b": "ceased",
-            "c": "advanced",
-            "d": "discouraged"
-          },
-          "answer": "c",
-          "explanation": "Accelerated means sped up or moved forward rapidly. Advanced shares this meaning of progression and development.",
-          "seq_number": 31
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for Questi...",
-      "passage": "Globalization is a process of interaction and integration among people, companies, and governments worldwide. Globalization was accelerated in the nineteenth century with the Industrial Revolution. This increase in global interactions has caused a growth in international trade and the exchange of ideas, beliefs, and culture. As a result, lifestyles and cultural habits across different nations are becoming more uniform, a phenomenon some call \"Americanization.\"\n\nTo increase trade, many countries have created free trade agreements with other countries. The North American Free Trade Agreement (NAFTA), which went into effect in 1994, is a well-known example. Most large corporations operate in many countries. Moreover, international law has also grown; in 2002, the International Criminal Court was established to prosecute crimes against humanity.",
-      "questions": [
-        {
-          "question": "The paragraph following the text will most likely discuss ___.",
-          "choices": {
-            "a": "negative environmental consequences of modern international trade",
-            "b": "factors that spurred the growth of globalization in the nineteenth century",
-            "c": "the cultural dominance of American fast-food chains worldwide",
-            "d": "strategies used by developing countries to resist economic integration"
-          },
-          "answer": "b",
-          "explanation": "The final sentence introduces the acceleration of globalization during the nineteenth century, indicating the next paragraph will elaborate on nineteenth-century historical developments.",
-          "seq_number": 32
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for Questions 11-20",
-      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative and the University of Rome Tor Vergata have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency. Aldo di Carlo, lead author, stated this paves the way towards breaking the 30% efficiency barrier. The application of graphene was recognized as a priority since the start of the Graphene Flagship, aligning strongly with Sustainable Development Goals.",
-      "questions": [
-        {
-          "question": "[...] best title for this [...]",
-          "choices": {
-            "a": "Limits of Silicon Solar Cells",
-            "b": "Graphene Flagship",
-            "c": "Levelized Cost of Energy",
-            "d": "Graphene for Solar Cells"
-          },
-          "answer": "d",
-          "explanation": "The passage highlights the technological limitations of silicon and perovskites before introducing graphene as the breakthrough solution for solar cells.",
-          "seq_number": 33
+          "answer": "B) Specific details of the low-cost manufacturing process for tandem cells"
         },
         {
-          "question": "The tone of the author is best described as ____",
-          "choices": {
-            "a": "dramatic",
-            "b": "silly",
-            "c": "serious",
-            "d": "absurd"
-          },
-          "answer": "c",
-          "explanation": "The author discusses scientific limitations and ongoing research in an informative, objective manner.",
-          "seq_number": 34
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for Questions 21-30",
-      "passage": "Social media influencers have redefined modern marketing. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are people who identify opportunities, take on the risks of a business, and organize resources to establish ventures. Influencers who start their own business certainly fall under this category. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs and paving the way to scale-up their operations quickly.",
-      "questions": [
-        {
-          "question": "Based on the information you read in the article, what is the title of the passage?",
-          "choices": {
-            "a": "Modern Business",
-            "b": "Social Media for Influencers",
-            "c": "Influencers: The Modern Entrepreneur",
-            "d": "The History of Traditional Entrepreneurs"
-          },
-          "answer": "c",
-          "explanation": "The passage focuses on the transition of social media influencers into business owners and compares their economic impact to traditional business creators, making 'Influencers: The Modern Entrepreneur' the most accurate title.",
-          "seq_number": 35
-        }
-      ]
-    },
-    {
-      "title": "Reading text for Questions 21-30",
-      "passage": "Social media influencers have redefined modern marketing. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are people who identify opportunities, take on the risks of a business, and organize resources to establish ventures. Influencers who start their own business certainly fall under this category. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs and paving the way to scale-up their operations quickly.",
-      "questions": [
-        {
-          "question": "Based on the information you read in the article, what is the title of the passage?",
-          "choices": {
-            "a": "A Modern Business Guide",
-            "b": "Social Media for Influencers",
-            "c": "Influencers: The Modern Entrepreneur",
-            "d": "How to Secure Venture Capital"
-          },
-          "answer": "c",
-          "explanation": "The passage compares traditional entrepreneurs with social media influencers, highlighting startup costs, funding methods, and operational requirements to illustrate how influencers function as contemporary entrepreneurs.",
-          "seq_number": 36
-        }
-      ]
-    },
-    {
-      "title": "Reading (page 3 of 5)",
-      "passage": "Social media influencers have redefined modern marketing. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are people who identify opportunities, take on the risks of a business, and organize resources to establish ventures. Influencers who start their own business certainly fall under this category. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs and paving the way to scale-up their operations quickly.",
-      "questions": [
-        {
-          "question": "According to the passage, entrepreneurs are people who do which of the following?",
-          "choices": {
-            "a": "Take on the risks of a business",
-            "b": "Avoid financial investment",
-            "c": "Work solely for established corporations",
-            "d": "Eliminate market competition"
-          },
-          "answer": "a",
-          "explanation": "The passage explicitly states that entrepreneurs are people who take on the risks of a business.",
-          "seq_number": 37
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for Questions...",
-      "passage": "Social media influencers have redefined modern marketing. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are people who identify opportunities, take on the risks of a business, and organize resources to establish ventures. Influencers who start their own business certainly fall under this category. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs and paving the way to scale-up their operations quickly.",
-      "questions": [
-        {
-          "question": "What is discussed in the third paragraph?",
-          "choices": {
-            "a": "The historical development of traditional business models before social media",
-            "b": "The financial risks entrepreneurs face when securing bank loans",
-            "c": "The legal restrictions governments place on digital marketing agencies",
-            "d": "Influencers affect or change people and their behavior through social media and then get them to buy something"
-          },
-          "answer": "d",
-          "explanation": "Paragraph 1 introduces influencers as modern entrepreneurs, paragraph 2 defines entrepreneurship, and paragraph 3 describes how influencers leverage audience behavior on social platforms to generate commerce.",
-          "seq_number": 38
-        }
-      ]
-    },
-    {
-      "title": "Reading",
-      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative and the University of Rome Tor Vergata have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency. Aldo di Carlo, lead author, stated this paves the way towards breaking the 30% efficiency barrier. The application of graphene was recognized as a priority since the start of the Graphene Flagship, aligning strongly with Sustainable Development Goals.",
-      "questions": [
-        {
-          "question": "What is most likely in the paragraph following the passage?",
-          "choices": {
-            "a": "Mechanical instruction on solar panel energy conversion",
-            "b": "Specific details of the low-cost manufacturing process for the tandem cells",
-            "c": "A historical overview of pure silicon extraction techniques",
-            "d": "Government regulations regarding commercial solar farm subsidies"
-          },
-          "answer": "b",
-          "explanation": "The final sentence introduces an envisioned manufacturing method that lowers production costs for large-area tandem solar cells, making the technical details of this production process the logical topic for the next paragraph.",
-          "seq_number": 39
-        }
-      ]
-    },
-    {
-      "title": "Reading text for Qu...",
-      "passage": "Social media influencers have redefined modern marketing. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are people who identify opportunities, take on the risks of a business, and organize resources to establish ventures. Influencers who start their own business certainly fall under this category. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs and paving the way to scale-up their operations quickly.",
-      "questions": [
-        {
-          "id": "r_21_1",
-          "question": "What is the main topic of this passage?",
+          "id": "r27",
+          "seq_number": 27,
+          "question": "The word 'honed' in the fourth paragraph is closest in meaning to:",
           "choices": [
-            "A) Overview of the topic",
-            "B) History of science",
-            "C) Economic challenges",
-            "D) Future predictions"
+            "A) Replaced",
+            "B) Refined",
+            "C) Abandoned",
+            "D) Ignored"
           ],
-          "answer": "A",
-          "seq_number": 40
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for Q...",
-      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative and the University of Rome Tor Vergata have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency. Aldo di Carlo, lead author, stated this paves the way towards breaking the 30% efficiency barrier. The application of graphene was recognized as a priority since the start of the Graphene Flagship, aligning strongly with Sustainable Development Goals.",
-      "questions": [
-        {
-          "question": "Which of the following statements is TRUE according to the text?",
-          "choices": {
-            "a": "The Graphene Flagship has prioritized solar energy applications since its inception.",
-            "b": "The pilot production line was abandoned due to high Levelized Cost of Energy.",
-            "c": "The first graphene-based solar farm was completed three years ago.",
-            "d": "The Graphene Flagship project conflicts with the UN Sustainable Development Goals."
-          },
-          "answer": "a",
-          "explanation": "The text states that the application of graphene to solar energy generation was recognized as a priority since the start of the Graphene Flagship.",
-          "seq_number": 41
+          "answer": "B) Refined"
         },
         {
-          "question": "The passage indicated that...",
-          "choices": {
-            "a": "applying graphene to solar power generation has been prioritized from the project's inception",
-            "b": "scaling up the production of solar panels is the only way to meet UN goals",
-            "c": "graphene has become the most intriguing material in commercial solar energy",
-            "d": "the first graphene-based solar farm was successfully completed three years ago"
-          },
-          "answer": "a",
-          "explanation": "The passage directly states that the application of graphene to solar energy generation was recognized as a priority since the start of the Graphene Flagship initiative.",
-          "seq_number": 42
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for Questions 31-",
-      "passage": "markets and finance\nunequal access to opp\na dynamic of new grow\nshould be a social\nprogrammes, leadership\nmarkets – what we call a sca\nhelpful.\n\nHow can talented, highly mot",
-      "questions": [
-        {
-          "question": "Which of the following subjects is explicitly mentioned in the passage?",
-          "choices": {
-            "a": "Space exploration",
-            "b": "Leadership",
-            "c": "Healthcare systems",
-            "d": "Agricultural technology"
-          },
-          "answer": "b",
-          "explanation": "The text directly mentions the word 'leadership' alongside 'programmes'. None of the other options appear in the passage.",
-          "seq_number": 43
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for Quest...",
-      "passage": "Social media influencers have redefined modern marketing. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are people who identify opportunities, take on the risks of a business, and organize resources to establish ventures. Influencers who start their own business certainly fall under this category. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs and paving the way to scale-up their operations quickly.",
-      "questions": [
-        {
-          "question": "The word \"venture\" in the fifth paragraph can be best replaced by...",
-          "choices": {
-            "a": "project",
-            "b": "adventure",
-            "c": "enterprise",
-            "d": "shareholders"
-          },
-          "answer": "c",
-          "explanation": "In business contexts, 'venture' refers to a commercial business undertaking, making 'enterprise' the exact synonym.",
-          "seq_number": 44
-        }
-      ]
-    },
-    {
-      "title": "Reading (page 4 of 5)",
-      "passage": "employed, t...\nlow-growth. Th...\nmarkets and fi...\nunequal access to...\na dynamic of new g...\nshould be a so...\nprogrammes, leaders...\nmarkets - what we call a...\nhelpful.\n\nHow can talented, highly...",
-      "questions": [
-        {
-          "question": "As used in the passage, which word is closest in meaning to 'talented'?",
-          "choices": {
-            "a": "Gifted",
-            "b": "Unskilled",
-            "c": "Inexperienced",
-            "d": "Hesitant"
-          },
-          "answer": "a",
-          "explanation": "The word 'talented' means possessing natural aptitude or skill, which matches 'gifted'.",
-          "seq_number": 45
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for Question",
-      "passage": "Social media influencers have redefined modern marketing. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are people who identify opportunities, take on the risks of a business, and organize resources to establish ventures. Influencers who start their own business certainly fall under this category. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs and paving the way to scale-up their operations quickly.",
-      "questions": [
-        {
-          "question": "word scale-up in the first paragraph?",
-          "choices": {
-            "a": "maintain",
-            "b": "layer up",
-            "c": "improved",
-            "d": "gear up"
-          },
-          "answer": "d",
-          "explanation": "The term 'scale-up' refers to increasing size, capacity, or activity to achieve business growth. 'Gear up' similarly means to prepare for, accelerate, or increase the level of activity.",
-          "seq_number": 46
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for Questions 41-50",
-      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative and the University of Rome Tor Vergata have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency. Aldo di Carlo, lead author, stated this paves the way towards breaking the 30% efficiency barrier. The application of graphene was recognized as a priority since the start of the Graphene Flagship, aligning strongly with Sustainable Development Goals.",
-      "questions": [
-        {
-          "id": "r_27_1",
-          "question": "What is the main topic of this passage?",
+          "id": "r28",
+          "seq_number": 28,
+          "question": "Which of the following is TRUE according to the passage?",
           "choices": [
-            "A) Overview of the topic",
-            "B) History of science",
-            "C) Economic challenges",
-            "D) Future predictions"
+            "A) Graphene has become the most intriguing material in solar energy",
+            "B) Silicon is the only key material for solar cells",
+            "C) Tandem cells cannot exceed 20% efficiency",
+            "D) The laws of physics do not limit solar cell efficiency"
           ],
-          "answer": "A",
-          "seq_number": 47
-        }
-      ]
-    },
-    {
-      "title": "Questions 17-30",
-      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative and the University of Rome Tor Vergata have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency. Aldo di Carlo, lead author, stated this paves the way towards breaking the 30% efficiency barrier. The application of graphene was recognized as a priority since the start of the Graphene Flagship, aligning strongly with Sustainable Development Goals.",
-      "questions": []
-    },
-    {
-      "title": "Reading text for Questions 11-20",
-      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative and the University of Rome Tor Vergata have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency. Aldo di Carlo, lead author, stated this paves the way towards breaking the 30% efficiency barrier. The application of graphene was recognized as a priority since the start of the Graphene Flagship, aligning strongly with Sustainable Development Goals.",
-      "questions": []
-    },
-    {
-      "title": "Reading text 10",
-      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative and the University of Rome Tor Vergata have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency. Aldo di Carlo, lead author, stated this paves the way towards breaking the 30% efficiency barrier. The application of graphene was recognized as a priority since the start of the Graphene Flagship, aligning strongly with Sustainable Development Goals.",
-      "questions": []
-    },
-    {
-      "title": "Questions 41-50",
-      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative and the University of Rome Tor Vergata have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency. Aldo di Carlo, lead author, stated this paves the way towards breaking the 30% efficiency barrier. The application of graphene was recognized as a priority since the start of the Graphene Flagship, aligning strongly with Sustainable Development Goals.",
-      "questions": [
-        {
-          "question": "Which of the following is true according to the passage?",
-          "choices": {
-            "a": "graphene has become the most intriguing material in solar energy",
-            "b": "scaling up the production of solar panels is the only key towards energy efficiency",
-            "c": "there are 30% of efficiency barrier of the new graphene project",
-            "d": "law of physics has no limitation in terms of energy efficiency"
-          },
-          "answer": "a",
-          "explanation": "Option a accurately reflects the central subject introduced in the passage regarding graphene's prominent role in solar technology. Option b uses an extreme claim ('only key'), option c mischaracterizes the 30% efficiency barrier, and option d contradicts basic scientific principles.",
-          "seq_number": 48
-        }
-      ]
-    },
-    {
-      "title": "Reading Text for",
-      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative and the University of Rome Tor Vergata have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency. Aldo di Carlo, lead author, stated this paves the way towards breaking the 30% efficiency barrier. The application of graphene was recognized as a priority since the start of the Graphene Flagship, aligning strongly with Sustainable Development Goals.",
-      "questions": [
-        {
-          "question": "All of the following are true, EXCEPT?",
-          "choices": {
-            "a": "Graphene could be incorporated using widespread solution-based manufacturing methods.",
-            "b": "Solar energy generation has been a recognized priority since the start of the Graphene Flagship.",
-            "c": "The GRAPES pilot line works toward overcoming efficiency barriers and lowering the Levelized Cost of Energy.",
-            "d": "The work of the Graphene Flagship conflicts with the Sustainable Development Goals."
-          },
-          "answer": "d",
-          "explanation": "The passage explicitly states that the Graphene Flagship strongly aligns with the Sustainable Development Goals, making choice d false.",
-          "seq_number": 49
+          "answer": "A) Graphene has become the most intriguing material in solar energy"
         },
         {
-          "question": "Which of the following is true according to the passage?",
-          "choices": {
-            "a": "The Graphene Flagship initiative aligns with the Sustainable Development Goals.",
-            "b": "The use of perovskite-silicon tandem cells increases the Levelized Cost of Energy.",
-            "c": "Solar energy generation was deemed a low priority at the project's start.",
-            "d": "The first graphene-based solar farm has been operational for several decades."
-          },
-          "answer": "a",
-          "explanation": "The passage explicitly states that the work of the Graphene Flagship strongly aligns with the Sustainable Development Goals.",
-          "seq_number": 50
+          "id": "r29",
+          "seq_number": 29,
+          "question": "The Graphene Flagship's initiative aligns with which of the following?",
+          "choices": [
+            "A) The United Nations Sustainable Development Goals",
+            "B) The European Space Program",
+            "C) The World Trade Organization",
+            "D) The International Monetary Fund"
+          ],
+          "answer": "A) The United Nations Sustainable Development Goals"
+        },
+        {
+          "id": "r30",
+          "seq_number": 30,
+          "question": "All of the following are TRUE about the Graphene Flagship EXCEPT:",
+          "choices": [
+            "A) It prioritized solar energy applications from the start",
+            "B) It produced research published in the journal Joule",
+            "C) It established a pilot production line",
+            "D) Its work conflicts with the Sustainable Development Goals"
+          ],
+          "answer": "D) Its work conflicts with the Sustainable Development Goals"
         }
       ]
     },
     {
-      "title": "Reading text",
-      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative and the University of Rome Tor Vergata have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency. Aldo di Carlo, lead author, stated this paves the way towards breaking the 30% efficiency barrier. The application of graphene was recognized as a priority since the start of the Graphene Flagship, aligning strongly with Sustainable Development Goals.",
+      "title": "Influencers: The Modern Entrepreneur",
+      "passage": "Social media influencers have redefined modern marketing and entrepreneurship. By leveraging digital platforms such as Instagram, YouTube, and TikTok, influencers construct unique personal brands that resonate with specific target audiences. They are skilled at connecting with online audiences, shaping follower behavior, and persuading people to purchase products. While early social media personalities primarily focused on content creation and audience engagement, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are people who identify opportunities, take on the risks of a business, and organize resources to establish ventures. Influencers who start their own product lines, apparel brands, or digital services certainly fall under this definition of entrepreneurship. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs.\n\nUnlike traditional business startups that require substantial initial capital, many influencer-led businesses begin with minimal overhead costs. An influencer's primary assets — their creativity, their audience, and their personal brand — are largely intangible. This makes the barrier to entry remarkably low compared to conventional entrepreneurship.\n\nHowever, influencer businesses face unique challenges. Building and maintaining audience trust is essential, as a single controversy can destroy years of brand building. Influencers must constantly produce fresh, engaging content while simultaneously managing the operational side of their business ventures.\n\nNot all social media influencers are categorized as entrepreneurs. Only those who launch their own commercial ventures — taking on financial risk and creating products or services — truly qualify. The rest, while influential, are better described as content creators or brand ambassadors rather than entrepreneurs in the traditional sense.",
       "questions": [
         {
-          "question": "The pronoun 'it' in paragraph 4 refers to...",
-          "choices": {
-            "a": "game changer",
-            "b": "silicon",
-            "c": "graphene",
-            "d": "play"
-          },
-          "answer": "c",
-          "explanation": "In standard news reports covering this Graphene Flagship study, paragraph 4 introduces graphene as a game changer where the pronoun 'it' directly refers back to graphene as the subject enabling higher efficiency.",
-          "seq_number": 51
+          "id": "r31",
+          "seq_number": 31,
+          "question": "What is the main idea of this passage?",
+          "choices": [
+            "A) Influencers who use their platforms to launch commercial ventures share essential characteristics with entrepreneurs",
+            "B) All social media users are entrepreneurs",
+            "C) Traditional businesses are superior to online ventures",
+            "D) Social media should be regulated by the government"
+          ],
+          "answer": "A) Influencers who use their platforms to launch commercial ventures share essential characteristics with entrepreneurs"
+        },
+        {
+          "id": "r32",
+          "seq_number": 32,
+          "question": "Based on the passage, what can be inferred about influencers?",
+          "choices": [
+            "A) They are skilled at connecting with online audiences, shaping follower behavior, and persuading people to purchase products",
+            "B) They avoid all forms of marketing",
+            "C) They only work for large corporations",
+            "D) They do not use social media"
+          ],
+          "answer": "A) They are skilled at connecting with online audiences, shaping follower behavior, and persuading people to purchase products"
+        },
+        {
+          "id": "r33",
+          "seq_number": 33,
+          "question": "According to the passage, which statement is FALSE?",
+          "choices": [
+            "A) Influencers construct unique personal brands",
+            "B) Modern influencers operate as entrepreneurs",
+            "C) All social media influencers are categorized as entrepreneurs regardless of whether they launch a business",
+            "D) Influencer businesses often start with low overhead costs"
+          ],
+          "answer": "C) All social media influencers are categorized as entrepreneurs regardless of whether they launch a business"
+        },
+        {
+          "id": "r34",
+          "seq_number": 34,
+          "question": "According to the passage, what does an entrepreneur do?",
+          "choices": [
+            "A) Take on the risks of a business",
+            "B) Avoid all financial risk",
+            "C) Only work in traditional industries",
+            "D) Refuse to use technology"
+          ],
+          "answer": "A) Take on the risks of a business"
+        },
+        {
+          "id": "r35",
+          "seq_number": 35,
+          "question": "The word 'venture' in the second paragraph is closest in meaning to:",
+          "choices": [
+            "A) Vacation",
+            "B) Argument",
+            "C) Enterprise",
+            "D) Hobby"
+          ],
+          "answer": "C) Enterprise"
+        },
+        {
+          "id": "r36",
+          "seq_number": 36,
+          "question": "What is the best title for this passage?",
+          "choices": [
+            "A) A Modern Business Guide",
+            "B) Social Media for Influencers",
+            "C) Influencers: The Modern Entrepreneur",
+            "D) How to Secure Venture Capital"
+          ],
+          "answer": "C) Influencers: The Modern Entrepreneur"
         }
       ]
     }
