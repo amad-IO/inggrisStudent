@@ -114,7 +114,7 @@ function QuizUI({ mode, onFinish }: { mode: string, onFinish: (s: {correct: numb
     if (mode === 'grammar' || mode === 'both') {
       questionsData.grammar.forEach(g => {
         total++;
-        if (answers[g.id] === g.answer) {
+        if (g.id && answers[g.id] === g.answer) {
           correct++;
         }
       });
