@@ -2,7 +2,7 @@
   "reading": [
     {
       "title": "General Reading",
-      "passage": "2. Words need to be relevant as well as sincere. One of us attended a presentation given to a predominantly Black audience by a very successful white entrepreneur, who \"white-splained\" that because his entrepreneurial success had lifted him out of a poverty-stricken childhood, he understood the challenges of Black business owners – unintentionally offending his disappointed audience.\n\n3. Improve access to bank finance. The current focus on Black entrepreneurs' access to venture capital is a diversion and ignores the elephant in the room of poor access to credit and loans. Obtaining venture capital is intrinsically an extremely long shot, a side show for that rarified group of one out of a hundred or so pitches. The main act is bank finance, which is the real driver for getting from small to medium, and medium to big. However, as Ike Samson-Akpan, CEO and founder of Ohio based general contractor CAE",
+      "passage": "[Note: This is an excerpt from a longer article.]\n\n2. Words need to be relevant as well as sincere. One of us attended a presentation given to a predominantly Black audience by a very successful white entrepreneur, who \"white-splained\" that because his entrepreneurial success had lifted him out of a poverty-stricken childhood, he understood the challenges of Black business owners – unintentionally offending his disappointed audience.\n\n3. Improve access to bank finance. The current focus on Black entrepreneurs' access to venture capital is a diversion and ignores the elephant in the room of poor access to credit and loans. Obtaining venture capital is intrinsically an extremely long shot, a side show for that rarified group of one out of a hundred or so pitches. The main act is bank finance, which is the real driver for getting from small to medium, and medium to big. However, as Ike Samson-Akpan, CEO and founder of Ohio based general contractor CAE",
       "questions": [
         {
           "question": "What is the main idea of the text?",
@@ -16,15 +16,15 @@
           "explanation": "The passage outlines numbered, actionable recommendations—specifically authentic communication and improved bank financing—aimed at supporting and scaling Black-owned businesses."
         },
         {
-          "question": "...mation\n...icle, what\n...the",
+          "question": "According to the passage, what is the real driver for businesses to grow from small to medium and medium to big?",
           "choices": {
-            "a": "... trade",
-            "b": "... network",
-            "c": "... tion age",
-            "d": "... of"
+            "a": "Venture capital",
+            "b": "Bank finance",
+            "c": "Childhood background",
+            "d": "Pitch presentations"
           },
-          "answer": "c",
-          "explanation": "Reconstruction indicates question asks about information age."
+          "answer": "b",
+          "explanation": "The text states that bank finance is 'the main act' and 'the real driver for getting from small to medium, and medium to big.'"
         },
         {
           "question": "title for this",
@@ -38,15 +38,15 @@
           "explanation": "The passage provides numbered recommendations focused directly on addressing the genuine needs of Black business owners, covering culturally attuned communication and access to essential bank financing."
         },
         {
-          "question": "What is the meaning of 'scalability' in paragraph 8 ?",
+          "question": "According to the passage, what serves as the real driver for a business to grow from small to medium, and medium to big?",
           "choices": {
-            "a": "Independence",
-            "b": "Capacity to expand",
-            "c": "Financial stability",
-            "d": "Immediate profitability"
+            "a": "Venture capital funding",
+            "b": "Bank finance",
+            "c": "High-profile pitch competitions",
+            "d": "Government poverty assistance"
           },
           "answer": "b",
-          "explanation": "In business, scalability denotes the ability of an enterprise to grow and manage increased operational volume or revenue efficiently."
+          "explanation": "The text explicitly states that bank finance is 'the main act' and 'the real driver for getting from small to medium, and medium to big.'"
         },
         {
           "question": "you read in the paragraphs of the article, what is the main idea of the text?",
@@ -170,15 +170,15 @@
           "explanation": "The passage states that bank finance, not venture capital, is the real driver for scaling businesses, describing the focus on venture capital as a diversion."
         },
         {
-          "question": "Select one:",
+          "question": "According to the passage, what is the real driver for helping businesses grow from small to medium and medium to big?",
           "choices": {
-            "a": "In an ecosystem not all living organisms are called the biotic factors.",
-            "b": "To preserve the Planet as we know it, all five of these immense and complicated structures suppress each other.",
-            "c": "In erosion, the cryosphere may also be involved, when massive glaciers scour rock bits from the bedrock underneath them.",
-            "d": "The second structure includes a small portion of the earth that can sustain living beings."
+            "a": "Obtaining venture capital",
+            "b": "Securing bank finance",
+            "c": "Pitching to specialized investors",
+            "d": "Sharing relatable life experiences"
           },
-          "answer": "c",
-          "explanation": "Glacial erosion accurately describes interaction between the cryosphere and bedrock."
+          "answer": "b",
+          "explanation": "Paragraph 3 explicitly states that bank finance is the 'main act' and 'the real driver for getting from small to medium, and medium to big.'"
         },
         {
           "question": "The word 'achieve' in paragraph 1 can be best replaced by ....",
@@ -236,15 +236,15 @@
           "explanation": "The text focuses on modern entrepreneurial roles of online influencers."
         },
         {
-          "question": "-",
+          "question": "According to the passage, what is considered the real driver for helping businesses scale from small to medium and medium to big?",
           "choices": {
-            "a": "Twelve centimetres difference",
-            "b": "Nineteen centimetres difference",
-            "c": "Eleven centimetres difference",
-            "d": "Twenty centimetres difference"
+            "a": "Venture capital funding",
+            "b": "Bank finance",
+            "c": "Public speaking engagements",
+            "d": "Angel investments"
           },
           "answer": "b",
-          "explanation": "Nineteen centimetres difference matches standard statistical comparisons in anthropometric reading texts."
+          "explanation": "Paragraph 3 explicitly states that bank finance is 'the real driver for getting from small to medium, and medium to big,' while describing venture capital as an extremely long shot and a diversion."
         },
         {
           "question": "...icle, what... the",
@@ -275,15 +275,15 @@
       "passage": "What is the most important part of our planet, the main reason Earth is different from all the other planets in the solar system? If 10 different environmental scientists were asked this question, they would probably give 10 different answers. Each scientist might start with their favorite topic, from plate tectonics to rainforests and beyond. Eventually, however, their collective description would probably touch on all the major features and systems of our home planet. It turns out that no single feature is more significant than the others are. Each one plays a vital role in the function and sustainability of Earth's system.\n\nThere are five main systems, or spheres, on Earth. The first system, the geosphere, consists of the interior and surface of Earth, both of which are made up of...",
       "questions": [
         {
-          "question": "...he information... the article, what... is the best title",
+          "question": "According to the passage, which feature of Earth is considered the most significant?",
           "choices": {
-            "a": "The Solar System",
-            "b": "Features of the Earth",
-            "c": "Earth's Systems",
-            "d": "Environmental Scientists"
+            "a": "Plate tectonics",
+            "b": "Rainforests",
+            "c": "The geosphere",
+            "d": "No single feature is more significant than the others"
           },
-          "answer": "c",
-          "explanation": "The passage introduces Earth's features to explain that no single feature dominates, then explicitly outlines that there are five main systems (or spheres) that sustain the planet. Therefore, 'Earth's Systems' encompasses the central theme."
+          "answer": "d",
+          "explanation": "The text states directly that 'no single feature is more significant than the others are' and that each plays a vital role in Earth's system."
         },
         {
           "question": "The paragraph following the passage will most likely discuss",
@@ -325,15 +325,15 @@
       "passage": "interconnected; what affects one can affect another. That precipitation connects the hydrosphere geosphere by promoting erosion and surface processes that slowly break down into smaller ones. Over time, erosion and change large pieces of rocks—or even mountains—into sediments, like sand or mud. The cryosphere can also be involved in erosion, as large glaciers scour bits of rock from the bedrock beneath them. The geosphere includes all the rocks that make up Earth, from the partially melted rock under the crust, to ancient, towering mountains, to grains of sand on a beach.\n\nBoth the geosphere and hydrosphere provide the habitat for the biosphere, a global ecosystem that encompasses all the living things on Earth. The biosphere refers to the relatively small part of Earth's environment in which living things can survive.",
       "questions": [
         {
-          "question": "...he information ... the article, what ...k is the best title",
+          "question": "According to the passage, what is the biosphere?",
           "choices": {
-            "a": "The Biosphere",
-            "b": "Solar System",
-            "c": "Features of the Earth",
-            "d": "Earth's Systems"
+            "a": "A global ecosystem that encompasses all living things on Earth",
+            "b": "The collection of all rocks that make up Earth's crust",
+            "c": "A network of glaciers scouring bedrock",
+            "d": "The process that breaks mountains down into sediments"
           },
-          "answer": "d",
-          "explanation": "The passage details the interactions among the geosphere, hydrosphere, cryosphere, and biosphere, which collectively constitute Earth's systems."
+          "answer": "a",
+          "explanation": "The passage explicitly defines the biosphere as 'a global ecosystem that encompasses all the living things on Earth.'"
         },
         {
           "question": "Based on the information you read in the article, what do you think is the best title for it?",
@@ -476,15 +476,15 @@
       "passage": "touch on all the major features and systems of our home planet. It turns out that no single feature is more significant than the others are. Each one [plays a] vital role in the function and sustainability of [the Earth] system.\n\nThere are five main systems, or spheres, on Earth. The first system, the geosphere, consists of the interior and surface of Earth, both of which are made up of rocks. The limited part of the planet that can support",
       "questions": [
         {
-          "question": "Select one:",
+          "question": "According to the passage, what does the geosphere consist of?",
           "choices": {
-            "a": "out of the fresh water on Earth, there is one-quarter of all filling up the Earth",
-            "b": "in the cryosphere on the Earth the fresh water is locked up",
-            "c": "the cryosphere is bottled up about three-fourths of all the fresh water on Earth",
-            "d": "around three-quarters of all the fresh water in the cryosphere stored on the Earth"
+            "a": "Only the features that support human life",
+            "b": "The interior and surface of Earth, both made of rocks",
+            "c": "All five main systems functioning together",
+            "d": "The ocean waters and the atmosphere"
           },
           "answer": "b",
-          "explanation": "Option b forms a grammatically complete and factually accurate clause stating that fresh water is locked up in the cryosphere. The other options contain severe grammatical errors or lack a finite predicate verb."
+          "explanation": "The passage directly states that the geosphere consists of the interior and surface of Earth, both of which are made up of rocks."
         }
       ]
     },
@@ -648,26 +648,26 @@
           "explanation": "Standard texts on this topic cover historical trade routes, cultural and food exchanges, and borderless economies, while an outright rejection of globalization is omitted."
         },
         {
-          "question": "Select one:",
+          "question": "According to the passage, what was one direct outcome of the North American Free Trade Agreement (NAFTA)?",
           "choices": {
-            "a": "Globalization makes the economy collapse for developing countries.",
-            "b": "Globalization has made the USA and China the superpowers.",
-            "c": "Globalization affects human life in terms of culture, economy, and politics.",
-            "d": "Globalization opens trade channels only for developed countries."
+            "a": "It prohibited Microsoft from selling software outside North America.",
+            "b": "It eventually ended all tariffs on trade goods between the United States, Mexico, and Canada.",
+            "c": "It made the economy of Saudi Arabia dependent on American imports.",
+            "d": "It restricted the movement of people and ideas across North American borders."
           },
-          "answer": "c",
-          "explanation": "Globalization encompasses economic, cultural, and political impacts, making this statement the accurate overarching synthesis."
+          "answer": "b",
+          "explanation": "The passage directly states that NAFTA 'eventually ended all tariffs on trade goods between the three nations.'"
         },
         {
-          "question": "[truncated] ...rmation ...icle, what ...the",
+          "question": "According to the passage, why do many countries establish free trade agreements?",
           "choices": {
-            "a": "[truncated] ...rade",
-            "b": "[truncated] ...network",
-            "c": "[truncated] ...tion age",
-            "d": "[truncated] ...of"
+            "a": "To increase trade",
+            "b": "To protect domestic software monopolies",
+            "c": "To introduce new tariffs on imports",
+            "d": "To restrict the movement of people and ideas"
           },
           "answer": "a",
-          "explanation": "The text focuses on international trade, free trade agreements, tariffs, and global commerce, matching 'The global trade'."
+          "explanation": "The text explicitly states: 'To increase trade, many countries have created free trade agreements with other countries.'"
         }
       ]
     },
@@ -800,15 +800,15 @@
       "passage": "...them the modern entrepr...\nmedia influencer is an en...\nhave started their own busin...\ncreated online have much in ...\nentrepreneurs when it comes t...\nEntrepreneurs are people who o...\ntake on the risks of a business. Th...",
       "questions": [
         {
-          "question": "Select one:",
+          "question": "According to the passage, entrepreneurs are people who do which of the following?",
           "choices": {
-            "a": "Modern Business",
-            "b": "Social Media for Influencers",
-            "c": "Influencers: The Modern Entrepreneur",
-            "d": "Traditional vs Modern Entrepreneurs"
+            "a": "Take on the risks of a business",
+            "b": "Avoid financial investment",
+            "c": "Work solely for established corporations",
+            "d": "Eliminate market competition"
           },
-          "answer": "c",
-          "explanation": "The text links media influencers directly to modern entrepreneurs and explains how their online ventures align with entrepreneurship concepts."
+          "answer": "a",
+          "explanation": "The passage explicitly states that entrepreneurs are people who take on the risks of a business."
         }
       ]
     },
@@ -907,15 +907,15 @@
       "passage": "markets and finance\nunequal access to opp\na dynamic of new grow\nshould be a social\nprogrammes, leadership\nmarkets – what we call a sca\nhelpful.\n\nHow can talented, highly mot",
       "questions": [
         {
-          "question": "Select one:",
+          "question": "Which of the following subjects is explicitly mentioned in the passage?",
           "choices": {
-            "a": "Access to supplier supply chain managers is given to supplier-diversity managers",
-            "b": "KPI is one of the evaluations used by the CEOs",
-            "c": "Ugo Nwagbaraocha does not get benefit from Supplier diversity program",
-            "d": "Make supplier diversity program works is one of ideas proposed by writer"
+            "a": "Space exploration",
+            "b": "Leadership",
+            "c": "Healthcare systems",
+            "d": "Agricultural technology"
           },
-          "answer": "d",
-          "explanation": "The text discusses fixing and improving supplier diversity initiatives. The author explicitly proposes strategies to make supplier diversity programs work."
+          "answer": "b",
+          "explanation": "The text directly mentions the word 'leadership' alongside 'programmes'. None of the other options appear in the passage."
         }
       ]
     },
@@ -952,15 +952,15 @@
       "passage": "employed, t...\nlow-growth. Th...\nmarkets and fi...\nunequal access to...\na dynamic of new g...\nshould be a so...\nprogrammes, leaders...\nmarkets - what we call a...\nhelpful.\n\nHow can talented, highly...",
       "questions": [
         {
-          "question": "Select one:",
+          "question": "As used in the passage, which word is closest in meaning to 'talented'?",
           "choices": {
-            "a": "National role models influence more than local role models.",
-            "b": "Local role models do exist and they are not low profile.",
-            "c": "Oprah Winfrey really changes the life of Black entrepreneur positively.",
-            "d": "Communicative role model is not important for the life of black people."
+            "a": "Gifted",
+            "b": "Unskilled",
+            "c": "Inexperienced",
+            "d": "Hesitant"
           },
           "answer": "a",
-          "explanation": "The passage indicates that while local role models exist, their low profile causes national role models to exert greater overall influence."
+          "explanation": "The word 'talented' means possessing natural aptitude or skill, which matches 'gifted'."
         }
       ]
     },
