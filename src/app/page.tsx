@@ -59,12 +59,10 @@ export default function Home() {
 }
 
 function QuizUI({ mode, onFinish }: { mode: string, onFinish: (s: {correct: number, total: number}) => void }) {
-  // Build active questions list
   const activeQuestions = useMemo(() => {
     let list: any[] = [];
     if (mode === 'reading' || mode === 'both') {
       questionsData.reading.forEach(r => {
-        // chunk questions into pairs (max 2 per view)
         for (let i = 0; i < r.questions.length; i += 2) {
           list.push({
             type: 'reading',
@@ -80,7 +78,8 @@ function QuizUI({ mode, onFinish }: { mode: string, onFinish: (s: {correct: numb
        for (let i = 0; i < g.length; i += 2) {
          list.push({
            type: 'grammar',
-           questions: g.slice(i, i + 2)
+           // Assign sequence numbers to grammar too so they don't reset to 1 in the UI
+           questions: g.slice(i, i + 2).map((q, idx) => ({...q, seq_number: i + idx + 1}))
          });
        }
     }
@@ -100,13 +99,11 @@ function QuizUI({ mode, onFinish }: { mode: string, onFinish: (s: {correct: numb
     let correct = 0;
     let total = 0;
     
-    // Evaluate reading
     if (mode === 'reading' || mode === 'both') {
       questionsData.reading.forEach(r => {
         r.questions.forEach(q => {
           total++;
           const ansKey = Object.keys(q.choices).find(k => q.choices[k as keyof typeof q.choices] === q.answer) || q.answer;
-          // Exact match logic is simplified here. Needs robust matching depending on JSON structure
           if (answers[q.id] === q.answer || answers[q.id] === ansKey) {
             correct++;
           }
@@ -114,7 +111,6 @@ function QuizUI({ mode, onFinish }: { mode: string, onFinish: (s: {correct: numb
       });
     }
     
-    // Evaluate grammar
     if (mode === 'grammar' || mode === 'both') {
       questionsData.grammar.forEach(g => {
         total++;
@@ -133,7 +129,6 @@ function QuizUI({ mode, onFinish }: { mode: string, onFinish: (s: {correct: numb
     <div className="min-h-screen bg-gray-100 p-4 font-sans text-gray-800 md:p-8">
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-6">
         
-        {/* Left Panel: Passage (only if reading) */}
         {currentView.type === 'reading' && (
           <div className="md:w-1/2 bg-white rounded-xl shadow p-6 max-h-[80vh] overflow-y-auto">
             <h2 className="text-xl font-bold mb-4">{currentView.title || 'Reading Passage'}</h2>
@@ -143,7 +138,6 @@ function QuizUI({ mode, onFinish }: { mode: string, onFinish: (s: {correct: numb
           </div>
         )}
 
-        {/* Right Panel: Questions */}
         <div className={`bg-white rounded-xl shadow p-6 flex flex-col ${currentView.type === 'reading' ? 'md:w-1/2' : 'w-full max-w-2xl mx-auto'}`}>
           <div className="mb-4 text-sm font-semibold text-gray-500 uppercase tracking-wide">
             {currentView.type === 'reading' ? 'Reading Comprehension' : 'Structure & Grammar'} 
@@ -151,9 +145,11 @@ function QuizUI({ mode, onFinish }: { mode: string, onFinish: (s: {correct: numb
           </div>
 
           <div className="flex-1 overflow-y-auto pr-2">
-            {currentView.questions.map((q: any, i: number) => (
-              <div key={q.id || i} className="mb-8 pb-6 border-b last:border-0">
-                <p className="font-medium text-lg mb-4">{q.question}</p>
+            {currentView.questions.map((q: any) => (
+              <div key={q.id} className="mb-8 pb-6 border-b last:border-0">
+                <p className="font-medium text-lg mb-4">
+                  {q.seq_number}. {q.question}
+                </p>
                 <div className="flex flex-col gap-3">
                   {(Array.isArray(q.choices) ? q.choices : Object.values(q.choices)).map((choice: any, idx: number) => {
                     const isSelected = answers[q.id] === choice;
@@ -176,7 +172,6 @@ function QuizUI({ mode, onFinish }: { mode: string, onFinish: (s: {correct: numb
             ))}
           </div>
 
-          {/* Navigation */}
           <div className="mt-6 flex justify-between pt-4 border-t">
             <button 
               className="px-6 py-2 rounded-lg font-medium border border-gray-300 hover:bg-gray-100 disabled:opacity-30"

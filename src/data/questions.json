@@ -13,7 +13,8 @@
             "d": "The vital necessity of venture capital for minority startups"
           },
           "answer": "c",
-          "explanation": "The passage outlines numbered, actionable recommendations—specifically authentic communication and improved bank financing—aimed at supporting and scaling Black-owned businesses."
+          "explanation": "The passage outlines numbered, actionable recommendations—specifically authentic communication and improved bank financing—aimed at supporting and scaling Black-owned businesses.",
+          "seq_number": 1
         },
         {
           "question": "According to the passage, what is the real driver for businesses to grow from small to medium and medium to big?",
@@ -24,7 +25,8 @@
             "d": "Pitch presentations"
           },
           "answer": "b",
-          "explanation": "The text states that bank finance is 'the main act' and 'the real driver for getting from small to medium, and medium to big.'"
+          "explanation": "The text states that bank finance is 'the main act' and 'the real driver for getting from small to medium, and medium to big.'",
+          "seq_number": 2
         },
         {
           "question": "What is the best title for this passage?",
@@ -35,7 +37,8 @@
             "d": "Navigating Commercial Bank Loans for Small Enterprises"
           },
           "answer": "a",
-          "explanation": "The passage provides numbered recommendations focused directly on addressing the genuine needs of Black business owners, covering culturally attuned communication and access to essential bank financing."
+          "explanation": "The passage provides numbered recommendations focused directly on addressing the genuine needs of Black business owners, covering culturally attuned communication and access to essential bank financing.",
+          "seq_number": 3
         },
         {
           "question": "What is the tone of the passage?",
@@ -46,7 +49,8 @@
             "d": "Melancholic"
           },
           "answer": "b",
-          "explanation": "The passage maintains a neutral, practical, and informative delivery of recommendations."
+          "explanation": "The passage maintains a neutral, practical, and informative delivery of recommendations.",
+          "seq_number": 4
         },
         {
           "question": "What is the main purpose of the passage?",
@@ -57,7 +61,8 @@
             "d": "To sell products"
           },
           "answer": "c",
-          "explanation": "Informative texts aim primarily to provide objective details rather than persuade or sell."
+          "explanation": "Informative texts aim primarily to provide objective details rather than persuade or sell.",
+          "seq_number": 5
         },
         {
           "question": "It can be inferred from the passage that...",
@@ -68,7 +73,8 @@
             "d": "Black entrepreneurs should prioritize venture capital pitches over seeking commercial loans"
           },
           "answer": "b",
-          "explanation": "Paragraph 3 identifies bank finance as the primary driver for expanding businesses from small to large, while labeling venture capital an unlikely side show."
+          "explanation": "Paragraph 3 identifies bank finance as the primary driver for expanding businesses from small to large, while labeling venture capital an unlikely side show.",
+          "seq_number": 6
         },
         {
           "question": "The following statements are TRUE according to the text EXCEPT _____.",
@@ -79,7 +85,8 @@
             "d": "Access to commercial loans and bank credit represents a more significant growth driver than venture capital."
           },
           "answer": "a",
-          "explanation": "The passage states that bank finance, not venture capital, is the real driver for scaling businesses, describing the focus on venture capital as a diversion."
+          "explanation": "The passage states that bank finance, not venture capital, is the real driver for scaling businesses, describing the focus on venture capital as a diversion.",
+          "seq_number": 7
         }
       ]
     },
@@ -96,7 +103,8 @@
             "d": "No single feature is more significant than the others"
           },
           "answer": "d",
-          "explanation": "The text states directly that 'no single feature is more significant than the others are' and that each plays a vital role in Earth's system."
+          "explanation": "The text states directly that 'no single feature is more significant than the others are' and that each plays a vital role in Earth's system.",
+          "seq_number": 8
         },
         {
           "question": "The paragraph following the passage will most likely discuss",
@@ -107,7 +115,8 @@
             "d": "the unliving things"
           },
           "answer": "b",
-          "explanation": "The text lists Earth's five major spheres sequentially, making the next sphere, the atmosphere, the logical topic for the subsequent paragraph."
+          "explanation": "The text lists Earth's five major spheres sequentially, making the next sphere, the atmosphere, the logical topic for the subsequent paragraph.",
+          "seq_number": 9
         }
       ]
     },
@@ -124,7 +133,8 @@
             "d": "The process that breaks mountains down into sediments"
           },
           "answer": "a",
-          "explanation": "The passage explicitly defines the biosphere as 'a global ecosystem that encompasses all the living things on Earth.'"
+          "explanation": "The passage explicitly defines the biosphere as 'a global ecosystem that encompasses all the living things on Earth.'",
+          "seq_number": 10
         },
         {
           "question": "Based on the information you read in the article, what do you think is the best title for it?",
@@ -135,7 +145,8 @@
             "d": "The Earth and Radiation"
           },
           "answer": "c",
-          "explanation": "The passage details the relationships among the hydrosphere, geosphere, cryosphere, and biosphere, which represent the Earth's systems."
+          "explanation": "The passage details the relationships among the hydrosphere, geosphere, cryosphere, and biosphere, which represent the Earth's systems.",
+          "seq_number": 11
         }
       ]
     },
@@ -152,7 +163,8 @@
             "d": "the political conflicts caused by international trade"
           },
           "answer": "a",
-          "explanation": "Paragraph 1 defines globalization, illustrates it through cultural and consumer examples, and describes how it connects different parts of the world."
+          "explanation": "Paragraph 1 defines globalization, illustrates it through cultural and consumer examples, and describes how it connects different parts of the world.",
+          "seq_number": 12
         }
       ]
     },
@@ -169,7 +181,8 @@
             "C) Economic challenges",
             "D) Future predictions"
           ],
-          "answer": "A"
+          "answer": "A",
+          "seq_number": 13
         }
       ]
     },
@@ -186,7 +199,8 @@
             "d": "taking on traditional financial liabilities, operating physical retail spaces, and distributing wholesale goods"
           },
           "answer": "a",
-          "explanation": "The passage defines an influencer as someone with the power to affect or change people and their behavior through social media, frequently to encourage them to buy products."
+          "explanation": "The passage defines an influencer as someone with the power to affect or change people and their behavior through social media, frequently to encourage them to buy products.",
+          "seq_number": 14
         },
         {
           "question": "Based on the information you read in the paragraphs of the article, what is the main idea of the text?",
@@ -197,7 +211,8 @@
             "d": "Running an independent online brand requires a completely different skill set than managing a conventional business."
           },
           "answer": "a",
-          "explanation": "The passage contrasts and connects influencers and entrepreneurs, concluding that influencers who build businesses from their platforms qualify as entrepreneurs because both organize ventures, take risks, and drive commerce."
+          "explanation": "The passage contrasts and connects influencers and entrepreneurs, concluding that influencers who build businesses from their platforms qualify as entrepreneurs because both organize ventures, take risks, and drive commerce.",
+          "seq_number": 15
         },
         {
           "question": "The following statements are TRUE according to the passage EXCEPT",
@@ -208,7 +223,8 @@
             "d": "Entrepreneurs often establish businesses to address an identified need for products or services."
           },
           "answer": "c",
-          "explanation": "The passage states that influencers who start their own business fall under the definition of an entrepreneur, indicating that being an influencer does not automatically make one an entrepreneur."
+          "explanation": "The passage states that influencers who start their own business fall under the definition of an entrepreneur, indicating that being an influencer does not automatically make one an entrepreneur.",
+          "seq_number": 16
         }
       ]
     },
@@ -225,7 +241,8 @@
             "C) Economic challenges",
             "D) Future predictions"
           ],
-          "answer": "A"
+          "answer": "A",
+          "seq_number": 17
         }
       ]
     },
@@ -242,7 +259,8 @@
             "d": "The ocean waters and the atmosphere"
           },
           "answer": "b",
-          "explanation": "The passage directly states that the geosphere consists of the interior and surface of Earth, both of which are made up of rocks."
+          "explanation": "The passage directly states that the geosphere consists of the interior and surface of Earth, both of which are made up of rocks.",
+          "seq_number": 18
         }
       ]
     },
@@ -259,7 +277,8 @@
             "d": "Methods for supporting small domestic businesses against foreign competitors"
           },
           "answer": "c",
-          "explanation": "The final sentence establishes a chronological transition focusing on the historical acceleration of globalization during the Industrial Revolution. The next paragraph logically continues this historical timeline into subsequent eras such as the twentieth century."
+          "explanation": "The final sentence establishes a chronological transition focusing on the historical acceleration of globalization during the Industrial Revolution. The next paragraph logically continues this historical timeline into subsequent eras such as the twentieth century.",
+          "seq_number": 19
         },
         {
           "question": "It is implied from the passage that...",
@@ -270,7 +289,8 @@
             "d": "American fast-food chains are solely responsible for modern globalization."
           },
           "answer": "b",
-          "explanation": "The passage notes that the movement of people, ideas, and goods makes experiences worldwide more similar, directly implying increased cultural and lifestyle uniformity."
+          "explanation": "The passage notes that the movement of people, ideas, and goods makes experiences worldwide more similar, directly implying increased cultural and lifestyle uniformity.",
+          "seq_number": 20
         },
         {
           "question": "The following statements are true, EXCEPT...",
@@ -281,7 +301,8 @@
             "d": "Factories and mills utilized raw materials sourced from distant regions."
           },
           "answer": "b",
-          "explanation": "The passage states globalization was accelerated by the Industrial Revolution, directly contradicting the claim that it slowed down."
+          "explanation": "The passage states globalization was accelerated by the Industrial Revolution, directly contradicting the claim that it slowed down.",
+          "seq_number": 21
         },
         {
           "question": "It is most likely that ________.",
@@ -292,7 +313,8 @@
             "d": "globalization prevents foreign corporations from acquiring raw materials from distant regions"
           },
           "answer": "a",
-          "explanation": "The passage states that easier movement of goods, people, and ideas makes world experiences more similar, illustrated by global brands like McDonald's."
+          "explanation": "The passage states that easier movement of goods, people, and ideas makes world experiences more similar, illustrated by global brands like McDonald's.",
+          "seq_number": 22
         },
         {
           "question": "Which of the following statements is TRUE according to the text?",
@@ -303,7 +325,8 @@
             "d": "Early industrial factories relied exclusively on locally sourced raw materials."
           },
           "answer": "b",
-          "explanation": "The passage states that globalization was accelerated with the Industrial Revolution as factories expanded and utilized raw materials from distant lands."
+          "explanation": "The passage states that globalization was accelerated with the Industrial Revolution as factories expanded and utilized raw materials from distant lands.",
+          "seq_number": 23
         },
         {
           "question": "Which of the following statements is TRUE according to the passage?",
@@ -314,7 +337,8 @@
             "d": "The cross-border exchange of ideas has made people's daily lives increasingly dissimilar."
           },
           "answer": "a",
-          "explanation": "The passage directly states that globalization was accelerated during the Industrial Revolution as mills and factories expanded and used raw materials from distant regions."
+          "explanation": "The passage directly states that globalization was accelerated during the Industrial Revolution as mills and factories expanded and used raw materials from distant regions.",
+          "seq_number": 24
         }
       ]
     },
@@ -331,7 +355,8 @@
             "d": "amused"
           },
           "answer": "c",
-          "explanation": "The author presents factual, educational details about Earth's systems in an objective, neutral manner to educate the reader."
+          "explanation": "The author presents factual, educational details about Earth's systems in an objective, neutral manner to educate the reader.",
+          "seq_number": 25
         }
       ]
     },
@@ -348,7 +373,8 @@
             "d": "The economic dominance of multinational corporations"
           },
           "answer": "a",
-          "explanation": "The passage focuses primarily on how the international economy has become globalized through international trade, free trade agreements, and import-export relationships between nations."
+          "explanation": "The passage focuses primarily on how the international economy has become globalized through international trade, free trade agreements, and import-export relationships between nations.",
+          "seq_number": 26
         },
         {
           "question": "Which of the following terms is NOT discussed in the text?",
@@ -359,7 +385,8 @@
             "d": "A world without borders due to globalization"
           },
           "answer": "c",
-          "explanation": "Standard texts on this topic cover historical trade routes, cultural and food exchanges, and borderless economies, while an outright rejection of globalization is omitted."
+          "explanation": "Standard texts on this topic cover historical trade routes, cultural and food exchanges, and borderless economies, while an outright rejection of globalization is omitted.",
+          "seq_number": 27
         },
         {
           "question": "According to the passage, what was one direct outcome of the North American Free Trade Agreement (NAFTA)?",
@@ -370,7 +397,8 @@
             "d": "It restricted the movement of people and ideas across North American borders."
           },
           "answer": "b",
-          "explanation": "The passage directly states that NAFTA 'eventually ended all tariffs on trade goods between the three nations.'"
+          "explanation": "The passage directly states that NAFTA 'eventually ended all tariffs on trade goods between the three nations.'",
+          "seq_number": 28
         },
         {
           "question": "According to the passage, why do many countries establish free trade agreements?",
@@ -381,7 +409,8 @@
             "d": "To restrict the movement of people and ideas"
           },
           "answer": "a",
-          "explanation": "The text explicitly states: 'To increase trade, many countries have created free trade agreements with other countries.'"
+          "explanation": "The text explicitly states: 'To increase trade, many countries have created free trade agreements with other countries.'",
+          "seq_number": 29
         }
       ]
     },
@@ -398,7 +427,8 @@
             "C) Economic challenges",
             "D) Future predictions"
           ],
-          "answer": "A"
+          "answer": "A",
+          "seq_number": 30
         }
       ]
     },
@@ -415,7 +445,8 @@
             "d": "discouraged"
           },
           "answer": "c",
-          "explanation": "Accelerated means sped up or moved forward rapidly. Advanced shares this meaning of progression and development."
+          "explanation": "Accelerated means sped up or moved forward rapidly. Advanced shares this meaning of progression and development.",
+          "seq_number": 31
         }
       ]
     },
@@ -432,7 +463,8 @@
             "d": "strategies used by developing countries to resist economic integration"
           },
           "answer": "b",
-          "explanation": "The final sentence introduces the acceleration of globalization during the nineteenth century, indicating the next paragraph will elaborate on nineteenth-century historical developments."
+          "explanation": "The final sentence introduces the acceleration of globalization during the nineteenth century, indicating the next paragraph will elaborate on nineteenth-century historical developments.",
+          "seq_number": 32
         }
       ]
     },
@@ -449,7 +481,8 @@
             "d": "Graphene for Solar Cells"
           },
           "answer": "d",
-          "explanation": "The passage highlights the technological limitations of silicon and perovskites before introducing graphene as the breakthrough solution for solar cells."
+          "explanation": "The passage highlights the technological limitations of silicon and perovskites before introducing graphene as the breakthrough solution for solar cells.",
+          "seq_number": 33
         },
         {
           "question": "The tone of the author is best described as ____",
@@ -460,7 +493,8 @@
             "d": "absurd"
           },
           "answer": "c",
-          "explanation": "The author discusses scientific limitations and ongoing research in an informative, objective manner."
+          "explanation": "The author discusses scientific limitations and ongoing research in an informative, objective manner.",
+          "seq_number": 34
         }
       ]
     },
@@ -477,7 +511,8 @@
             "d": "The History of Traditional Entrepreneurs"
           },
           "answer": "c",
-          "explanation": "The passage focuses on the transition of social media influencers into business owners and compares their economic impact to traditional business creators, making 'Influencers: The Modern Entrepreneur' the most accurate title."
+          "explanation": "The passage focuses on the transition of social media influencers into business owners and compares their economic impact to traditional business creators, making 'Influencers: The Modern Entrepreneur' the most accurate title.",
+          "seq_number": 35
         }
       ]
     },
@@ -494,7 +529,8 @@
             "d": "How to Secure Venture Capital"
           },
           "answer": "c",
-          "explanation": "The passage compares traditional entrepreneurs with social media influencers, highlighting startup costs, funding methods, and operational requirements to illustrate how influencers function as contemporary entrepreneurs."
+          "explanation": "The passage compares traditional entrepreneurs with social media influencers, highlighting startup costs, funding methods, and operational requirements to illustrate how influencers function as contemporary entrepreneurs.",
+          "seq_number": 36
         }
       ]
     },
@@ -511,7 +547,8 @@
             "d": "Eliminate market competition"
           },
           "answer": "a",
-          "explanation": "The passage explicitly states that entrepreneurs are people who take on the risks of a business."
+          "explanation": "The passage explicitly states that entrepreneurs are people who take on the risks of a business.",
+          "seq_number": 37
         }
       ]
     },
@@ -528,7 +565,8 @@
             "d": "Influencers affect or change people and their behavior through social media and then get them to buy something"
           },
           "answer": "d",
-          "explanation": "Paragraph 1 introduces influencers as modern entrepreneurs, paragraph 2 defines entrepreneurship, and paragraph 3 describes how influencers leverage audience behavior on social platforms to generate commerce."
+          "explanation": "Paragraph 1 introduces influencers as modern entrepreneurs, paragraph 2 defines entrepreneurship, and paragraph 3 describes how influencers leverage audience behavior on social platforms to generate commerce.",
+          "seq_number": 38
         }
       ]
     },
@@ -545,7 +583,8 @@
             "d": "Government regulations regarding commercial solar farm subsidies"
           },
           "answer": "b",
-          "explanation": "The final sentence introduces an envisioned manufacturing method that lowers production costs for large-area tandem solar cells, making the technical details of this production process the logical topic for the next paragraph."
+          "explanation": "The final sentence introduces an envisioned manufacturing method that lowers production costs for large-area tandem solar cells, making the technical details of this production process the logical topic for the next paragraph.",
+          "seq_number": 39
         }
       ]
     },
@@ -562,7 +601,8 @@
             "C) Economic challenges",
             "D) Future predictions"
           ],
-          "answer": "A"
+          "answer": "A",
+          "seq_number": 40
         }
       ]
     },
@@ -579,7 +619,8 @@
             "d": "The Graphene Flagship project conflicts with the UN Sustainable Development Goals."
           },
           "answer": "a",
-          "explanation": "The text states that the application of graphene to solar energy generation was recognized as a priority since the start of the Graphene Flagship."
+          "explanation": "The text states that the application of graphene to solar energy generation was recognized as a priority since the start of the Graphene Flagship.",
+          "seq_number": 41
         },
         {
           "question": "The passage indicated that...",
@@ -590,7 +631,8 @@
             "d": "the first graphene-based solar farm was successfully completed three years ago"
           },
           "answer": "a",
-          "explanation": "The passage directly states that the application of graphene to solar energy generation was recognized as a priority since the start of the Graphene Flagship initiative."
+          "explanation": "The passage directly states that the application of graphene to solar energy generation was recognized as a priority since the start of the Graphene Flagship initiative.",
+          "seq_number": 42
         }
       ]
     },
@@ -607,7 +649,8 @@
             "d": "Agricultural technology"
           },
           "answer": "b",
-          "explanation": "The text directly mentions the word 'leadership' alongside 'programmes'. None of the other options appear in the passage."
+          "explanation": "The text directly mentions the word 'leadership' alongside 'programmes'. None of the other options appear in the passage.",
+          "seq_number": 43
         }
       ]
     },
@@ -624,7 +667,8 @@
             "d": "shareholders"
           },
           "answer": "c",
-          "explanation": "In business contexts, 'venture' refers to a commercial business undertaking, making 'enterprise' the exact synonym."
+          "explanation": "In business contexts, 'venture' refers to a commercial business undertaking, making 'enterprise' the exact synonym.",
+          "seq_number": 44
         }
       ]
     },
@@ -641,7 +685,8 @@
             "d": "Hesitant"
           },
           "answer": "a",
-          "explanation": "The word 'talented' means possessing natural aptitude or skill, which matches 'gifted'."
+          "explanation": "The word 'talented' means possessing natural aptitude or skill, which matches 'gifted'.",
+          "seq_number": 45
         }
       ]
     },
@@ -658,7 +703,8 @@
             "d": "gear up"
           },
           "answer": "d",
-          "explanation": "The term 'scale-up' refers to increasing size, capacity, or activity to achieve business growth. 'Gear up' similarly means to prepare for, accelerate, or increase the level of activity."
+          "explanation": "The term 'scale-up' refers to increasing size, capacity, or activity to achieve business growth. 'Gear up' similarly means to prepare for, accelerate, or increase the level of activity.",
+          "seq_number": 46
         }
       ]
     },
@@ -675,7 +721,8 @@
             "C) Economic challenges",
             "D) Future predictions"
           ],
-          "answer": "A"
+          "answer": "A",
+          "seq_number": 47
         }
       ]
     },
@@ -707,7 +754,8 @@
             "d": "law of physics has no limitation in terms of energy efficiency"
           },
           "answer": "a",
-          "explanation": "Option a accurately reflects the central subject introduced in the passage regarding graphene's prominent role in solar technology. Option b uses an extreme claim ('only key'), option c mischaracterizes the 30% efficiency barrier, and option d contradicts basic scientific principles."
+          "explanation": "Option a accurately reflects the central subject introduced in the passage regarding graphene's prominent role in solar technology. Option b uses an extreme claim ('only key'), option c mischaracterizes the 30% efficiency barrier, and option d contradicts basic scientific principles.",
+          "seq_number": 48
         }
       ]
     },
@@ -724,7 +772,8 @@
             "d": "The work of the Graphene Flagship conflicts with the Sustainable Development Goals."
           },
           "answer": "d",
-          "explanation": "The passage explicitly states that the Graphene Flagship strongly aligns with the Sustainable Development Goals, making choice d false."
+          "explanation": "The passage explicitly states that the Graphene Flagship strongly aligns with the Sustainable Development Goals, making choice d false.",
+          "seq_number": 49
         },
         {
           "question": "Which of the following is true according to the passage?",
@@ -735,7 +784,8 @@
             "d": "The first graphene-based solar farm has been operational for several decades."
           },
           "answer": "a",
-          "explanation": "The passage explicitly states that the work of the Graphene Flagship strongly aligns with the Sustainable Development Goals."
+          "explanation": "The passage explicitly states that the work of the Graphene Flagship strongly aligns with the Sustainable Development Goals.",
+          "seq_number": 50
         }
       ]
     },
@@ -752,7 +802,8 @@
             "d": "play"
           },
           "answer": "c",
-          "explanation": "In standard news reports covering this Graphene Flagship study, paragraph 4 introduces graphene as a game changer where the pronoun 'it' directly refers back to graphene as the subject enabling higher efficiency."
+          "explanation": "In standard news reports covering this Graphene Flagship study, paragraph 4 introduces graphene as a game changer where the pronoun 'it' directly refers back to graphene as the subject enabling higher efficiency.",
+          "seq_number": 51
         }
       ]
     }
