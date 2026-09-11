@@ -214,7 +214,7 @@ export default function Home() {
                       : "border-slate-200 hover:border-slate-300 bg-white text-slate-600"
                   }`}
                 >
-                  ⏱️ Timed (45 min)
+                  Timed (45 min)
                 </button>
                 <button
                   type="button"
@@ -225,7 +225,7 @@ export default function Home() {
                       : "border-slate-200 hover:border-slate-300 bg-white text-slate-600"
                   }`}
                 >
-                  📖 Untimed Practice
+                  Untimed Practice
                 </button>
               </div>
             </div>
@@ -234,12 +234,9 @@ export default function Home() {
               type="button"
               disabled={!name.trim()}
               onClick={() => setStarted(true)}
-              className="w-full mt-2 py-3.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm transition-all duration-150 shadow-sm disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+              className="w-full mt-2 py-3.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm transition-all duration-150 shadow-sm disabled:opacity-40 disabled:cursor-not-allowed text-center"
             >
-              <span>Start Examination</span>
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
+              Start Examination
             </button>
           </div>
         </div>
@@ -684,12 +681,9 @@ function QuizUI({
             type="button"
             disabled={currentIndex === 0}
             onClick={() => setCurrentIndex((prev) => prev - 1)}
-            className="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-xl border border-slate-200 text-slate-700 font-medium text-xs sm:text-sm hover:bg-slate-50 hover:border-slate-300 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+            className="inline-flex items-center justify-center px-5 py-2.5 rounded-xl border border-slate-200 text-slate-700 font-medium text-xs sm:text-sm hover:bg-slate-50 hover:border-slate-300 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
           >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
-            </svg>
-            <span>Previous</span>
+            Previous
           </button>
 
           {/* Middle Progress Summary */}
@@ -707,23 +701,17 @@ function QuizUI({
             <button
               type="button"
               onClick={() => setCurrentIndex((prev) => prev + 1)}
-              className="inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs sm:text-sm transition-all shadow-xs"
+              className="inline-flex items-center justify-center px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs sm:text-sm transition-all shadow-xs"
             >
-              <span>Next</span>
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-              </svg>
+              Next
             </button>
           ) : (
             <button
               type="button"
               onClick={() => setShowConfirmSubmit(true)}
-              className="inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs sm:text-sm transition-all shadow-xs"
+              className="inline-flex items-center justify-center px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs sm:text-sm transition-all shadow-xs"
             >
-              <span>Submit Exam</span>
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-              </svg>
+              Submit Exam
             </button>
           )}
         </div>
@@ -892,7 +880,7 @@ function ResultView({ result, onRestart }: { result: ExamResult; onRestart: () =
                 onClick={() => setReviewMode(false)}
                 className="px-3 py-1.5 rounded-lg border border-slate-200 text-slate-600 text-xs font-semibold hover:bg-slate-50 transition-colors"
               >
-                ← Back to Summary
+                Back to Summary
               </button>
               <span className="text-xs sm:text-sm font-bold text-slate-900">
                 Review: Question {reviewIndex + 1} of {result.questions.length}
@@ -1008,7 +996,7 @@ function ResultView({ result, onRestart }: { result: ExamResult; onRestart: () =
               onClick={() => setReviewIndex((p) => p - 1)}
               className="px-4 py-2 rounded-xl border border-slate-200 text-xs font-semibold text-slate-700 hover:bg-slate-50 disabled:opacity-30 disabled:cursor-not-allowed"
             >
-              ← Previous
+              Previous
             </button>
             <span className="text-xs text-slate-500 font-medium">
               {reviewIndex + 1} / {result.questions.length}
@@ -1019,7 +1007,7 @@ function ResultView({ result, onRestart }: { result: ExamResult; onRestart: () =
               onClick={() => setReviewIndex((p) => p + 1)}
               className="px-4 py-2 rounded-xl border border-slate-200 text-xs font-semibold text-slate-700 hover:bg-slate-50 disabled:opacity-30 disabled:cursor-not-allowed"
             >
-              Next →
+              Next
             </button>
           </div>
         </div>
