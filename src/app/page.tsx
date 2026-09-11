@@ -25,26 +25,58 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-50 font-sans text-gray-900">
       <div className="bg-white p-8 rounded-2xl shadow-lg max-w-md w-full">
         <h1 className="text-2xl font-bold mb-6 text-center text-blue-900">EPRT Practice</h1>
-        <div className="flex flex-col gap-4">
-          <input 
-            type="text"
-            className="border p-3 rounded-lg w-full outline-none focus:ring-2 focus:ring-blue-400"
-            placeholder="Masukkan Nama Anda" 
-            value={name}
-            onChange={e => setName(e.target.value)} 
-          />
-          <select 
-            className="border p-3 rounded-lg w-full outline-none focus:ring-2 focus:ring-blue-400"
-            value={mode}
-            onChange={e => setMode(e.target.value)}
-          >
-            <option value="">-- Pilih Modul --</option>
-            <option value="reading">Reading Saja</option>
-            <option value="grammar">Grammar Saja</option>
-            <option value="both">Reading + Grammar</option>
-          </select>
+        <div className="flex flex-col gap-5">
+          <div>
+            <label className="block text-sm font-semibold text-gray-700 mb-1">Nama Lengkap</label>
+            <input 
+              type="text"
+              className="border p-3 rounded-lg w-full outline-none focus:ring-2 focus:ring-blue-400"
+              placeholder="Masukkan Nama Anda" 
+              value={name}
+              onChange={e => setName(e.target.value)} 
+            />
+          </div>
+
+          <div>
+            <label className="block text-sm font-semibold text-gray-700 mb-2">Pilih Modul Ujian</label>
+            <div className="flex flex-col gap-3">
+              <label className={`flex items-center p-4 rounded-xl border-2 cursor-pointer transition-all ${mode === 'reading' ? 'border-blue-600 bg-blue-50' : 'border-gray-200 hover:border-blue-300'}`}>
+                <input 
+                  type="checkbox" 
+                  name="module" 
+                  checked={mode === 'reading'} 
+                  onChange={() => setMode(mode === 'reading' ? '' : 'reading')}
+                  className="w-5 h-5 text-blue-600 rounded focus:ring-blue-500"
+                />
+                <span className="ml-3 font-medium text-gray-800">Reading Comprehension</span>
+              </label>
+
+              <label className={`flex items-center p-4 rounded-xl border-2 cursor-pointer transition-all ${mode === 'grammar' ? 'border-blue-600 bg-blue-50' : 'border-gray-200 hover:border-blue-300'}`}>
+                <input 
+                  type="checkbox" 
+                  name="module" 
+                  checked={mode === 'grammar'} 
+                  onChange={() => setMode(mode === 'grammar' ? '' : 'grammar')}
+                  className="w-5 h-5 text-blue-600 rounded focus:ring-blue-500"
+                />
+                <span className="ml-3 font-medium text-gray-800">Structure & Grammar</span>
+              </label>
+
+              <label className={`flex items-center p-4 rounded-xl border-2 cursor-pointer transition-all ${mode === 'both' ? 'border-blue-600 bg-blue-50' : 'border-gray-200 hover:border-blue-300'}`}>
+                <input 
+                  type="checkbox" 
+                  name="module" 
+                  checked={mode === 'both'} 
+                  onChange={() => setMode(mode === 'both' ? '' : 'both')}
+                  className="w-5 h-5 text-blue-600 rounded focus:ring-blue-500"
+                />
+                <span className="ml-3 font-medium text-gray-800">Keduanya (Reading + Grammar)</span>
+              </label>
+            </div>
+          </div>
+
           <button 
-            className="bg-blue-600 text-white p-3 rounded-lg font-semibold hover:bg-blue-700 disabled:opacity-50 transition-colors"
+            className="mt-2 bg-blue-600 text-white p-3.5 rounded-xl font-semibold hover:bg-blue-700 disabled:opacity-50 transition-colors shadow-md"
             disabled={!name || !mode}
             onClick={() => setStarted(true)}
           >
@@ -78,7 +110,6 @@ function QuizUI({ mode, onFinish }: { mode: string, onFinish: (s: {correct: numb
        for (let i = 0; i < g.length; i += 2) {
          list.push({
            type: 'grammar',
-           // Assign sequence numbers to grammar too so they don't reset to 1 in the UI
            questions: g.slice(i, i + 2).map((q, idx) => ({...q, seq_number: i + idx + 1}))
          });
        }
