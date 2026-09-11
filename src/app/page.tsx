@@ -15,7 +15,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-4">Hasil Ujian</h2>
           <p className="text-lg mb-2">Nama: <span className="font-semibold">{name}</span></p>
           <p className="text-xl">Score: <span className="font-bold text-blue-600">{score.correct} / {score.total}</span></p>
-          <button onClick={() => window.location.reload()} className="mt-8 bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Mulai Ulang</button>
+          <button onClick={() => window.location.reload()} className="mt-8 bg-blue-600 text-white px-6 py-2.5 rounded-xl font-medium hover:bg-blue-700 shadow-md">Mulai Ulang</button>
         </div>
       </div>
     );
@@ -25,12 +25,12 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-50 font-sans text-gray-900">
       <div className="bg-white p-8 rounded-2xl shadow-lg max-w-md w-full">
         <h1 className="text-2xl font-bold mb-6 text-center text-blue-900">EPRT Practice</h1>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-6">
           <div>
-            <label className="block text-sm font-semibold text-gray-700 mb-1">Nama Lengkap</label>
+            <label className="block text-sm font-semibold text-gray-700 mb-1.5">Nama Lengkap</label>
             <input 
               type="text"
-              className="border p-3 rounded-lg w-full outline-none focus:ring-2 focus:ring-blue-400"
+              className="border border-gray-300 p-3 rounded-xl w-full outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-800"
               placeholder="Masukkan Nama Anda" 
               value={name}
               onChange={e => setName(e.target.value)} 
@@ -38,46 +38,52 @@ export default function Home() {
           </div>
 
           <div>
-            <label className="block text-sm font-semibold text-gray-700 mb-2">Pilih Modul Ujian</label>
-            <div className="flex flex-col gap-3">
-              <label className={`flex items-center p-4 rounded-xl border-2 cursor-pointer transition-all ${mode === 'reading' ? 'border-blue-600 bg-blue-50' : 'border-gray-200 hover:border-blue-300'}`}>
-                <input 
-                  type="checkbox" 
-                  name="module" 
-                  checked={mode === 'reading'} 
-                  onChange={() => setMode(mode === 'reading' ? '' : 'reading')}
-                  className="w-5 h-5 text-blue-600 rounded focus:ring-blue-500"
-                />
-                <span className="ml-3 font-medium text-gray-800">Reading Comprehension</span>
-              </label>
+            <label className="block text-sm font-semibold text-gray-700 mb-2.5">Pilih Modul Ujian</label>
+            <div className="grid grid-cols-1 gap-2.5">
+              <button
+                type="button"
+                onClick={() => setMode('reading')}
+                className={`w-full py-3.5 px-4 rounded-xl font-medium text-sm transition-all text-left flex items-center justify-between border-2 ${
+                  mode === 'reading'
+                    ? 'border-blue-600 bg-blue-50 text-blue-900 shadow-sm'
+                    : 'border-gray-200 bg-white text-gray-700 hover:border-blue-300 hover:bg-gray-50'
+                }`}
+              >
+                <span>Reading Comprehension</span>
+                {mode === 'reading' && <span className="text-blue-600 font-bold">✓</span>}
+              </button>
 
-              <label className={`flex items-center p-4 rounded-xl border-2 cursor-pointer transition-all ${mode === 'grammar' ? 'border-blue-600 bg-blue-50' : 'border-gray-200 hover:border-blue-300'}`}>
-                <input 
-                  type="checkbox" 
-                  name="module" 
-                  checked={mode === 'grammar'} 
-                  onChange={() => setMode(mode === 'grammar' ? '' : 'grammar')}
-                  className="w-5 h-5 text-blue-600 rounded focus:ring-blue-500"
-                />
-                <span className="ml-3 font-medium text-gray-800">Structure & Grammar</span>
-              </label>
+              <button
+                type="button"
+                onClick={() => setMode('grammar')}
+                className={`w-full py-3.5 px-4 rounded-xl font-medium text-sm transition-all text-left flex items-center justify-between border-2 ${
+                  mode === 'grammar'
+                    ? 'border-blue-600 bg-blue-50 text-blue-900 shadow-sm'
+                    : 'border-gray-200 bg-white text-gray-700 hover:border-blue-300 hover:bg-gray-50'
+                }`}
+              >
+                <span>Structure & Grammar</span>
+                {mode === 'grammar' && <span className="text-blue-600 font-bold">✓</span>}
+              </button>
 
-              <label className={`flex items-center p-4 rounded-xl border-2 cursor-pointer transition-all ${mode === 'both' ? 'border-blue-600 bg-blue-50' : 'border-gray-200 hover:border-blue-300'}`}>
-                <input 
-                  type="checkbox" 
-                  name="module" 
-                  checked={mode === 'both'} 
-                  onChange={() => setMode(mode === 'both' ? '' : 'both')}
-                  className="w-5 h-5 text-blue-600 rounded focus:ring-blue-500"
-                />
-                <span className="ml-3 font-medium text-gray-800">Keduanya (Reading + Grammar)</span>
-              </label>
+              <button
+                type="button"
+                onClick={() => setMode('both')}
+                className={`w-full py-3.5 px-4 rounded-xl font-medium text-sm transition-all text-left flex items-center justify-between border-2 ${
+                  mode === 'both'
+                    ? 'border-blue-600 bg-blue-50 text-blue-900 shadow-sm'
+                    : 'border-gray-200 bg-white text-gray-700 hover:border-blue-300 hover:bg-gray-50'
+                }`}
+              >
+                <span>Keduanya (Reading + Grammar)</span>
+                {mode === 'both' && <span className="text-blue-600 font-bold">✓</span>}
+              </button>
             </div>
           </div>
 
           <button 
-            className="mt-2 bg-blue-600 text-white p-3.5 rounded-xl font-semibold hover:bg-blue-700 disabled:opacity-50 transition-colors shadow-md"
-            disabled={!name || !mode}
+            className="w-full bg-blue-600 text-white p-3.5 rounded-xl font-semibold hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors shadow-md mt-2"
+            disabled={!name.trim() || !mode}
             onClick={() => setStarted(true)}
           >
             Mulai Ujian
