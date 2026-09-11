@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans, Playfair_Display, JetBrains_Mono } from "next/font/google";
+import { Inter, Lora, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const jakarta = Plus_Jakarta_Sans({
+// Use Inter for clean UI (very readable on all devices)
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
 });
 
-const playfair = Playfair_Display({
+// Use Lora for reading text (proven highly readable for long passages)
+const lora = Lora({
   subsets: ["latin"],
   variable: "--font-serif",
 });
@@ -18,8 +20,8 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "InggrisStudent — English Proficiency Practice",
-  description: "Interactive EPRT & TOEFL preparation platform with authentic passages and structured exercises.",
+  title: "EPRT Interactive Practice",
+  description: "Test your English Reading and Grammar proficiency.",
 };
 
 export default function RootLayout({
@@ -28,8 +30,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${jakarta.variable} ${playfair.variable} ${jetbrains.variable}`}>
-      <body className="min-h-screen bg-[#FDFBF7] text-[#1E293B] antialiased selection:bg-[#FDE047] selection:text-[#0F172A]">
+    <html lang="en" className={`${inter.variable} ${lora.variable} ${jetbrains.variable}`}>
+      <body className="min-h-screen bg-[#F8FAFC] text-[#334155] antialiased">
         {children}
       </body>
     </html>

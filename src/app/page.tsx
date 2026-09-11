@@ -21,410 +21,442 @@ interface ReadingSection {
 }
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState<"reading" | "grammar">("reading");
+  // App Phase: 'welcome' | 'test' | 'result'
+  const [phase, setPhase] = useState<"welcome" | "test" | "result">("welcome");
+  const [studentName, setStudentName] = useState("");
 
-  // Reading Mode State
+  // Test Flow: 'reading' -> 'grammar'
+  const [stage, setStage] = useState<"reading" | "grammar">("reading");
+
+  // Reading State
   const [readingIndex, setReadingIndex] = useState(0);
-  const [readingQuestionBatch, setReadingQuestionBatch] = useState(0); // 0 = first 2, 1 = next 2...
-  const [readingUserAnswers, setReadingUserAnswers] = useState<{ [key: string]: string }>({});
+  const [readingQuestionBatch, setReadingQuestionBatch] = useState(0); // 2 questions per batch
+  const [readingAnswers, setReadingAnswers] = useState<{ [key: string]: string }>({});
 
-  // Grammar Mode State
-  const [grammarBatch, setGrammarBatch] = useState(0);
-  const [grammarUserAnswers, setGrammarUserAnswers] = useState<{ [key: number]: string }>({});
+  // Grammar State
+  const [grammarBatch, setGrammarBatch] = useState(0); // 2 questions per batch
+  const [grammarAnswers, setGrammarAnswers] = useState<{ [key: number]: string }>({});
 
-  // Finished & Results State
-  const [isFinished, setIsFinished] = useState(false);
-
-  // Current Reading Section
   const currentReading: ReadingSection = questionsData.reading[readingIndex] || {
-    title: "",
+    title: "Reading Passage",
     passage: "",
     questions: [],
   };
 
-  // Questions to display (MAX 2 questions per page)
+  const totalReadingBatches = Math.ceil((currentReading.questions?.length || 0) / 2);
+  const totalGrammarBatches = Math.ceil((questionsData.grammar?.length || 0) / 2);
+
+  // Current batch questions (max 2)
   const currentBatchQuestions = useMemo(() => {
-    if (activeTab === "reading") {
+    if (stage === "reading") {
       const start = readingQuestionBatch * 2;
       return currentReading.questions.slice(start, start + 2);
     } else {
       const start = grammarBatch * 2;
       return questionsData.grammar.slice(start, start + 2);
     }
-  }, [activeTab, readingQuestionBatch, currentReading, grammarBatch]);
+  }, [stage, readingQuestionBatch, currentReading, grammarBatch]);
 
-  const totalBatchesInCurrentSection = Math.ceil(
-    (activeTab === "reading" ? currentReading.questions.length : questionsData.grammar.length) / 2
-  );
+  const handleStartTest = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!studentName.trim()) return;
+    setPhase("test");
+    setStage("reading");
+  };
 
-  const handleSelectAnswer = (qKey: string | number, choice: string) => {
-    if (activeTab === "reading") {
-      setReadingUserAnswers((prev) => ({ ...prev, [qKey]: choice }));
+  const handleSelectAnswer = (qKey: string | number, choiceKey: string) => {
+    if (stage === "reading") {
+      setReadingAnswers((prev) => ({ ...prev, [qKey]: choiceKey }));
     } else {
-      setGrammarUserAnswers((prev) => ({ ...prev, [Number(qKey)]: choice }));
+      setGrammarAnswers((prev) => ({ ...prev, [Number(qKey)]: choiceKey }));
     }
   };
 
   const handleNext = () => {
-    if (activeTab === "reading") {
-      if (readingQuestionBatch + 1 < totalBatchesInCurrentSection) {
+    if (stage === "reading") {
+      if (readingQuestionBatch + 1 < totalReadingBatches) {
         setReadingQuestionBatch((prev) => prev + 1);
       } else if (readingIndex + 1 < questionsData.reading.length) {
         setReadingIndex((prev) => prev + 1);
         setReadingQuestionBatch(0);
       } else {
-        setIsFinished(true);
+        // Move to Grammar automatically after Reading finishes
+        setStage("grammar");
+        setGrammarBatch(0);
       }
     } else {
-      if (grammarBatch + 1 < totalBatchesInCurrentSection) {
+      if (grammarBatch + 1 < totalGrammarBatches) {
         setGrammarBatch((prev) => prev + 1);
       } else {
-        setIsFinished(true);
+        // Finish test and show final score
+        setPhase("result");
       }
     }
   };
 
   const handleBack = () => {
-    if (activeTab === "reading") {
+    if (stage === "reading") {
       if (readingQuestionBatch > 0) {
         setReadingQuestionBatch((prev) => prev - 1);
       } else if (readingIndex > 0) {
         setReadingIndex((prev) => prev - 1);
-        const prevSectionLen = questionsData.reading[readingIndex - 1].questions.length;
-        setReadingQuestionBatch(Math.max(0, Math.ceil(prevSectionLen / 2) - 1));
+        const prevLen = questionsData.reading[readingIndex - 1].questions.length;
+        setReadingQuestionBatch(Math.max(0, Math.ceil(prevLen / 2) - 1));
       }
     } else {
       if (grammarBatch > 0) {
         setGrammarBatch((prev) => prev - 1);
+      } else {
+        // Go back to the last reading batch
+        setStage("reading");
+        const lastRIndex = questionsData.reading.length - 1;
+        setReadingIndex(lastRIndex);
+        const lastRLen = questionsData.reading[lastRIndex].questions.length;
+        setReadingQuestionBatch(Math.max(0, Math.ceil(lastRLen / 2) - 1));
       }
     }
   };
 
-  // Calculate Scores
+  // Score Calculation
   const scoreResults = useMemo(() => {
-    let readingCorrect = 0;
-    let readingTotal = 0;
+    let rCorrect = 0;
+    let rTotal = 0;
     questionsData.reading.forEach((sec, sIdx) => {
       sec.questions.forEach((q, qIdx) => {
-        readingTotal++;
-        const key = `${sIdx}-${qIdx}`;
-        if (readingUserAnswers[key]?.toLowerCase() === q.answer?.toLowerCase()) {
-          readingCorrect++;
+        rTotal++;
+        const k = `${sIdx}-${qIdx}`;
+        if (readingAnswers[k]?.toLowerCase() === q.answer?.toLowerCase()) {
+          rCorrect++;
         }
       });
     });
 
-    let grammarCorrect = 0;
-    const grammarTotal = questionsData.grammar.length;
-    questionsData.grammar.forEach((q, idx) => {
-      if (grammarUserAnswers[idx]?.toLowerCase() === q.answer?.toLowerCase()) {
-        grammarCorrect++;
+    let gCorrect = 0;
+    const gTotal = questionsData.grammar.length;
+    questionsData.grammar.forEach((q, gIdx) => {
+      if (grammarAnswers[gIdx]?.toLowerCase() === q.answer?.toLowerCase()) {
+        gCorrect++;
       }
     });
 
+    const overallTotal = rTotal + gTotal;
+    const overallCorrect = rCorrect + gCorrect;
+    const overallPct = overallTotal ? Math.round((overallCorrect / overallTotal) * 100) : 0;
+
     return {
-      readingCorrect,
-      readingTotal,
-      readingPct: readingTotal ? Math.round((readingCorrect / readingTotal) * 100) : 0,
-      grammarCorrect,
-      grammarTotal,
-      grammarPct: grammarTotal ? Math.round((grammarCorrect / grammarTotal) * 100) : 0,
+      rCorrect,
+      rTotal,
+      rPct: rTotal ? Math.round((rCorrect / rTotal) * 100) : 0,
+      gCorrect,
+      gTotal,
+      gPct: gTotal ? Math.round((gCorrect / gTotal) * 100) : 0,
+      overallCorrect,
+      overallTotal,
+      overallPct,
     };
-  }, [readingUserAnswers, grammarUserAnswers]);
+  }, [readingAnswers, grammarAnswers]);
 
   return (
-    <div className="min-h-screen flex flex-col justify-between">
-      {/* Editorial Top Navigation */}
-      <header className="border-b border-[#E2E8F0] bg-white/80 backdrop-blur-md sticky top-0 z-50">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <span className="w-8 h-8 rounded-full bg-[#1E293B] text-white flex items-center justify-center font-serif text-base font-bold shadow-sm">
+    <div className="min-h-screen flex flex-col justify-between bg-[#F8FAFC]">
+      {/* Navbar */}
+      <header className="bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
+          <div className="flex items-center gap-2.5">
+            <span className="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center text-sm shadow-sm">
               E
             </span>
-            <div>
-              <h1 className="font-serif text-lg font-bold text-[#0F172A] tracking-tight">
-                InggrisStudent
-              </h1>
-              <p className="text-xs text-[#64748B] font-mono">EPRT Preparation Platform</p>
-            </div>
+            <span className="font-bold text-slate-800 text-base sm:text-lg tracking-tight">
+              InggrisStudent
+            </span>
           </div>
 
-          {!isFinished && (
-            <div className="flex bg-[#F1F5F9] p-1 rounded-xl border border-[#E2E8F0]">
-              <button
-                onClick={() => {
-                  setActiveTab("reading");
-                  setIsFinished(false);
-                }}
-                className={`px-4 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                  activeTab === "reading"
-                    ? "bg-white text-[#0F172A] shadow-sm"
-                    : "text-[#64748B] hover:text-[#0F172A]"
+          {phase === "test" && (
+            <div className="flex items-center gap-2">
+              <span
+                className={`px-3 py-1 rounded-full text-xs font-semibold ${
+                  stage === "reading"
+                    ? "bg-blue-100 text-blue-700"
+                    : "bg-emerald-100 text-emerald-700"
                 }`}
               >
-                Reading Comprehension
-              </button>
-              <button
-                onClick={() => {
-                  setActiveTab("grammar");
-                  setIsFinished(false);
-                }}
-                className={`px-4 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                  activeTab === "grammar"
-                    ? "bg-white text-[#0F172A] shadow-sm"
-                    : "text-[#64748B] hover:text-[#0F172A]"
-                }`}
-              >
-                Structure & Grammar
-              </button>
+                Stage: {stage === "reading" ? "1. Reading" : "2. Grammar"}
+              </span>
+              <span className="text-xs font-medium text-slate-500 hidden sm:inline">
+                {studentName}
+              </span>
             </div>
           )}
-
-          <div className="flex items-center gap-2">
-            {!isFinished && (
-              <button
-                onClick={() => setIsFinished(true)}
-                className="text-xs font-mono font-medium px-3 py-1.5 bg-[#FEF2F2] text-[#991B1B] border border-[#FECACA] rounded-lg hover:bg-[#FEE2E2] transition-colors"
-              >
-                Finish Attempt
-              </button>
-            )}
-          </div>
         </div>
       </header>
 
-      {/* Main Content Area */}
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 py-8 w-full flex-1">
-        {isFinished ? (
-          /* RESULT / SCOREBOARD VIEW */
-          <div className="paper-card rounded-2xl p-8 sm:p-12 text-center max-w-xl mx-auto">
-            <span className="inline-block p-4 rounded-full bg-[#FEF9C3] text-[#854D0E] font-serif text-3xl mb-4">
-              🎓
-            </span>
-            <h2 className="font-serif text-3xl font-bold text-[#0F172A] mb-2">
-              Practice Completed!
-            </h2>
-            <p className="text-sm text-[#64748B] mb-8">
-              Here is your authentic evaluation based on verified EPRT criteria.
+      {/* Main Content */}
+      <main className="max-w-4xl mx-auto px-4 py-6 w-full flex-1">
+        {/* PHASE 1: WELCOME FORM */}
+        {phase === "welcome" && (
+          <div className="max-w-md mx-auto my-12 p-6 sm:p-8 bg-white border border-slate-200 rounded-2xl shadow-sm text-center">
+            <div className="w-12 h-12 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4 text-2xl">
+              📝
+            </div>
+            <h1 className="text-2xl font-bold text-slate-900 mb-2">EPRT Test Practice</h1>
+            <p className="text-sm text-slate-600 mb-6">
+              Enter your full name to start the test. You will complete Reading Comprehension first, followed by Structure & Grammar.
             </p>
 
+            <form onSubmit={handleStartTest} className="space-y-4">
+              <div className="text-left">
+                <label className="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
+                  Student Name
+                </label>
+                <input
+                  type="text"
+                  required
+                  placeholder="Enter your name..."
+                  value={studentName}
+                  onChange={(e) => setStudentName(e.target.value)}
+                  className="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900 text-sm"
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl text-sm transition-colors shadow-sm"
+              >
+                Start Practice Test →
+              </button>
+            </form>
+          </div>
+        )}
+
+        {/* PHASE 2: ACTIVE TEST */}
+        {phase === "test" && (
+          <div className="space-y-6">
+            {stage === "reading" ? (
+              <>
+                {/* Reading Passage (Fixed Top Card) */}
+                <div className="bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm">
+                  <div className="flex items-center justify-between border-b border-slate-100 pb-3 mb-3">
+                    <span className="text-xs font-semibold text-blue-600 uppercase tracking-wider bg-blue-50 px-2.5 py-1 rounded-md">
+                      Passage {readingIndex + 1} of {questionsData.reading.length}
+                    </span>
+                    <span className="text-xs text-slate-500">
+                      {currentReading.title}
+                    </span>
+                  </div>
+                  <div className="text-slate-800 text-sm sm:text-base leading-relaxed font-serif max-h-60 sm:max-h-72 overflow-y-auto pr-2 whitespace-pre-line">
+                    {currentReading.passage}
+                  </div>
+                </div>
+
+                {/* Questions (Max 2) */}
+                <div className="space-y-4">
+                  {currentBatchQuestions.map((q, idx) => {
+                    const globalQIdx = readingQuestionBatch * 2 + idx;
+                    const answerKey = `${readingIndex}-${globalQIdx}`;
+                    const selected = readingAnswers[answerKey];
+
+                    return (
+                      <div
+                        key={globalQIdx}
+                        className="bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm"
+                      >
+                        <div className="flex items-start gap-3 mb-4">
+                          <span className="w-6 h-6 rounded-full bg-slate-100 text-slate-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
+                            {globalQIdx + 1}
+                          </span>
+                          <p className="font-medium text-slate-900 text-sm sm:text-base leading-snug">
+                            {q.question}
+                          </p>
+                        </div>
+
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                          {Object.entries(q.choices).map(([choiceKey, choiceVal]) => {
+                            if (!choiceVal) return null;
+                            const isSelected = selected?.toLowerCase() === choiceKey.toLowerCase();
+                            return (
+                              <button
+                                key={choiceKey}
+                                onClick={() => handleSelectAnswer(answerKey, choiceKey)}
+                                className={`flex items-center gap-3 p-3 rounded-xl border text-left text-sm transition-all ${
+                                  isSelected
+                                    ? "border-blue-600 bg-blue-50/50 text-blue-900 font-medium shadow-xs"
+                                    : "border-slate-200 hover:border-slate-300 bg-white text-slate-700"
+                                }`}
+                              >
+                                <span
+                                  className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-bold uppercase shrink-0 ${
+                                    isSelected
+                                      ? "bg-blue-600 text-white"
+                                      : "bg-slate-100 text-slate-500"
+                                  }`}
+                                >
+                                  {choiceKey}
+                                </span>
+                                <span className="flex-1 leading-normal">{choiceVal}</span>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </>
+            ) : (
+              /* Grammar Questions (Max 2) */
+              <div className="space-y-4">
+                <div className="bg-emerald-50 border border-emerald-200 text-emerald-800 p-4 rounded-xl text-xs font-medium flex items-center justify-between">
+                  <span>Part 2: Structure & Grammar</span>
+                  <span>
+                    Questions {grammarBatch * 2 + 1} -{" "}
+                    {Math.min(grammarBatch * 2 + 2, questionsData.grammar.length)} of{" "}
+                    {questionsData.grammar.length}
+                  </span>
+                </div>
+
+                {currentBatchQuestions.map((q, idx) => {
+                  const globalQIdx = grammarBatch * 2 + idx;
+                  const selected = grammarAnswers[globalQIdx];
+
+                  return (
+                    <div
+                      key={globalQIdx}
+                      className="bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm"
+                    >
+                      <div className="flex items-start gap-3 mb-4">
+                        <span className="w-6 h-6 rounded-full bg-slate-100 text-slate-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
+                          {globalQIdx + 1}
+                        </span>
+                        <p className="font-medium text-slate-900 text-sm sm:text-base leading-snug">
+                          {q.question}
+                        </p>
+                      </div>
+
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                        {Object.entries(q.choices).map(([choiceKey, choiceVal]) => {
+                          if (!choiceVal) return null;
+                          const isSelected = selected?.toLowerCase() === choiceKey.toLowerCase();
+                          return (
+                            <button
+                              key={choiceKey}
+                              onClick={() => handleSelectAnswer(globalQIdx, choiceKey)}
+                              className={`flex items-center gap-3 p-3 rounded-xl border text-left text-sm transition-all ${
+                                isSelected
+                                  ? "border-emerald-600 bg-emerald-50/50 text-emerald-900 font-medium shadow-xs"
+                                  : "border-slate-200 hover:border-slate-300 bg-white text-slate-700"
+                              }`}
+                            >
+                              <span
+                                className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-bold uppercase shrink-0 ${
+                                  isSelected
+                                    ? "bg-emerald-600 text-white"
+                                    : "bg-slate-100 text-slate-500"
+                                }`}
+                              >
+                                {choiceKey}
+                              </span>
+                              <span className="flex-1 leading-normal">{choiceVal}</span>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+
+            {/* Bottom Controls */}
+            <div className="flex items-center justify-between pt-4">
+              <button
+                onClick={handleBack}
+                disabled={stage === "reading" && readingIndex === 0 && readingQuestionBatch === 0}
+                className="px-4 py-2.5 rounded-xl border border-slate-300 text-slate-700 text-xs sm:text-sm font-medium hover:bg-slate-50 disabled:opacity-30 disabled:pointer-events-none transition-colors"
+              >
+                ← Back
+              </button>
+
+              <button
+                onClick={handleNext}
+                className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-semibold shadow-sm transition-colors"
+              >
+                {stage === "reading" &&
+                readingIndex === questionsData.reading.length - 1 &&
+                readingQuestionBatch + 1 >= totalReadingBatches
+                  ? "Proceed to Grammar →"
+                  : stage === "grammar" && grammarBatch + 1 >= totalGrammarBatches
+                  ? "Submit Test & View Results"
+                  : "Next →"}
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* PHASE 3: FINAL SCOREBOARD */}
+        {phase === "result" && (
+          <div className="max-w-xl mx-auto my-8 p-6 sm:p-8 bg-white border border-slate-200 rounded-2xl shadow-sm text-center">
+            <div className="w-16 h-16 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
+              🎓
+            </div>
+            <h2 className="text-2xl font-bold text-slate-900 mb-1">Official Test Result</h2>
+            <p className="text-sm font-medium text-slate-500 mb-6">Student: {studentName}</p>
+
+            {/* Overall Score Badge */}
+            <div className="bg-slate-900 text-white rounded-2xl p-6 mb-6 shadow-md">
+              <p className="text-xs uppercase font-semibold text-slate-400 tracking-wider mb-1">
+                Overall Score
+              </p>
+              <div className="text-4xl font-extrabold text-white mb-1">
+                {scoreResults.overallPct}%
+              </div>
+              <p className="text-xs text-slate-300">
+                {scoreResults.overallCorrect} correct out of {scoreResults.overallTotal} questions
+              </p>
+            </div>
+
+            {/* Detailed Section Breakdown */}
             <div className="grid grid-cols-2 gap-4 mb-8">
-              <div className="p-5 rounded-xl border border-[#E2E8F0] bg-[#F8FAFC]">
-                <p className="text-xs uppercase font-mono tracking-wider text-[#64748B] mb-1">
+              <div className="p-4 rounded-xl border border-slate-200 bg-slate-50 text-left">
+                <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">
                   Reading Score
                 </p>
-                <div className="text-3xl font-bold font-serif text-[#0F172A]">
-                  {scoreResults.readingPct}%
-                </div>
-                <p className="text-xs text-[#64748B] mt-1">
-                  {scoreResults.readingCorrect} of {scoreResults.readingTotal} correct
+
+                <div className="text-2xl font-bold text-slate-900">{scoreResults.rPct}%</div>
+                <p className="text-xs text-slate-600 mt-1">
+                  {scoreResults.rCorrect} / {scoreResults.rTotal} Correct
                 </p>
               </div>
 
-              <div className="p-5 rounded-xl border border-[#E2E8F0] bg-[#F8FAFC]">
-                <p className="text-xs uppercase font-mono tracking-wider text-[#64748B] mb-1">
+              <div className="p-4 rounded-xl border border-slate-200 bg-slate-50 text-left">
+                <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">
                   Grammar Score
                 </p>
-                <div className="text-3xl font-bold font-serif text-[#0F172A]">
-                  {scoreResults.grammarPct}%
-                </div>
-                <p className="text-xs text-[#64748B] mt-1">
-                  {scoreResults.grammarCorrect} of {scoreResults.grammarTotal} correct
+
+                <div className="text-2xl font-bold text-slate-900">{scoreResults.gPct}%</div>
+                <p className="text-xs text-slate-600 mt-1">
+                  {scoreResults.gCorrect} / {scoreResults.gTotal} Correct
                 </p>
               </div>
             </div>
 
             <button
               onClick={() => {
-                setIsFinished(false);
+                setPhase("welcome");
                 setReadingIndex(0);
                 setReadingQuestionBatch(0);
                 setGrammarBatch(0);
-                setReadingUserAnswers({});
-                setGrammarUserAnswers({});
+                setReadingAnswers({});
+                setGrammarAnswers({});
               }}
-              className="w-full py-3 bg-[#0F172A] text-white rounded-xl font-medium text-sm hover:bg-[#1E293B] shadow-md transition-all"
+              className="w-full py-3 bg-slate-900 hover:bg-slate-800 text-white font-semibold rounded-xl text-sm transition-colors shadow-sm"
             >
-              Start Practice Again
-            </button>
-          </div>
-        ) : activeTab === "reading" ? (
-          /* READING VIEW */
-          <div className="space-y-6">
-            {/* Story / Passage Section (Fixed on top of questions) */}
-            <div className="paper-card rounded-2xl p-6 sm:p-8 bg-white border border-[#E2E8F0] shadow-sm">
-              <div className="flex items-center justify-between border-b border-[#F1F5F9] pb-4 mb-4">
-                <div className="flex items-center gap-2">
-                  <span className="text-xs font-mono font-bold uppercase tracking-wider px-2.5 py-1 bg-[#EEF2FF] text-[#4338CA] rounded-md">
-                    Passage {readingIndex + 1} of {questionsData.reading.length}
-                  </span>
-                  <h3 className="font-serif font-bold text-[#0F172A] text-base sm:text-lg">
-                    {currentReading.title}
-                  </h3>
-                </div>
-                <span className="text-xs font-mono text-[#64748B]">
-                  {currentReading.questions.length} Questions
-                </span>
-              </div>
-
-              {/* Scrollable Story Text */}
-              <div className="text-[#334155] text-sm sm:text-base leading-relaxed max-h-[320px] overflow-y-auto pr-3 font-serif whitespace-pre-line selection:bg-[#FEF08A]">
-                {currentReading.passage || "No passage required for this context."}
-              </div>
-            </div>
-
-            {/* Questions Batch (Max 2 Questions per Next) */}
-            <div className="space-y-6">
-              {currentBatchQuestions.map((q, idx) => {
-                const globalQIdx = readingQuestionBatch * 2 + idx;
-                const answerKey = `${readingIndex}-${globalQIdx}`;
-                const selected = readingUserAnswers[answerKey];
-
-                return (
-                  <div
-                    key={globalQIdx}
-                    className="paper-card rounded-2xl p-6 bg-white border border-[#E2E8F0]"
-                  >
-                    <div className="flex items-start gap-3 mb-4">
-                      <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#F1F5F9] text-[#0F172A] flex items-center justify-center text-xs font-bold font-mono">
-                        {globalQIdx + 1}
-                      </span>
-                      <p className="font-medium text-[#0F172A] text-base leading-snug">
-                        {q.question}
-                      </p>
-                    </div>
-
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-1">
-                      {Object.entries(q.choices).map(([choiceKey, choiceVal]) => {
-                        const isSelected = selected?.toLowerCase() === choiceKey.toLowerCase();
-                        return (
-                          <button
-                            key={choiceKey}
-                            onClick={() => handleSelectAnswer(answerKey, choiceKey)}
-                            className={`flex items-center gap-3 p-3.5 rounded-xl border text-left text-sm transition-all ${
-                              isSelected
-                                ? "border-[#0F172A] bg-[#F8FAFC] shadow-sm"
-                                : "border-[#E2E8F0] hover:border-[#CBD5E1] bg-white"
-                            }`}
-                          >
-                            <span
-                              className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-mono uppercase font-bold transition-colors ${
-                                isSelected
-                                  ? "bg-[#0F172A] text-white"
-                                  : "bg-[#F1F5F9] text-[#64748B]"
-                              }`}
-                            >
-                              {choiceKey}
-                            </span>
-                            <span className="flex-1 text-[#334155] leading-snug font-normal">
-                              {choiceVal}
-                            </span>
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        ) : (
-          /* GRAMMAR VIEW */
-          <div className="space-y-6">
-            <div className="flex items-center justify-between pb-2 border-b border-[#E2E8F0]">
-              <span className="text-xs font-mono font-bold uppercase tracking-wider px-2.5 py-1 bg-[#F0FDF4] text-[#15803D] rounded-md">
-                Structure & Grammar
-              </span>
-              <span className="text-xs font-mono text-[#64748B]">
-                Question {grammarBatch * 2 + 1} -{" "}
-                {Math.min(grammarBatch * 2 + 2, questionsData.grammar.length)} of{" "}
-                {questionsData.grammar.length}
-              </span>
-            </div>
-
-            <div className="space-y-6">
-              {currentBatchQuestions.map((q, idx) => {
-                const globalQIdx = grammarBatch * 2 + idx;
-                const selected = grammarUserAnswers[globalQIdx];
-
-                return (
-                  <div
-                    key={globalQIdx}
-                    className="paper-card rounded-2xl p-6 bg-white border border-[#E2E8F0]"
-                  >
-                    <div className="flex items-start gap-3 mb-4">
-                      <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#F1F5F9] text-[#0F172A] flex items-center justify-center text-xs font-bold font-mono">
-                        {globalQIdx + 1}
-                      </span>
-                      <p className="font-medium text-[#0F172A] text-base leading-snug">
-                        {q.question}
-                      </p>
-                    </div>
-
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-1">
-                      {Object.entries(q.choices).map(([choiceKey, choiceVal]) => {
-                        const isSelected = selected?.toLowerCase() === choiceKey.toLowerCase();
-                        return (
-                          <button
-                            key={choiceKey}
-                            onClick={() => handleSelectAnswer(globalQIdx, choiceKey)}
-                            className={`flex items-center gap-3 p-3.5 rounded-xl border text-left text-sm transition-all ${
-                              isSelected
-                                ? "border-[#0F172A] bg-[#F8FAFC] shadow-sm"
-                                : "border-[#E2E8F0] hover:border-[#CBD5E1] bg-white"
-                            }`}
-                          >
-                            <span
-                              className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-mono uppercase font-bold transition-colors ${
-                                isSelected
-                                  ? "bg-[#0F172A] text-white"
-                                  : "bg-[#F1F5F9] text-[#64748B]"
-                              }`}
-                            >
-                              {choiceKey}
-                            </span>
-                            <span className="flex-1 text-[#334155] leading-snug font-normal">
-                              {choiceVal}
-                            </span>
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        )}
-
-        {/* Global Bottom Navigation Controls */}
-        {!isFinished && (
-          <div className="flex items-center justify-between pt-8 mt-8 border-t border-[#E2E8F0]">
-            <button
-              onClick={handleBack}
-              disabled={
-                activeTab === "reading"
-                  ? readingIndex === 0 && readingQuestionBatch === 0
-                  : grammarBatch === 0
-              }
-              className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-semibold border border-[#CBD5E1] text-[#334155] hover:bg-white disabled:opacity-30 disabled:pointer-events-none transition-all shadow-sm"
-            >
-              ← Previous Questions
-            </button>
-
-            <button
-              onClick={handleNext}
-              className="flex items-center gap-2 px-6 py-2.5 rounded-xl text-xs font-semibold bg-[#0F172A] text-white hover:bg-[#1E293B] shadow-md transition-all"
-            >
-              Next Questions →
+              Take Another Test
             </button>
           </div>
         )}
       </main>
 
-      {/* Subtle Hand-Crafted Footer */}
-      <footer className="border-t border-[#E2E8F0] py-6 text-center text-xs text-[#94A3B8] font-mono">
-        Handcrafted for English Language Practice • Built with Next.js & Vercel
+      <footer className="text-center py-4 border-t border-slate-200 text-xs text-slate-400">
+        InggrisStudent EPRT Practice • Fully Responsive Mobile UI
       </footer>
     </div>
   );

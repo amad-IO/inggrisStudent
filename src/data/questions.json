@@ -7,12 +7,13 @@
         {
           "question": "What is the main idea of the text?",
           "choices": {
-            "a": "Black-owned business are systematically prevented from accelerating",
-            "b": "Communicating the local role model to help black-owned business",
-            "c": "Ideas proposed to enhance the black-owned business"
+            "a": "Black-owned businesses are systematically prevented from accelerating",
+            "b": "Communicating local role models to help Black-owned businesses",
+            "c": "Ideas proposed to enhance Black-owned businesses",
+            "d": "The vital necessity of venture capital for minority startups"
           },
           "answer": "c",
-          "explanation": "The central theme consists of actionable ideas to strengthen Black enterprise."
+          "explanation": "The passage outlines numbered, actionable recommendations—specifically authentic communication and improved bank financing—aimed at supporting and scaling Black-owned businesses."
         },
         {
           "question": "...mation\n...icle, what\n...the",
@@ -28,30 +29,35 @@
         {
           "question": "title for this",
           "choices": {
-            "a": "Graphene Flagship",
-            "b": "Cost of Energy",
-            "c": "for Solar Cells"
+            "a": "Effective Ways to Support Black Entrepreneurs",
+            "b": "The Crucial Role of Venture Capital in Startup Growth",
+            "c": "Overcoming Racial Barriers in Corporate Presentations",
+            "d": "Navigating Commercial Bank Loans for Small Enterprises"
           },
           "answer": "a",
-          "explanation": "Graphene Flagship is the principal subject of the research initiative passage."
+          "explanation": "The passage provides numbered recommendations focused directly on addressing the genuine needs of Black business owners, covering culturally attuned communication and access to essential bank financing."
         },
         {
           "question": "What is the meaning of 'scalability' in paragraph 8 ?",
           "choices": {
-            "a": "Independence"
+            "a": "Independence",
+            "b": "Capacity to expand",
+            "c": "Financial stability",
+            "d": "Immediate profitability"
           },
-          "answer": "a",
-          "explanation": "Only complete option listed in the prompt choices."
+          "answer": "b",
+          "explanation": "In business, scalability denotes the ability of an enterprise to grow and manage increased operational volume or revenue efficiently."
         },
         {
           "question": "you read in the paragraphs of the article, what is the main idea of the text?",
           "choices": {
-            "a": "Black-owned business are systematically prevented from accelerating",
-            "b": "Communicating the local role model to help black-owned business",
-            "c": "Ideas proposed to enhance the black-owned business"
+            "a": "Systemic barriers preventing Black-owned businesses from accelerating",
+            "b": "Methods of effective communication to inspire Black entrepreneurs",
+            "c": "Proposals and strategies to enhance Black-owned businesses",
+            "d": "The necessity of prioritizing venture capital over traditional bank loans"
           },
           "answer": "c",
-          "explanation": "Numbered sections enumerate specific strategies to improve conditions for Black entrepreneurs."
+          "explanation": "The text uses numbered actionable recommendations ('Words need to be relevant', 'Improve access to bank finance') focused on addressing practical ways to support Black entrepreneurs, making a summary of proposed solutions the correct main idea."
         },
         {
           "question": "The word \"frivolous\" in the second sentence of paragraph two could best be replaced by which of the following?",
@@ -89,22 +95,24 @@
         {
           "question": "of the article, what is the main idea of the text?",
           "choices": {
-            "a": "Black-owned business are systematically prevented from accelerating",
-            "b": "Communicating the local role model to help black-owned business",
-            "c": "Ideas proposed to enhance the black-owned business"
+            "a": "Systemic barriers that prevent Black-owned businesses from accelerating",
+            "b": "The importance of using local role models to mentor Black entrepreneurs",
+            "c": "Proposals and actionable advice to enhance Black-owned businesses",
+            "d": "The necessity of prioritizing venture capital over traditional bank financing"
           },
           "answer": "c",
-          "explanation": "Passage structure provides proposals addressing finance and communication for Black-owned business."
+          "explanation": "The text presents a numbered list of concrete recommendations aimed at supporting Black entrepreneurs, such as tailoring communication appropriately and improving access to commercial bank credit."
         },
         {
           "question": "... of the text?",
           "choices": {
-            "a": "Black-owned business are systematically prevented from accelerating",
-            "b": "Communicating the local role model to help black-owned business",
-            "c": "Ideas proposed to enhance the black-owned business"
+            "a": "Black-owned businesses are systematically prevented from accelerating",
+            "b": "Communicating with local role models to help Black-owned businesses",
+            "c": "Ideas proposed to enhance Black-owned businesses",
+            "d": "The role of venture capital in scaling minority startups"
           },
           "answer": "c",
-          "explanation": "Text lays out targeted recommendations to advance Black-owned businesses."
+          "explanation": "The text presents a list of actionable recommendations—such as ensuring advice is genuinely relevant and prioritizing bank credit over venture capital—aimed at supporting and improving Black-owned enterprises."
         },
         {
           "question": "What does the pronoun \"it\" in the 5th paragraph refer to?",
@@ -120,34 +128,46 @@
         {
           "question": "Based on the information you read in the paragraphs of the article, what is the main idea of the text?",
           "choices": {
-            "a": "Black-owned business are systematically prevented from accelerating",
-            "b": "Communicating the local role model to help black-owned business",
-            "c": "Ideas proposed to enhance the black-owned business"
+            "a": "Black-owned businesses are systematically prevented from accelerating",
+            "b": "Communicating local role models to help Black-owned businesses",
+            "c": "Ideas proposed to enhance Black-owned businesses",
+            "d": "The necessity of securing venture capital over bank finance"
           },
           "answer": "c",
-          "explanation": "Passage outlines numbered actionable proposals to support and expand Black-owned businesses."
+          "explanation": "The numbered sections outline specific recommendations (relevant communication and access to bank credit) to support and grow Black-owned enterprises."
         },
         {
           "question": "It can be inferred from the passage that...",
           "choices": {
-            "a": "layered materials will be non pivotal in reaching the"
+            "a": "overcoming economic hardship inherently equips a speaker to understand racial business barriers",
+            "b": "traditional bank loans are more critical than venture capital for scaling most businesses",
+            "c": "venture capital provides the most dependable funding route for minority-owned startups",
+            "d": "Black entrepreneurs should prioritize venture capital pitches over seeking commercial loans"
           },
-          "answer": "a",
-          "explanation": "Only complete option provided among the question choices."
+          "answer": "b",
+          "explanation": "Paragraph 3 identifies bank finance as the primary driver for expanding businesses from small to large, while labeling venture capital an unlikely side show."
         },
         {
           "question": "Which of the following is NOT mentioned about economic globalization?",
           "choices": {
-            "a": "Economic globalization applies the process of outsourcing."
+            "a": "Economic globalization applies the process of outsourcing.",
+            "b": "It facilitates the integration of domestic markets into the global economy.",
+            "c": "It completely eradicates income inequality between developed and developing nations.",
+            "d": "It is accelerated by advancements in transportation and communications."
           },
-          "answer": "a",
-          "explanation": "Text discusses economic globalization without explicitly citing outsourcing in the excluded context."
+          "answer": "c",
+          "explanation": "Economic globalization increases market interconnectedness, outsourcing, and technological integration, but standard analyses do not claim it eliminates income inequality between developed and developing nations."
         },
         {
           "question": "The following statements are TRUE according to the text EXCEPT _____.",
-          "choices": {},
+          "choices": {
+            "a": "Venture capital serves as the primary and most dependable catalyst for scaling Black-owned businesses.",
+            "b": "The white speaker caused unintended offense by assuming his past poverty mirrored the struggles of Black business owners.",
+            "c": "Securing venture capital funding is statistically improbable for the vast majority of pitch applicants.",
+            "d": "Access to commercial loans and bank credit represents a more significant growth driver than venture capital."
+          },
           "answer": "a",
-          "explanation": "Default correct selection for incomplete option set."
+          "explanation": "The passage states that bank finance, not venture capital, is the real driver for scaling businesses, describing the focus on venture capital as a diversion."
         },
         {
           "question": "Select one:",
@@ -162,9 +182,14 @@
         },
         {
           "question": "The word 'achieve' in paragraph 1 can be best replaced by ....",
-          "choices": {},
+          "choices": {
+            "a": "attain",
+            "b": "pursue",
+            "c": "attempt",
+            "d": "undertake"
+          },
           "answer": "a",
-          "explanation": "Standard choice assignment in incomplete field."
+          "explanation": "'Attain' means to succeed in getting or achieving something, making it the most accurate replacement for 'achieve'."
         },
         {
           "question": "[cut off] ...icle, what ... the",
@@ -180,12 +205,13 @@
         {
           "question": "...title for this",
           "choices": {
-            "a": "...ene Flagship",
-            "b": "Cost of Energy",
-            "c": "...for Solar Cells"
+            "a": "The Critical Role of Venture Capital in Minority Enterprises",
+            "b": "How to Effectively Support Black Entrepreneurs",
+            "c": "Navigating Public Speaking for Diverse Audiences",
+            "d": "Overcoming Childhood Poverty Through Entrepreneurship"
           },
-          "answer": "a",
-          "explanation": "Fragment corresponds to Graphene Flagship as the primary title."
+          "answer": "b",
+          "explanation": "The passage outlines numbered actionable recommendations to genuinely address challenges faced by Black business owners, prioritizing bank financing over venture capital and emphasizing culturally competent communication."
         },
         {
           "question": "What does \"it\" in the last sentence of the last paragraph refer to?",
@@ -233,9 +259,14 @@
         },
         {
           "question": "... title for this",
-          "choices": {},
+          "choices": {
+            "a": "Meaningful Ways to Support Black Entrepreneurs",
+            "b": "The Pitfalls of Seeking Venture Capital",
+            "c": "How to Address Racial Bias in Public Speaking",
+            "d": "Overcoming Childhood Poverty Through Entrepreneurship"
+          },
           "answer": "a",
-          "explanation": "First available choice corresponds to the titular subject."
+          "explanation": "The passage outlines practical, numbered recommendations focused on effectively engaging with and financing Black business owners."
         }
       ]
     },
@@ -246,12 +277,13 @@
         {
           "question": "...he information... the article, what... is the best title",
           "choices": {
-            "a": "Solar System",
-            "b": "...ures of the Earth",
-            "c": "Earth's Systems"
+            "a": "The Solar System",
+            "b": "Features of the Earth",
+            "c": "Earth's Systems",
+            "d": "Environmental Scientists"
           },
           "answer": "c",
-          "explanation": "Earth's Systems directly matches the primary topic discussed throughout the text."
+          "explanation": "The passage introduces Earth's features to explain that no single feature dominates, then explicitly outlines that there are five main systems (or spheres) that sustain the planet. Therefore, 'Earth's Systems' encompasses the central theme."
         },
         {
           "question": "The paragraph following the passage will most likely discuss",
@@ -267,12 +299,13 @@
         {
           "question": "Based on the information in the article, what do you think is the best title",
           "choices": {
-            "b": "Solar System",
+            "a": "Environmental Scientists",
+            "b": "The Solar System",
             "c": "Features of the Earth",
             "d": "Earth's Systems"
           },
           "answer": "d",
-          "explanation": "The passage focuses on the interconnected systems and spheres that comprise Earth."
+          "explanation": "The passage introduces Earth's components to transition into a detailed examination of the planet's five interconnected spheres, making 'Earth's Systems' the central focus."
         },
         {
           "question": "... the article, what ... is the best title",
@@ -294,12 +327,13 @@
         {
           "question": "...he information ... the article, what ...k is the best title",
           "choices": {
+            "a": "The Biosphere",
             "b": "Solar System",
-            "c": "...ures of the Earth",
+            "c": "Features of the Earth",
             "d": "Earth's Systems"
           },
           "answer": "d",
-          "explanation": "The text describes interactions between Earth's interconnected spheres, including the hydrosphere, geosphere, cryosphere, and biosphere, making 'Earth's Systems' the best title."
+          "explanation": "The passage details the interactions among the geosphere, hydrosphere, cryosphere, and biosphere, which collectively constitute Earth's systems."
         },
         {
           "question": "Based on the information you read in the article, what do you think is the best title for it?",
@@ -321,10 +355,13 @@
         {
           "question": "According to the first paragraph, the topic is mainly discussed ____________",
           "choices": {
-            "a": "the description of the major features and systems of our home"
+            "a": "the definition and broad characteristics of globalization",
+            "b": "the history and mechanical developments of the Industrial Revolution",
+            "c": "the health risks associated with American fast-food chains",
+            "d": "the political conflicts caused by international trade"
           },
           "answer": "a",
-          "explanation": "Option a is the only substantive choice provided."
+          "explanation": "Paragraph 1 defines globalization, illustrates it through cultural and consumer examples, and describes how it connects different parts of the world."
         },
         {
           "question": "What does \"they\" in the fourth sentence of the fifth paragraph refer to?",
@@ -374,20 +411,24 @@
         {
           "question": "From the passage, it can be inferred that the characteristics of influencers include _____.",
           "choices": {
-            "a": "advertising brands on social media, selling goods and services, and investing big capital",
-            "b": "putting startup costs, buying materials to create goods, and providing"
+            "a": "connecting with online audiences, shaping follower behavior, and persuading people to purchase products",
+            "b": "investing substantial startup capital, purchasing raw materials, and managing business operations",
+            "c": "conducting formal market research, avoiding commercial partnerships, and designing proprietary manufacturing systems",
+            "d": "taking on traditional financial liabilities, operating physical retail spaces, and distributing wholesale goods"
           },
           "answer": "a",
-          "explanation": "Influencer characteristics in the text center on social media presence and promoting products to followers."
+          "explanation": "The passage defines an influencer as someone with the power to affect or change people and their behavior through social media, frequently to encourage them to buy products."
         },
         {
           "question": "Based on the information you read in the paragraphs of the article, what is the main idea of the text?",
           "choices": {
-            "a": "Black-owned business are systematically prevented from accelerating",
-            "b": "Communicating the local role model to help black-owned business"
+            "a": "Influencers who use their platforms to launch commercial ventures share essential characteristics with entrepreneurs.",
+            "b": "Traditional entrepreneurs are increasingly dependent on social media influencers to drive retail sales.",
+            "c": "Social media influencers face fewer financial risks than business owners because of their online following.",
+            "d": "Running an independent online brand requires a completely different skill set than managing a conventional business."
           },
           "answer": "a",
-          "explanation": "Option a is the primary complete choice provided among the available options."
+          "explanation": "The passage contrasts and connects influencers and entrepreneurs, concluding that influencers who build businesses from their platforms qualify as entrepreneurs because both organize ventures, take risks, and drive commerce."
         },
         {
           "question": "The word 'enormous' in the last sentence of the second paragraph could best be replaced by which of the following?",
@@ -403,10 +444,13 @@
         {
           "question": "The following statements are TRUE according to the passage EXCEPT",
           "choices": {
-            "a": "The fifth system, that is formed in the cryosphere,"
+            "a": "Entrepreneurs take on the risks and management of a business venture.",
+            "b": "Influencers possess the power to shape consumer behavior through social media.",
+            "c": "All social media influencers are categorized as entrepreneurs regardless of whether they launch a business.",
+            "d": "Entrepreneurs often establish businesses to address an identified need for products or services."
           },
-          "answer": "a",
-          "explanation": "Option a is the only substantive choice provided."
+          "answer": "c",
+          "explanation": "The passage states that influencers who start their own business fall under the definition of an entrepreneur, indicating that being an influencer does not automatically make one an entrepreneur."
         }
       ]
     },
@@ -452,77 +496,100 @@
           "question": "The word \"it\" in the fifth paragraph refers to?",
           "choices": {
             "a": "The focus of some banks",
-            "b": "CEO of Ohio-based general contractor",
-            "c": "The duration of getting some financial supp..."
+            "b": "The CEO of an Ohio-based general contractor",
+            "c": "The duration of getting some financial support",
+            "d": "The expansion of international financial markets"
           },
           "answer": "c",
-          "explanation": "Pronoun reference aligns with the duration of financial assistance."
+          "explanation": "The pronoun 'it' replaces a singular non-person concept discussed in the context of loan procurement timelines, making the duration of receiving financial support the grammatically and contextually correct referent."
         },
         {
           "question": "What is probably the next paragraph about?",
           "choices": {
             "a": "Comments from national leaders about this matter",
-            "b": "Make black owned business as social priority"
+            "b": "The decline of local cultures due to foreign consumer goods",
+            "c": "The continued growth of globalization in the twentieth century",
+            "d": "Methods for supporting small domestic businesses against foreign competitors"
           },
-          "answer": "b",
-          "explanation": "Subsequent paragraphs in the source passage emphasize prioritizing Black-owned businesses."
+          "answer": "c",
+          "explanation": "The final sentence establishes a chronological transition focusing on the historical acceleration of globalization during the Industrial Revolution. The next paragraph logically continues this historical timeline into subsequent eras such as the twentieth century."
         },
         {
           "question": "It is implied from the passage that...",
           "choices": {
-            "a": "National role models influence more than local role models."
+            "a": "National role models influence more than local role models.",
+            "b": "Lifestyles and cultural habits across different nations are becoming more uniform.",
+            "c": "The Industrial Revolution restricted companies to using domestic raw materials.",
+            "d": "American fast-food chains are solely responsible for modern globalization."
           },
-          "answer": "a",
-          "explanation": "Option a is the only non-empty claim available."
+          "answer": "b",
+          "explanation": "The passage notes that the movement of people, ideas, and goods makes experiences worldwide more similar, directly implying increased cultural and lifestyle uniformity."
         },
         {
           "question": "The following statements are true, EXCEPT...",
           "choices": {
-            "a": "Access to supplier supply chain managers is given to supplier-diversity managers"
+            "a": "Fast-food chains like McDonald's have become common in countries such as China.",
+            "b": "The Industrial Revolution significantly slowed down the spread of globalization.",
+            "c": "Greater mobility of people and goods makes global experiences increasingly similar.",
+            "d": "Factories and mills utilized raw materials sourced from distant regions."
           },
-          "answer": "a",
-          "explanation": "Option a is the only substantive choice provided."
+          "answer": "b",
+          "explanation": "The passage states globalization was accelerated by the Industrial Revolution, directly contradicting the claim that it slowed down."
         },
         {
           "question": "It is most likely that ________.",
           "choices": {
-            "a": "for entrepreneurs, building their brands is created when they start their business",
-            "b": "for influencers, brand has"
+            "a": "people in different countries share more common lifestyle experiences today than in the past",
+            "b": "the Industrial Revolution reduced international trade by focusing strictly on local factory production",
+            "c": "American fast-food brands have struggled to gain acceptance in Asian markets like China",
+            "d": "globalization prevents foreign corporations from acquiring raw materials from distant regions"
           },
           "answer": "a",
-          "explanation": "Option a represents the only fully formed statement."
+          "explanation": "The passage states that easier movement of goods, people, and ideas makes world experiences more similar, illustrated by global brands like McDonald's."
         },
         {
           "question": "Which of the following statements is TRUE according to the text?",
           "choices": {
-            "a": "In an ecosystem not all living organisms are called the biotic factor..."
+            "a": "Western brands such as McDonald's are rarely seen in countries like China.",
+            "b": "The Industrial Revolution helped accelerate the process of globalization.",
+            "c": "The increased movement of goods has made people's life experiences less similar.",
+            "d": "Early industrial factories relied exclusively on locally sourced raw materials."
           },
-          "answer": "a",
-          "explanation": "Option a is the only substantive choice provided."
+          "answer": "b",
+          "explanation": "The passage states that globalization was accelerated with the Industrial Revolution as factories expanded and utilized raw materials from distant lands."
         },
         {
           "question": "Which of the following is NOT mentioned about influencers?",
           "choices": {
             "a": "Influencers add advertisements and create another revenue stream using social media channels.",
-            "b": "Influencers are paid for"
+            "b": "Influencers are paid for endorsing commercial products and services.",
+            "c": "Influencers rely primarily on traditional print media to expand their audience reach.",
+            "d": "Influencers build interactive relationships with followers through specialized content."
           },
-          "answer": "a",
-          "explanation": "Option a is the only complete option presented."
+          "answer": "c",
+          "explanation": "Options a, b, and d represent standard functions of digital influencers, while option c incorrectly associates them with traditional print media, making it the detail not mentioned."
         },
         {
           "question": "What is the meaning of the word \"scale-up\" in the first paragraph?",
           "choices": {
             "a": "maintain",
-            "b": "layer up"
+            "b": "layer up",
+            "c": "expand",
+            "d": "diminish"
           },
-          "answer": "b",
-          "explanation": "Contextual usage of scaling up corresponds most closely to expanding or layering up capacity."
+          "answer": "c",
+          "explanation": "To scale up means to increase the size, scope, or extent of an operation, which aligns with expand."
         },
         {
           "question": "Which of the following statements is TRUE according to the passage?",
-          "choices": {},
+          "choices": {
+            "a": "The Industrial Revolution accelerated the process of globalization.",
+            "b": "Global trade prevented companies from sourcing raw materials from distant regions.",
+            "c": "American brands like McDonald's have failed to establish a presence in China.",
+            "d": "The cross-border exchange of ideas has made people's daily lives increasingly dissimilar."
+          },
           "answer": "a",
-          "explanation": "No distinct choices provided; selected default option a."
+          "explanation": "The passage directly states that globalization was accelerated during the Industrial Revolution as mills and factories expanded and used raw materials from distant regions."
         }
       ]
     },
@@ -550,12 +617,13 @@
         {
           "question": "Based on the information you read in the article, what is the main idea of the passage?",
           "choices": {
-            "a": "The global trade",
-            "b": "The global network",
-            "c": "The information age"
+            "a": "The expansion and impact of global trade",
+            "b": "The rise of the global computer network",
+            "c": "The beginnings of the information age",
+            "d": "The economic dominance of multinational corporations"
           },
           "answer": "a",
-          "explanation": "The passage highlights the international economy, exports, tariffs, and free trade agreements, identifying global trade as the central theme."
+          "explanation": "The passage focuses primarily on how the international economy has become globalized through international trade, free trade agreements, and import-export relationships between nations."
         },
         {
           "question": "The word \"accelerated\" in the first sentence of paragraph two could best be replaced by ____.",
@@ -644,10 +712,13 @@
         {
           "question": "The paragraph following the text will most likely discuss ___.",
           "choices": {
-            "a": "global trade has improved neither the economy of poorer countries nor"
+            "a": "negative environmental consequences of modern international trade",
+            "b": "factors that spurred the growth of globalization in the nineteenth century",
+            "c": "the cultural dominance of American fast-food chains worldwide",
+            "d": "strategies used by developing countries to resist economic integration"
           },
-          "answer": "a",
-          "explanation": "Option a is the only substantive choice provided for the question."
+          "answer": "b",
+          "explanation": "The final sentence introduces the acceleration of globalization during the nineteenth century, indicating the next paragraph will elaborate on nineteenth-century historical developments."
         }
       ]
     },
@@ -658,12 +729,13 @@
         {
           "question": "[...] best title for this [...]",
           "choices": {
+            "a": "Limits of Silicon Solar Cells",
             "b": "Graphene Flagship",
-            "c": "[...]zed Cost of Energy",
-            "d": "[...]hene for Solar Cells"
+            "c": "Levelized Cost of Energy",
+            "d": "Graphene for Solar Cells"
           },
           "answer": "d",
-          "explanation": "Option d matches 'Graphene for Solar Cells', which directly reflects the central topic of using graphene to improve solar cell efficiency."
+          "explanation": "The passage highlights the technological limitations of silicon and perovskites before introducing graphene as the breakthrough solution for solar cells."
         },
         {
           "question": "The tone of the author is best described as ____",
@@ -680,11 +752,12 @@
           "question": "best title for this",
           "choices": {
             "a": "Graphene Flagship",
-            "b": "Cost of Energy",
-            "c": "Graphene for Solar Cells"
+            "b": "Cost of Solar Energy",
+            "c": "Graphene for Solar Cells",
+            "d": "The Limits of Silicon"
           },
           "answer": "c",
-          "explanation": "The text focuses on replacing or augmenting traditional silicon and perovskite solar cells with graphene."
+          "explanation": "The passage outlines the limitations of silicon and perovskites in solar panel development, then introduces graphene as the solution for improving solar cell efficiency and production."
         }
       ]
     },
@@ -697,10 +770,11 @@
           "choices": {
             "a": "Modern Business",
             "b": "Social Media for Influencers",
-            "c": "Influencers: The Modern Entrepreneur"
+            "c": "Influencers: The Modern Entrepreneur",
+            "d": "The History of Traditional Entrepreneurs"
           },
           "answer": "c",
-          "explanation": "The text directly links social media influencers to business and calls them 'the modern entrepreneur'."
+          "explanation": "The passage focuses on the transition of social media influencers into business owners and compares their economic impact to traditional business creators, making 'Influencers: The Modern Entrepreneur' the most accurate title."
         }
       ]
     },
@@ -711,12 +785,13 @@
         {
           "question": "Based on the information you read in the article, what is the title of the passage?",
           "choices": {
-            "a": "a Modern Business",
+            "a": "A Modern Business Guide",
             "b": "Social Media for Influencers",
-            "c": "Influencers: The Modern Entrepreneur"
+            "c": "Influencers: The Modern Entrepreneur",
+            "d": "How to Secure Venture Capital"
           },
           "answer": "c",
-          "explanation": "The text contrasts traditional entrepreneurs with influencers to examine whether influencers function as contemporary entrepreneurs, fitting the title 'Influencers: The Modern Entrepreneur'."
+          "explanation": "The passage compares traditional entrepreneurs with social media influencers, highlighting startup costs, funding methods, and operational requirements to illustrate how influencers function as contemporary entrepreneurs."
         }
       ]
     },
@@ -744,10 +819,13 @@
         {
           "question": "What is discussed in the third paragraph?",
           "choices": {
+            "a": "The historical development of traditional business models before social media",
+            "b": "The financial risks entrepreneurs face when securing bank loans",
+            "c": "The legal restrictions governments place on digital marketing agencies",
             "d": "Influencers affect or change people and their behavior through social media and then get them to buy something"
           },
           "answer": "d",
-          "explanation": "Option d provides the only substantive description of influencers' roles, while the other choices are invalid placeholders."
+          "explanation": "Paragraph 1 introduces influencers as modern entrepreneurs, paragraph 2 defines entrepreneurship, and paragraph 3 describes how influencers leverage audience behavior on social platforms to generate commerce."
         }
       ]
     },
@@ -758,18 +836,24 @@
         {
           "question": "The word \"honed\" in sentence 6 of paragraph 4 could best be replaced by which of the following?",
           "choices": {
-            "a": "Replaced"
+            "a": "Replaced",
+            "b": "Refined",
+            "c": "Discovered",
+            "d": "Analyzed"
           },
-          "answer": "a",
-          "explanation": "Option a is the only substantive choice provided."
+          "answer": "b",
+          "explanation": "The verb 'hone' means to refine or perfect a process, tool, or skill over time. 'Refined' is the direct synonym."
         },
         {
           "question": "What is most likely in the paragraph following the passage?",
           "choices": {
-            "a": "Mechanical instruction on solar panel energy"
+            "a": "Mechanical instruction on solar panel energy conversion",
+            "b": "Specific details of the low-cost manufacturing process for the tandem cells",
+            "c": "A historical overview of pure silicon extraction techniques",
+            "d": "Government regulations regarding commercial solar farm subsidies"
           },
-          "answer": "a",
-          "explanation": "Option a is the only substantive choice provided."
+          "answer": "b",
+          "explanation": "The final sentence introduces an envisioned manufacturing method that lowers production costs for large-area tandem solar cells, making the technical details of this production process the logical topic for the next paragraph."
         }
       ]
     },
@@ -797,20 +881,24 @@
         {
           "question": "Which of the following statements is TRUE according to the text?",
           "choices": {
-            "a": "The black business owners do not benefit from the ability to speak openly.",
-            "b": "There are a lot of exclusive"
+            "a": "The Graphene Flagship has prioritized solar energy applications since its inception.",
+            "b": "The pilot production line was abandoned due to high Levelized Cost of Energy.",
+            "c": "The first graphene-based solar farm was completed three years ago.",
+            "d": "The Graphene Flagship project conflicts with the UN Sustainable Development Goals."
           },
-          "answer": "c",
-          "explanation": "Statements (a) and (b) are irrelevant and unsupported by the text."
+          "answer": "a",
+          "explanation": "The text states that the application of graphene to solar energy generation was recognized as a priority since the start of the Graphene Flagship."
         },
         {
           "question": "The passage indicated that...",
           "choices": {
-            "a": "graphene has become the most intriguing material in solar energy",
-            "b": "scaling up the production of solar panels is the only"
+            "a": "applying graphene to solar power generation has been prioritized from the project's inception",
+            "b": "scaling up the production of solar panels is the only way to meet UN goals",
+            "c": "graphene has become the most intriguing material in commercial solar energy",
+            "d": "the first graphene-based solar farm was successfully completed three years ago"
           },
-          "answer": "c",
-          "explanation": "Neither statement (a) nor statement (b) is directly supported by the passage."
+          "answer": "a",
+          "explanation": "The passage directly states that the application of graphene to solar energy generation was recognized as a priority since the start of the Graphene Flagship initiative."
         }
       ]
     },
@@ -900,11 +988,13 @@
         {
           "question": "...title for this...",
           "choices": {
-            "a": "...ene Flagship",
-            "b": "...Cost of Energy"
+            "a": "Advancing Solar Energy within the Graphene Flagship",
+            "b": "Methods for Reducing the Levelized Cost of Energy",
+            "c": "Overcoming Silicon Limits in Pilot Line Fabrication",
+            "d": "The United Nations Strategy for Global Solar Farms"
           },
           "answer": "a",
-          "explanation": "The passage repeatedly highlights initiatives, projects, and goals central to the Graphene Flagship program, making it the most comprehensive title."
+          "explanation": "Choice A captures the main scope of the passage, which focuses on the Graphene Flagship's application of graphene to solar cell fabrication and solar energy projects. Choices B, C, and D focus on narrow supporting details or mischaracterize contextual mentions."
         }
       ]
     },
@@ -915,12 +1005,13 @@
         {
           "question": "best title for this",
           "choices": {
-            "a": "Graphene Flagship",
-            "b": "ized Cost of Energy",
-            "c": "hene for Solar Cells"
+            "a": "The Graphene Flagship Initiative",
+            "b": "Reducing the Levelized Cost of Energy",
+            "c": "Graphene for Solar Cells",
+            "d": "Commercialization of Silicon Panels"
           },
           "answer": "c",
-          "explanation": "The passage highlights the application and potential of graphene in advancing solar cell technology. Option c represents 'Graphene for Solar Cells', which directly captures the main focus."
+          "explanation": "The passage focuses directly on the role of graphene in developing efficient, cost-effective solar cells."
         }
       ]
     },
@@ -931,12 +1022,13 @@
         {
           "question": "... best title for this ...",
           "choices": {
-            "a": "... Graphene Flagship",
-            "b": "...zed Cost of Energy",
-            "c": "...ene for Solar Cells"
+            "a": "The Milestones of the Graphene Flagship",
+            "b": "Reducing the Levelized Cost of Energy",
+            "c": "Harnessing Graphene for Solar Cells",
+            "d": "Resolving Compatibility Issues in Silicon Wafers"
           },
           "answer": "c",
-          "explanation": "The passage discusses utilizing graphene and related materials (GRMs) to enhance perovskite-silicon tandem photovoltaic (PV) solar cells."
+          "explanation": "The passage focuses directly on the integration of graphene and related materials (GRMs) to enhance the performance, stability, and scalability of perovskite-silicon tandem solar cells."
         }
       ]
     },
@@ -981,19 +1073,24 @@
         {
           "question": "All of the following are true, EXCEPT?",
           "choices": {
-            "a": "Graphene could be incorporate using the widespread solution of manufacturing methods."
+            "a": "Graphene could be incorporated using widespread solution-based manufacturing methods.",
+            "b": "Solar energy generation has been a recognized priority since the start of the Graphene Flagship.",
+            "c": "The GRAPES pilot line works toward overcoming efficiency barriers and lowering the Levelized Cost of Energy.",
+            "d": "The work of the Graphene Flagship conflicts with the Sustainable Development Goals."
           },
-          "answer": "a",
-          "explanation": "Option a contains ungrammatical phrasing ('could be incorporate') and is the only substantive choice provided to satisfy the exception condition."
+          "answer": "d",
+          "explanation": "The passage explicitly states that the Graphene Flagship strongly aligns with the Sustainable Development Goals, making choice d false."
         },
         {
           "question": "Which of the following is TRUE?",
           "choices": {
-            "a": "Scientists found alternatives for energy efficiency this decade.",
-            "b": "Physical law used to limit"
+            "a": "The Graphene Flagship initiative aligns with the Sustainable Development Goals.",
+            "b": "The use of perovskite-silicon tandem cells increases the Levelized Cost of Energy.",
+            "c": "Solar energy generation was deemed a low priority at the project's start.",
+            "d": "The first graphene-based solar farm has been operational for several decades."
           },
           "answer": "a",
-          "explanation": "Option a forms a complete, grammatically valid statement supported by the passage context regarding recent advances in solar efficiency under the Graphene Flagship project."
+          "explanation": "The passage explicitly states that the work of the Graphene Flagship strongly aligns with the Sustainable Development Goals."
         }
       ]
     },
