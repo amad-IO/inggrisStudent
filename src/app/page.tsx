@@ -1,463 +1,209 @@
 "use client";
-
-import { useState, useMemo } from "react";
-import questionsData from "@/data/questions.json";
-
-interface ChoiceMap {
-  [key: string]: string | null | undefined;
-}
-
-interface Question {
-  question: string;
-  choices: ChoiceMap;
-  answer: string;
-  explanation?: string;
-}
-
-interface ReadingSection {
-  title: string;
-  passage: string;
-  questions: Question[];
-}
+import { useState, useMemo } from 'react';
+import questionsData from '../data/questions.json';
 
 export default function Home() {
-  // App Phase: 'welcome' | 'test' | 'result'
-  const [phase, setPhase] = useState<"welcome" | "test" | "result">("welcome");
-  const [studentName, setStudentName] = useState("");
+  const [name, setName] = useState('');
+  const [mode, setMode] = useState('');
+  const [started, setStarted] = useState(false);
+  const [score, setScore] = useState<{correct: number, total: number} | null>(null);
 
-  // Test Flow: 'reading' -> 'grammar'
-  const [stage, setStage] = useState<"reading" | "grammar">("reading");
+  if (score) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-50 text-gray-900 font-sans">
+        <div className="bg-white p-8 rounded-2xl shadow-lg max-w-md w-full text-center">
+          <h2 className="text-2xl font-bold mb-4">Hasil Ujian</h2>
+          <p className="text-lg mb-2">Nama: <span className="font-semibold">{name}</span></p>
+          <p className="text-xl">Score: <span className="font-bold text-blue-600">{score.correct} / {score.total}</span></p>
+          <button onClick={() => window.location.reload()} className="mt-8 bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Mulai Ulang</button>
+        </div>
+      </div>
+    );
+  }
 
-  // Reading State
-  const [readingIndex, setReadingIndex] = useState(0);
-  const [readingQuestionBatch, setReadingQuestionBatch] = useState(0); // 2 questions per batch
-  const [readingAnswers, setReadingAnswers] = useState<{ [key: string]: string }>({});
+  if (!started) return (
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-50 font-sans text-gray-900">
+      <div className="bg-white p-8 rounded-2xl shadow-lg max-w-md w-full">
+        <h1 className="text-2xl font-bold mb-6 text-center text-blue-900">EPRT Practice</h1>
+        <div className="flex flex-col gap-4">
+          <input 
+            type="text"
+            className="border p-3 rounded-lg w-full outline-none focus:ring-2 focus:ring-blue-400"
+            placeholder="Masukkan Nama Anda" 
+            value={name}
+            onChange={e => setName(e.target.value)} 
+          />
+          <select 
+            className="border p-3 rounded-lg w-full outline-none focus:ring-2 focus:ring-blue-400"
+            value={mode}
+            onChange={e => setMode(e.target.value)}
+          >
+            <option value="">-- Pilih Modul --</option>
+            <option value="reading">Reading Saja</option>
+            <option value="grammar">Grammar Saja</option>
+            <option value="both">Reading + Grammar</option>
+          </select>
+          <button 
+            className="bg-blue-600 text-white p-3 rounded-lg font-semibold hover:bg-blue-700 disabled:opacity-50 transition-colors"
+            disabled={!name || !mode}
+            onClick={() => setStarted(true)}
+          >
+            Mulai Ujian
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+  
+  return <QuizUI mode={mode} onFinish={setScore} />;
+}
 
-  // Grammar State
-  const [grammarBatch, setGrammarBatch] = useState(0); // 2 questions per batch
-  const [grammarAnswers, setGrammarAnswers] = useState<{ [key: number]: string }>({});
-
-  const currentReading: ReadingSection = questionsData.reading[readingIndex] || {
-    title: "Reading Passage",
-    passage: "",
-    questions: [],
-  };
-
-  const totalReadingBatches = Math.ceil((currentReading.questions?.length || 0) / 2);
-  const totalGrammarBatches = Math.ceil((questionsData.grammar?.length || 0) / 2);
-
-  // Current batch questions (max 2)
-  const currentBatchQuestions = useMemo(() => {
-    if (stage === "reading") {
-      const start = readingQuestionBatch * 2;
-      return currentReading.questions.slice(start, start + 2);
-    } else {
-      const start = grammarBatch * 2;
-      return questionsData.grammar.slice(start, start + 2);
-    }
-  }, [stage, readingQuestionBatch, currentReading, grammarBatch]);
-
-  const handleStartTest = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!studentName.trim()) return;
-    setPhase("test");
-    setStage("reading");
-  };
-
-  const handleSelectAnswer = (qKey: string | number, choiceKey: string) => {
-    if (stage === "reading") {
-      setReadingAnswers((prev) => ({ ...prev, [qKey]: choiceKey }));
-    } else {
-      setGrammarAnswers((prev) => ({ ...prev, [Number(qKey)]: choiceKey }));
-    }
-  };
-
-  const handleNext = () => {
-    if (stage === "reading") {
-      if (readingQuestionBatch + 1 < totalReadingBatches) {
-        setReadingQuestionBatch((prev) => prev + 1);
-      } else if (readingIndex + 1 < questionsData.reading.length) {
-        setReadingIndex((prev) => prev + 1);
-        setReadingQuestionBatch(0);
-      } else {
-        // Move to Grammar automatically after Reading finishes
-        setStage("grammar");
-        setGrammarBatch(0);
-      }
-    } else {
-      if (grammarBatch + 1 < totalGrammarBatches) {
-        setGrammarBatch((prev) => prev + 1);
-      } else {
-        // Finish test and show final score
-        setPhase("result");
-      }
-    }
-  };
-
-  const handleBack = () => {
-    if (stage === "reading") {
-      if (readingQuestionBatch > 0) {
-        setReadingQuestionBatch((prev) => prev - 1);
-      } else if (readingIndex > 0) {
-        setReadingIndex((prev) => prev - 1);
-        const prevLen = questionsData.reading[readingIndex - 1].questions.length;
-        setReadingQuestionBatch(Math.max(0, Math.ceil(prevLen / 2) - 1));
-      }
-    } else {
-      if (grammarBatch > 0) {
-        setGrammarBatch((prev) => prev - 1);
-      } else {
-        // Go back to the last reading batch
-        setStage("reading");
-        const lastRIndex = questionsData.reading.length - 1;
-        setReadingIndex(lastRIndex);
-        const lastRLen = questionsData.reading[lastRIndex].questions.length;
-        setReadingQuestionBatch(Math.max(0, Math.ceil(lastRLen / 2) - 1));
-      }
-    }
-  };
-
-  // Score Calculation
-  const scoreResults = useMemo(() => {
-    let rCorrect = 0;
-    let rTotal = 0;
-    questionsData.reading.forEach((sec, sIdx) => {
-      sec.questions.forEach((q, qIdx) => {
-        rTotal++;
-        const k = `${sIdx}-${qIdx}`;
-        if (readingAnswers[k]?.toLowerCase() === q.answer?.toLowerCase()) {
-          rCorrect++;
+function QuizUI({ mode, onFinish }: { mode: string, onFinish: (s: {correct: number, total: number}) => void }) {
+  // Build active questions list
+  const activeQuestions = useMemo(() => {
+    let list: any[] = [];
+    if (mode === 'reading' || mode === 'both') {
+      questionsData.reading.forEach(r => {
+        // chunk questions into pairs (max 2 per view)
+        for (let i = 0; i < r.questions.length; i += 2) {
+          list.push({
+            type: 'reading',
+            passage: r.passage,
+            title: r.title,
+            questions: r.questions.slice(i, i + 2)
+          });
         }
       });
-    });
+    }
+    if (mode === 'grammar' || mode === 'both') {
+       const g = questionsData.grammar;
+       for (let i = 0; i < g.length; i += 2) {
+         list.push({
+           type: 'grammar',
+           questions: g.slice(i, i + 2)
+         });
+       }
+    }
+    return list;
+  }, [mode]);
 
-    let gCorrect = 0;
-    const gTotal = questionsData.grammar.length;
-    questionsData.grammar.forEach((q, gIdx) => {
-      if (grammarAnswers[gIdx]?.toLowerCase() === q.answer?.toLowerCase()) {
-        gCorrect++;
-      }
-    });
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [answers, setAnswers] = useState<Record<string, string>>({});
 
-    const overallTotal = rTotal + gTotal;
-    const overallCorrect = rCorrect + gCorrect;
-    const overallPct = overallTotal ? Math.round((overallCorrect / overallTotal) * 100) : 0;
+  const currentView = activeQuestions[currentIndex];
 
-    return {
-      rCorrect,
-      rTotal,
-      rPct: rTotal ? Math.round((rCorrect / rTotal) * 100) : 0,
-      gCorrect,
-      gTotal,
-      gPct: gTotal ? Math.round((gCorrect / gTotal) * 100) : 0,
-      overallCorrect,
-      overallTotal,
-      overallPct,
-    };
-  }, [readingAnswers, grammarAnswers]);
+  const handleSelect = (qId: string, choice: string) => {
+    setAnswers(prev => ({ ...prev, [qId]: choice }));
+  };
+
+  const handleFinish = () => {
+    let correct = 0;
+    let total = 0;
+    
+    // Evaluate reading
+    if (mode === 'reading' || mode === 'both') {
+      questionsData.reading.forEach(r => {
+        r.questions.forEach(q => {
+          total++;
+          const ansKey = Object.keys(q.choices).find(k => q.choices[k as keyof typeof q.choices] === q.answer) || q.answer;
+          // Exact match logic is simplified here. Needs robust matching depending on JSON structure
+          if (answers[q.id] === q.answer || answers[q.id] === ansKey) {
+            correct++;
+          }
+        });
+      });
+    }
+    
+    // Evaluate grammar
+    if (mode === 'grammar' || mode === 'both') {
+      questionsData.grammar.forEach(g => {
+        total++;
+        if (answers[g.id] === g.answer) {
+          correct++;
+        }
+      });
+    }
+    
+    onFinish({ correct, total });
+  };
+
+  if (!currentView) return <div>Memuat soal...</div>;
 
   return (
-    <div className="min-h-screen flex flex-col justify-between bg-[#F8FAFC]">
-      {/* Navbar */}
-      <header className="bg-white border-b border-slate-200 sticky top-0 z-50">
-        <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2.5">
-            <span className="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center text-sm shadow-sm">
-              E
-            </span>
-            <span className="font-bold text-slate-800 text-base sm:text-lg tracking-tight">
-              InggrisStudent
-            </span>
-          </div>
-
-          {phase === "test" && (
-            <div className="flex items-center gap-2">
-              <span
-                className={`px-3 py-1 rounded-full text-xs font-semibold ${
-                  stage === "reading"
-                    ? "bg-blue-100 text-blue-700"
-                    : "bg-emerald-100 text-emerald-700"
-                }`}
-              >
-                Stage: {stage === "reading" ? "1. Reading" : "2. Grammar"}
-              </span>
-              <span className="text-xs font-medium text-slate-500 hidden sm:inline">
-                {studentName}
-              </span>
+    <div className="min-h-screen bg-gray-100 p-4 font-sans text-gray-800 md:p-8">
+      <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-6">
+        
+        {/* Left Panel: Passage (only if reading) */}
+        {currentView.type === 'reading' && (
+          <div className="md:w-1/2 bg-white rounded-xl shadow p-6 max-h-[80vh] overflow-y-auto">
+            <h2 className="text-xl font-bold mb-4">{currentView.title || 'Reading Passage'}</h2>
+            <div className="whitespace-pre-wrap leading-relaxed text-gray-700">
+              {currentView.passage}
             </div>
-          )}
-        </div>
-      </header>
-
-      {/* Main Content */}
-      <main className="max-w-4xl mx-auto px-4 py-6 w-full flex-1">
-        {/* PHASE 1: WELCOME FORM */}
-        {phase === "welcome" && (
-          <div className="max-w-md mx-auto my-12 p-6 sm:p-8 bg-white border border-slate-200 rounded-2xl shadow-sm text-center">
-            <div className="w-12 h-12 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4 text-2xl">
-              📝
-            </div>
-            <h1 className="text-2xl font-bold text-slate-900 mb-2">EPRT Test Practice</h1>
-            <p className="text-sm text-slate-600 mb-6">
-              Enter your full name to start the test. You will complete Reading Comprehension first, followed by Structure & Grammar.
-            </p>
-
-            <form onSubmit={handleStartTest} className="space-y-4">
-              <div className="text-left">
-                <label className="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
-                  Student Name
-                </label>
-                <input
-                  type="text"
-                  required
-                  placeholder="Enter your name..."
-                  value={studentName}
-                  onChange={(e) => setStudentName(e.target.value)}
-                  className="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900 text-sm"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl text-sm transition-colors shadow-sm"
-              >
-                Start Practice Test →
-              </button>
-            </form>
           </div>
         )}
 
-        {/* PHASE 2: ACTIVE TEST */}
-        {phase === "test" && (
-          <div className="space-y-6">
-            {stage === "reading" ? (
-              <>
-                {/* Reading Passage (Fixed Top Card) */}
-                <div className="bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm">
-                  <div className="flex items-center justify-between border-b border-slate-100 pb-3 mb-3">
-                    <span className="text-xs font-semibold text-blue-600 uppercase tracking-wider bg-blue-50 px-2.5 py-1 rounded-md">
-                      Passage {readingIndex + 1} of {questionsData.reading.length}
-                    </span>
-                    <span className="text-xs text-slate-500">
-                      {currentReading.title}
-                    </span>
-                  </div>
-                  <div className="text-slate-800 text-sm sm:text-base leading-relaxed font-serif max-h-60 sm:max-h-72 overflow-y-auto pr-2 whitespace-pre-line">
-                    {currentReading.passage}
-                  </div>
-                </div>
+        {/* Right Panel: Questions */}
+        <div className={`bg-white rounded-xl shadow p-6 flex flex-col ${currentView.type === 'reading' ? 'md:w-1/2' : 'w-full max-w-2xl mx-auto'}`}>
+          <div className="mb-4 text-sm font-semibold text-gray-500 uppercase tracking-wide">
+            {currentView.type === 'reading' ? 'Reading Comprehension' : 'Structure & Grammar'} 
+            <span className="float-right text-blue-600">Halaman {currentIndex + 1} / {activeQuestions.length}</span>
+          </div>
 
-                {/* Questions (Max 2) */}
-                <div className="space-y-4">
-                  {currentBatchQuestions.map((q, idx) => {
-                    const globalQIdx = readingQuestionBatch * 2 + idx;
-                    const answerKey = `${readingIndex}-${globalQIdx}`;
-                    const selected = readingAnswers[answerKey];
-
+          <div className="flex-1 overflow-y-auto pr-2">
+            {currentView.questions.map((q: any, i: number) => (
+              <div key={q.id || i} className="mb-8 pb-6 border-b last:border-0">
+                <p className="font-medium text-lg mb-4">{q.question}</p>
+                <div className="flex flex-col gap-3">
+                  {(Array.isArray(q.choices) ? q.choices : Object.values(q.choices)).map((choice: any, idx: number) => {
+                    const isSelected = answers[q.id] === choice;
                     return (
-                      <div
-                        key={globalQIdx}
-                        className="bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm"
+                      <button
+                        key={idx}
+                        onClick={() => handleSelect(q.id, choice)}
+                        className={`text-left p-4 rounded-lg border-2 transition-all ${
+                          isSelected 
+                            ? 'border-blue-500 bg-blue-50 text-blue-900 font-medium' 
+                            : 'border-gray-200 hover:border-blue-300 hover:bg-gray-50'
+                        }`}
                       >
-                        <div className="flex items-start gap-3 mb-4">
-                          <span className="w-6 h-6 rounded-full bg-slate-100 text-slate-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
-                            {globalQIdx + 1}
-                          </span>
-                          <p className="font-medium text-slate-900 text-sm sm:text-base leading-snug">
-                            {q.question}
-                          </p>
-                        </div>
-
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                          {Object.entries(q.choices).map(([choiceKey, choiceVal]) => {
-                            if (!choiceVal) return null;
-                            const isSelected = selected?.toLowerCase() === choiceKey.toLowerCase();
-                            return (
-                              <button
-                                key={choiceKey}
-                                onClick={() => handleSelectAnswer(answerKey, choiceKey)}
-                                className={`flex items-center gap-3 p-3 rounded-xl border text-left text-sm transition-all ${
-                                  isSelected
-                                    ? "border-blue-600 bg-blue-50/50 text-blue-900 font-medium shadow-xs"
-                                    : "border-slate-200 hover:border-slate-300 bg-white text-slate-700"
-                                }`}
-                              >
-                                <span
-                                  className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-bold uppercase shrink-0 ${
-                                    isSelected
-                                      ? "bg-blue-600 text-white"
-                                      : "bg-slate-100 text-slate-500"
-                                  }`}
-                                >
-                                  {choiceKey}
-                                </span>
-                                <span className="flex-1 leading-normal">{choiceVal}</span>
-                              </button>
-                            );
-                          })}
-                        </div>
-                      </div>
-                    );
+                        {choice}
+                      </button>
+                    )
                   })}
                 </div>
-              </>
-            ) : (
-              /* Grammar Questions (Max 2) */
-              <div className="space-y-4">
-                <div className="bg-emerald-50 border border-emerald-200 text-emerald-800 p-4 rounded-xl text-xs font-medium flex items-center justify-between">
-                  <span>Part 2: Structure & Grammar</span>
-                  <span>
-                    Questions {grammarBatch * 2 + 1} -{" "}
-                    {Math.min(grammarBatch * 2 + 2, questionsData.grammar.length)} of{" "}
-                    {questionsData.grammar.length}
-                  </span>
-                </div>
-
-                {currentBatchQuestions.map((q, idx) => {
-                  const globalQIdx = grammarBatch * 2 + idx;
-                  const selected = grammarAnswers[globalQIdx];
-
-                  return (
-                    <div
-                      key={globalQIdx}
-                      className="bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm"
-                    >
-                      <div className="flex items-start gap-3 mb-4">
-                        <span className="w-6 h-6 rounded-full bg-slate-100 text-slate-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
-                          {globalQIdx + 1}
-                        </span>
-                        <p className="font-medium text-slate-900 text-sm sm:text-base leading-snug">
-                          {q.question}
-                        </p>
-                      </div>
-
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                        {Object.entries(q.choices).map(([choiceKey, choiceVal]) => {
-                          if (!choiceVal) return null;
-                          const isSelected = selected?.toLowerCase() === choiceKey.toLowerCase();
-                          return (
-                            <button
-                              key={choiceKey}
-                              onClick={() => handleSelectAnswer(globalQIdx, choiceKey)}
-                              className={`flex items-center gap-3 p-3 rounded-xl border text-left text-sm transition-all ${
-                                isSelected
-                                  ? "border-emerald-600 bg-emerald-50/50 text-emerald-900 font-medium shadow-xs"
-                                  : "border-slate-200 hover:border-slate-300 bg-white text-slate-700"
-                              }`}
-                            >
-                              <span
-                                className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-bold uppercase shrink-0 ${
-                                  isSelected
-                                    ? "bg-emerald-600 text-white"
-                                    : "bg-slate-100 text-slate-500"
-                                }`}
-                              >
-                                {choiceKey}
-                              </span>
-                              <span className="flex-1 leading-normal">{choiceVal}</span>
-                            </button>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  );
-                })}
               </div>
-            )}
-
-            {/* Bottom Controls */}
-            <div className="flex items-center justify-between pt-4">
-              <button
-                onClick={handleBack}
-                disabled={stage === "reading" && readingIndex === 0 && readingQuestionBatch === 0}
-                className="px-4 py-2.5 rounded-xl border border-slate-300 text-slate-700 text-xs sm:text-sm font-medium hover:bg-slate-50 disabled:opacity-30 disabled:pointer-events-none transition-colors"
-              >
-                ← Back
-              </button>
-
-              <button
-                onClick={handleNext}
-                className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-semibold shadow-sm transition-colors"
-              >
-                {stage === "reading" &&
-                readingIndex === questionsData.reading.length - 1 &&
-                readingQuestionBatch + 1 >= totalReadingBatches
-                  ? "Proceed to Grammar →"
-                  : stage === "grammar" && grammarBatch + 1 >= totalGrammarBatches
-                  ? "Submit Test & View Results"
-                  : "Next →"}
-              </button>
-            </div>
+            ))}
           </div>
-        )}
 
-        {/* PHASE 3: FINAL SCOREBOARD */}
-        {phase === "result" && (
-          <div className="max-w-xl mx-auto my-8 p-6 sm:p-8 bg-white border border-slate-200 rounded-2xl shadow-sm text-center">
-            <div className="w-16 h-16 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
-              🎓
-            </div>
-            <h2 className="text-2xl font-bold text-slate-900 mb-1">Official Test Result</h2>
-            <p className="text-sm font-medium text-slate-500 mb-6">Student: {studentName}</p>
-
-            {/* Overall Score Badge */}
-            <div className="bg-slate-900 text-white rounded-2xl p-6 mb-6 shadow-md">
-              <p className="text-xs uppercase font-semibold text-slate-400 tracking-wider mb-1">
-                Overall Score
-              </p>
-              <div className="text-4xl font-extrabold text-white mb-1">
-                {scoreResults.overallPct}%
-              </div>
-              <p className="text-xs text-slate-300">
-                {scoreResults.overallCorrect} correct out of {scoreResults.overallTotal} questions
-              </p>
-            </div>
-
-            {/* Detailed Section Breakdown */}
-            <div className="grid grid-cols-2 gap-4 mb-8">
-              <div className="p-4 rounded-xl border border-slate-200 bg-slate-50 text-left">
-                <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">
-                  Reading Score
-                </p>
-
-                <div className="text-2xl font-bold text-slate-900">{scoreResults.rPct}%</div>
-                <p className="text-xs text-slate-600 mt-1">
-                  {scoreResults.rCorrect} / {scoreResults.rTotal} Correct
-                </p>
-              </div>
-
-              <div className="p-4 rounded-xl border border-slate-200 bg-slate-50 text-left">
-                <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">
-                  Grammar Score
-                </p>
-
-                <div className="text-2xl font-bold text-slate-900">{scoreResults.gPct}%</div>
-                <p className="text-xs text-slate-600 mt-1">
-                  {scoreResults.gCorrect} / {scoreResults.gTotal} Correct
-                </p>
-              </div>
-            </div>
-
-            <button
-              onClick={() => {
-                setPhase("welcome");
-                setReadingIndex(0);
-                setReadingQuestionBatch(0);
-                setGrammarBatch(0);
-                setReadingAnswers({});
-                setGrammarAnswers({});
-              }}
-              className="w-full py-3 bg-slate-900 hover:bg-slate-800 text-white font-semibold rounded-xl text-sm transition-colors shadow-sm"
+          {/* Navigation */}
+          <div className="mt-6 flex justify-between pt-4 border-t">
+            <button 
+              className="px-6 py-2 rounded-lg font-medium border border-gray-300 hover:bg-gray-100 disabled:opacity-30"
+              disabled={currentIndex === 0}
+              onClick={() => setCurrentIndex(prev => prev - 1)}
             >
-              Take Another Test
+              Back
             </button>
+            
+            {currentIndex < activeQuestions.length - 1 ? (
+              <button 
+                className="px-6 py-2 rounded-lg font-medium bg-blue-600 text-white hover:bg-blue-700"
+                onClick={() => setCurrentIndex(prev => prev + 1)}
+              >
+                Next
+              </button>
+            ) : (
+              <button 
+                className="px-6 py-2 rounded-lg font-medium bg-green-600 text-white hover:bg-green-700 shadow-lg hover:shadow-green-500/30"
+                onClick={handleFinish}
+              >
+                Submit & Finish
+              </button>
+            )}
           </div>
-        )}
-      </main>
-
-      <footer className="text-center py-4 border-t border-slate-200 text-xs text-slate-400">
-        InggrisStudent EPRT Practice • Fully Responsive Mobile UI
-      </footer>
+        </div>
+      </div>
     </div>
   );
 }

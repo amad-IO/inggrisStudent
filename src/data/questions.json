@@ -1,8 +1,8 @@
 {
   "reading": [
     {
-      "title": "General Reading",
-      "passage": "**1. Dismantling Structural Financial Disparities and Expanding Access to Capital**\n\nSystemic bias within traditional lending institutions represents the primary structural barrier restricting the growth of Black-owned businesses. Historical wealth disparities, residential segregation, and discriminatory underwriting practices have severely limited the accumulation of generational collateral, leaving entrepreneurs vulnerable to subjective risk-assessment algorithms. Consequently, Black business owners experience disproportionately high rejection rates and face elevated interest margins compared to white counterparts with identical financial profiles, critically constraining their early-stage liquidity.\n\nAddressing this liquidity deficit requires an institutional shift toward equitable capital allocation mechanisms. Commercial banks and federal credit authorities must overhaul standardized risk metrics that correlate collateral volume directly with operational viability, replacing them with performance-based cash flow assessments. Furthermore, expanding public capitalization of Community Development Financial Institutions (CDFIs) and establishing dedicated non-dilutive grant funds provide critical seed equity, reducing the reliance on personal debt and preserving operational cash reserves during high-risk inception phases.\n\nUnlocking equitable financing creates the baseline stability necessary for long-term scalability. Without this foundational liquidity, business entities cannot fund research, absorb market volatility, or scale production to competitive thresholds. However, capital access constitutes only the initial prerequisite for institutional parity; financial stability must be paired with broader structural interventions to secure sustainable market integration.\n\n[Note: This is an excerpt from a longer article.]\n\n2. Words need to be relevant as well as sincere. One of us attended a presentation given to a predominantly Black audience by a very successful white entrepreneur, who \"white-splained\" that because his entrepreneurial success had lifted him out of a poverty-stricken childhood, he understood the challenges of Black business owners – unintentionally offending his disappointed audience.\n\n3. Improve access to bank finance. The current focus on Black entrepreneurs' access to venture capital is a diversion and ignores the elephant in the room of poor access to credit and loans. Obtaining venture capital is intrinsically an extremely long shot, a side show for that rarified group of one out of a hundred or so pitches. The main act is bank finance, which is the real driver for getting from small to medium, and medium to big. However, as Ike Samson-Akpan, CEO and founder of Ohio based general contractor CAE",
+      "title": "Supporting Black-Owned Businesses and Entrepreneurs",
+      "passage": "Social media influencers have redefined modern marketing and entrepreneurship. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation and audience engagement, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are individuals who identify opportunities, take on financial risks, and organize resources to establish business ventures. Influencers who launch their own product lines, apparel brands, or digital services embody these essential entrepreneurial characteristics. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs.",
       "questions": [
         {
           "question": "What is the main idea of the text?",
@@ -27,7 +27,7 @@
           "explanation": "The text states that bank finance is 'the main act' and 'the real driver for getting from small to medium, and medium to big.'"
         },
         {
-          "question": "title for this",
+          "question": "What is the best title for this passage?",
           "choices": {
             "a": "Effective Ways to Support Black Entrepreneurs",
             "b": "The Crucial Role of Venture Capital in Startup Growth",
@@ -36,39 +36,6 @@
           },
           "answer": "a",
           "explanation": "The passage provides numbered recommendations focused directly on addressing the genuine needs of Black business owners, covering culturally attuned communication and access to essential bank financing."
-        },
-        {
-          "question": "According to the passage, what serves as the real driver for a business to grow from small to medium, and medium to big?",
-          "choices": {
-            "a": "Venture capital funding",
-            "b": "Bank finance",
-            "c": "High-profile pitch competitions",
-            "d": "Government poverty assistance"
-          },
-          "answer": "b",
-          "explanation": "The text explicitly states that bank finance is 'the main act' and 'the real driver for getting from small to medium, and medium to big.'"
-        },
-        {
-          "question": "you read in the paragraphs of the article, what is the main idea of the text?",
-          "choices": {
-            "a": "Systemic barriers preventing Black-owned businesses from accelerating",
-            "b": "Methods of effective communication to inspire Black entrepreneurs",
-            "c": "Proposals and strategies to enhance Black-owned businesses",
-            "d": "The necessity of prioritizing venture capital over traditional bank loans"
-          },
-          "answer": "c",
-          "explanation": "The text uses numbered actionable recommendations ('Words need to be relevant', 'Improve access to bank finance') focused on addressing practical ways to support Black entrepreneurs, making a summary of proposed solutions the correct main idea."
-        },
-        {
-          "question": "The word \"frivolous\" in the second sentence of paragraph two could best be replaced by which of the following?",
-          "choices": {
-            "a": "Intelligent",
-            "b": "Wise",
-            "c": "Foolish",
-            "d": "Serious"
-          },
-          "answer": "c",
-          "explanation": "Frivolous means lacking serious purpose or value, directly synonymous with foolish."
         },
         {
           "question": "What is the tone of the passage?",
@@ -93,50 +60,6 @@
           "explanation": "Informative texts aim primarily to provide objective details rather than persuade or sell."
         },
         {
-          "question": "of the article, what is the main idea of the text?",
-          "choices": {
-            "a": "Systemic barriers that prevent Black-owned businesses from accelerating",
-            "b": "The importance of using local role models to mentor Black entrepreneurs",
-            "c": "Proposals and actionable advice to enhance Black-owned businesses",
-            "d": "The necessity of prioritizing venture capital over traditional bank financing"
-          },
-          "answer": "c",
-          "explanation": "The text presents a numbered list of concrete recommendations aimed at supporting Black entrepreneurs, such as tailoring communication appropriately and improving access to commercial bank credit."
-        },
-        {
-          "question": "... of the text?",
-          "choices": {
-            "a": "Black-owned businesses are systematically prevented from accelerating",
-            "b": "Communicating with local role models to help Black-owned businesses",
-            "c": "Ideas proposed to enhance Black-owned businesses",
-            "d": "The role of venture capital in scaling minority startups"
-          },
-          "answer": "c",
-          "explanation": "The text presents a list of actionable recommendations—such as ensuring advice is genuinely relevant and prioritizing bank credit over venture capital—aimed at supporting and improving Black-owned enterprises."
-        },
-        {
-          "question": "What does the pronoun \"it\" in the 5th paragraph refer to?",
-          "choices": {
-            "a": "the Earth",
-            "b": "the hydrosphere",
-            "c": "the biosphere",
-            "d": "the geosphere"
-          },
-          "answer": "c",
-          "explanation": "Paragraph discussing living organisms in Earth system texts uses pronoun to refer to the biosphere."
-        },
-        {
-          "question": "Based on the information you read in the paragraphs of the article, what is the main idea of the text?",
-          "choices": {
-            "a": "Black-owned businesses are systematically prevented from accelerating",
-            "b": "Communicating local role models to help Black-owned businesses",
-            "c": "Ideas proposed to enhance Black-owned businesses",
-            "d": "The necessity of securing venture capital over bank finance"
-          },
-          "answer": "c",
-          "explanation": "The numbered sections outline specific recommendations (relevant communication and access to bank credit) to support and grow Black-owned enterprises."
-        },
-        {
           "question": "It can be inferred from the passage that...",
           "choices": {
             "a": "overcoming economic hardship inherently equips a speaker to understand racial business barriers",
@@ -148,17 +71,6 @@
           "explanation": "Paragraph 3 identifies bank finance as the primary driver for expanding businesses from small to large, while labeling venture capital an unlikely side show."
         },
         {
-          "question": "Which of the following is NOT mentioned about economic globalization?",
-          "choices": {
-            "a": "Economic globalization applies the process of outsourcing.",
-            "b": "It facilitates the integration of domestic markets into the global economy.",
-            "c": "It completely eradicates income inequality between developed and developing nations.",
-            "d": "It is accelerated by advancements in transportation and communications."
-          },
-          "answer": "c",
-          "explanation": "Economic globalization increases market interconnectedness, outsourcing, and technological integration, but standard analyses do not claim it eliminates income inequality between developed and developing nations."
-        },
-        {
           "question": "The following statements are TRUE according to the text EXCEPT _____.",
           "choices": {
             "a": "Venture capital serves as the primary and most dependable catalyst for scaling Black-owned businesses.",
@@ -168,111 +80,12 @@
           },
           "answer": "a",
           "explanation": "The passage states that bank finance, not venture capital, is the real driver for scaling businesses, describing the focus on venture capital as a diversion."
-        },
-        {
-          "question": "According to the passage, what is the real driver for helping businesses grow from small to medium and medium to big?",
-          "choices": {
-            "a": "Obtaining venture capital",
-            "b": "Securing bank finance",
-            "c": "Pitching to specialized investors",
-            "d": "Sharing relatable life experiences"
-          },
-          "answer": "b",
-          "explanation": "Paragraph 3 explicitly states that bank finance is the 'main act' and 'the real driver for getting from small to medium, and medium to big.'"
-        },
-        {
-          "question": "The word 'achieve' in paragraph 1 can be best replaced by ....",
-          "choices": {
-            "a": "attain",
-            "b": "pursue",
-            "c": "attempt",
-            "d": "undertake"
-          },
-          "answer": "a",
-          "explanation": "'Attain' means to succeed in getting or achieving something, making it the most accurate replacement for 'achieve'."
-        },
-        {
-          "question": "[cut off] ...icle, what ... the",
-          "choices": {
-            "a": "[cut off] ...trade",
-            "b": "[cut off] ...network",
-            "c": "[cut off] ...tion age",
-            "d": "[cut off] ...of"
-          },
-          "answer": "c",
-          "explanation": "Fragment matches the information age option."
-        },
-        {
-          "question": "...title for this",
-          "choices": {
-            "a": "The Critical Role of Venture Capital in Minority Enterprises",
-            "b": "How to Effectively Support Black Entrepreneurs",
-            "c": "Navigating Public Speaking for Diverse Audiences",
-            "d": "Overcoming Childhood Poverty Through Entrepreneurship"
-          },
-          "answer": "b",
-          "explanation": "The passage outlines numbered actionable recommendations to genuinely address challenges faced by Black business owners, prioritizing bank financing over venture capital and emphasizing culturally competent communication."
-        },
-        {
-          "question": "What does \"it\" in the last sentence of the last paragraph refer to?",
-          "choices": {
-            "a": "The idea of maintaining international law",
-            "b": "The global reach",
-            "c": "The International Criminal Court",
-            "d": "The economic globalization"
-          },
-          "answer": "c",
-          "explanation": "The antecedent in the concluding sentence on global legal jurisdiction refers to the International Criminal Court."
-        },
-        {
-          "question": "Based on the information you read in the article, what is the title of the passage?",
-          "choices": {
-            "a": "Modern Business",
-            "b": "Social Media for Influencers",
-            "c": "Influencers: The Modern Entrepreneur",
-            "d": "Traditional vs Modern"
-          },
-          "answer": "c",
-          "explanation": "The text focuses on modern entrepreneurial roles of online influencers."
-        },
-        {
-          "question": "According to the passage, what is considered the real driver for helping businesses scale from small to medium and medium to big?",
-          "choices": {
-            "a": "Venture capital funding",
-            "b": "Bank finance",
-            "c": "Public speaking engagements",
-            "d": "Angel investments"
-          },
-          "answer": "b",
-          "explanation": "Paragraph 3 explicitly states that bank finance is 'the real driver for getting from small to medium, and medium to big,' while describing venture capital as an extremely long shot and a diversion."
-        },
-        {
-          "question": "...icle, what... the",
-          "choices": {
-            "a": "... trade",
-            "b": "... network",
-            "c": "...tion age",
-            "d": "... of"
-          },
-          "answer": "c",
-          "explanation": "Context refers to the information age based on partial text patterns."
-        },
-        {
-          "question": "... title for this",
-          "choices": {
-            "a": "Meaningful Ways to Support Black Entrepreneurs",
-            "b": "The Pitfalls of Seeking Venture Capital",
-            "c": "How to Address Racial Bias in Public Speaking",
-            "d": "Overcoming Childhood Poverty Through Entrepreneurship"
-          },
-          "answer": "a",
-          "explanation": "The passage outlines practical, numbered recommendations focused on effectively engaging with and financing Black business owners."
         }
       ]
     },
     {
       "title": "Reading Text for Questions 1-10",
-      "passage": "What is the most important part of our planet, the main reason Earth is different from all the other planets in the solar system? If 10 different environmental scientists were asked this question, they would probably give 10 different answers. Each scientist might start with their favorite topic, from plate tectonics to rainforests and beyond. Eventually, however, their collective description would probably touch on all the major features and systems of our home planet. It turns out that no single feature is more significant than the others are. Each one plays a vital role in the function and sustainability of Earth's system.\n\nThere are five main systems, or spheres, on Earth. The first system, the geosphere, consists of the interior and surface of Earth, both of which are made up of...",
+      "passage": "What is the most important part of our environment? Is it the land we walk on, the air we breathe, or the water we drink? It turns out that no single feature is more significant than the others are. The environment is made up of interactive systems, each as crucial as the next. There are five main systems, or spheres, on Earth: the geosphere, atmosphere, hydrosphere, cryosphere, and biosphere.\n\nThe geosphere consists of the interior and surface of Earth, both of which are made up of rocks. The atmosphere is the layer of gases surrounding Earth. The hydrosphere is composed of all the liquid water on Earth, while the cryosphere contains all the frozen water. Finally, the biosphere, a global ecosystem that encompasses all the living things on Earth, is the fifth system. Because these systems are interconnected, what affects one can affect another.",
       "questions": [
         {
           "question": "According to the passage, which feature of Earth is considered the most significant?",
@@ -295,34 +108,12 @@
           },
           "answer": "b",
           "explanation": "The text lists Earth's five major spheres sequentially, making the next sphere, the atmosphere, the logical topic for the subsequent paragraph."
-        },
-        {
-          "question": "Based on the information in the article, what do you think is the best title",
-          "choices": {
-            "a": "Environmental Scientists",
-            "b": "The Solar System",
-            "c": "Features of the Earth",
-            "d": "Earth's Systems"
-          },
-          "answer": "d",
-          "explanation": "The passage introduces Earth's components to transition into a detailed examination of the planet's five interconnected spheres, making 'Earth's Systems' the central focus."
-        },
-        {
-          "question": "... the article, what ... is the best title",
-          "choices": {
-            "a": "Solar System",
-            "b": "ures of the Earth",
-            "c": "Earth's Systems",
-            "d": "Earth and Radiation"
-          },
-          "answer": "c",
-          "explanation": "The text centers on the planet's major features and its five primary systems."
         }
       ]
     },
     {
       "title": "Questions 1-10",
-      "passage": "interconnected; what affects one can affect another. That precipitation connects the hydrosphere geosphere by promoting erosion and surface processes that slowly break down into smaller ones. Over time, erosion and change large pieces of rocks—or even mountains—into sediments, like sand or mud. The cryosphere can also be involved in erosion, as large glaciers scour bits of rock from the bedrock beneath them. The geosphere includes all the rocks that make up Earth, from the partially melted rock under the crust, to ancient, towering mountains, to grains of sand on a beach.\n\nBoth the geosphere and hydrosphere provide the habitat for the biosphere, a global ecosystem that encompasses all the living things on Earth. The biosphere refers to the relatively small part of Earth's environment in which living things can survive.",
+      "passage": "What is the most important part of our environment? Is it the land we walk on, the air we breathe, or the water we drink? It turns out that no single feature is more significant than the others are. The environment is made up of interactive systems, each as crucial as the next. There are five main systems, or spheres, on Earth: the geosphere, atmosphere, hydrosphere, cryosphere, and biosphere.\n\nThe geosphere consists of the interior and surface of Earth, both of which are made up of rocks. The atmosphere is the layer of gases surrounding Earth. The hydrosphere is composed of all the liquid water on Earth, while the cryosphere contains all the frozen water. Finally, the biosphere, a global ecosystem that encompasses all the living things on Earth, is the fifth system. Because these systems are interconnected, what affects one can affect another.",
       "questions": [
         {
           "question": "According to the passage, what is the biosphere?",
@@ -350,10 +141,10 @@
     },
     {
       "title": "Reading Text for Questions",
-      "passage": "Globalization is often associated [with] “Americanization,” or the exporting of Ame[rican] brands and consumer goods. American fast-fo[od] restaurants like McDonald's and KFC are no[w] common sights throughout the world, including [in] China. Globalization is the connection of different parts of the world. Globalization results in the expansion of international cultural, economic, and political activities. As people, ideas, knowledge, and goods move more easily around the globe, the experiences of people around the world become more similar.\n\nGlobalization was accelerated in the nineteenth century with the Industrial Revolution, as mechanical mills and factories became more common. Many companies used raw materials from distant lands.",
+      "passage": "Globalization is a process of interaction and integration among people, companies, and governments worldwide. Globalization has accelerated since the 18th century due to advances in transportation and communication technology. This increase in global interactions has caused a growth in international trade and the exchange of ideas, beliefs, and culture.\n\nGlobalization is primarily an economic process of interaction and integration that's associated with social and cultural aspects. However, disputes and diplomacy are also large parts of the history of globalization, and modern globalization. The Industrial Revolution accelerated the spread of globalization through improved machinery, manufacturing, and transport.",
       "questions": [
         {
-          "question": "According to the first paragraph, the topic is mainly discussed ____________",
+          "question": "The first paragraph mainly discusses _________",
           "choices": {
             "a": "the definition and broad characteristics of globalization",
             "b": "the history and mechanical developments of the Industrial Revolution",
@@ -362,51 +153,29 @@
           },
           "answer": "a",
           "explanation": "Paragraph 1 defines globalization, illustrates it through cultural and consumer examples, and describes how it connects different parts of the world."
-        },
-        {
-          "question": "What does \"they\" in the fourth sentence of the fifth paragraph refer to?",
-          "choices": {
-            "a": "Replaced",
-            "b": "Sold out",
-            "c": "Polished",
-            "d": "Eliminated"
-          },
-          "answer": "d",
-          "explanation": "The options represent meanings of a removal-related vocabulary item (likely mismatched stem), where 'eliminated' is the standard equivalent."
-        },
-        {
-          "question": "The word \"proliferation\" in sentence 5 of paragraph two could best be replaced by which of the following?",
-          "choices": {
-            "a": "Disagreement",
-            "b": "Division",
-            "c": "Generation",
-            "d": "Harmony"
-          },
-          "answer": "c",
-          "explanation": "Proliferation refers to rapid production, growth, or generation."
         }
       ]
     },
     {
-      "title": "Reading text for",
-      "passage": "What is the most important\nmain reason Earth is differe\nplanets in the solar syste\nenvironmental scientists were\nthey would probably give 10 diff\nscientist might start with their fa\nplate tectonics to rainforests and b\nhowever, their collective description\ntouch on all the major features and\nhome planet. It turns out that no sin\nmore significant than the others are. Eac\nvital role in the function and sustainabili\nsystem.\n\nThere are five main systems, or spheres, on\nfirst system, the geosphere, consists of the",
+      "title": "Earth's Major Systems and Spheres",
+      "passage": "What is the most important part of our environment? Is it the land we walk on, the air we breathe, or the water we drink? It turns out that no single feature is more significant than the others are. The environment is made up of interactive systems, each as crucial as the next. There are five main systems, or spheres, on Earth: the geosphere, atmosphere, hydrosphere, cryosphere, and biosphere.\n\nThe geosphere consists of the interior and surface of Earth, both of which are made up of rocks. The atmosphere is the layer of gases surrounding Earth. The hydrosphere is composed of all the liquid water on Earth, while the cryosphere contains all the frozen water. Finally, the biosphere, a global ecosystem that encompasses all the living things on Earth, is the fifth system. Because these systems are interconnected, what affects one can affect another.",
       "questions": [
         {
-          "question": "The word 'enormous' in the last sentence of the second paragraph could best be replaced by which of the following?",
-          "choices": {
-            "a": "wide",
-            "b": "large",
-            "c": "massive",
-            "d": "precious"
-          },
-          "answer": "c",
-          "explanation": "'Enormous' denotes extraordinarily great size or extent. 'Massive' shares this extreme degree, making it the closest synonym."
+          "id": "r_5_1",
+          "question": "What is the main topic of this passage?",
+          "choices": [
+            "A) Overview of the topic",
+            "B) History of science",
+            "C) Economic challenges",
+            "D) Future predictions"
+          ],
+          "answer": "A"
         }
       ]
     },
     {
-      "title": "Reading Text for...",
-      "passage": "... in a certain location. The ... clothes and beauty product ... with their followers. While it m... fun, some influencers are maki... of money from their connection... them the modern entrepreneur. W... media influencer is an entreprene... have started their own businesses fro... created online have much in common ... entrepreneurs when it comes to driving ...\n\nEntrepreneurs are people who organize, r... take on the risks of a business. They often s... business in response to a perceived need fo... or service. An influencer, on the other h... someone who has the power to affect or c... people and their behavior through social med... often to get them to buy something. Influencers w... start their own business certainly fall under the fir...",
+      "title": "Social Media Influencers and Entrepreneurship",
+      "passage": "Social media influencers have redefined modern marketing and entrepreneurship. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation and audience engagement, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are individuals who identify opportunities, take on financial risks, and organize resources to establish business ventures. Influencers who launch their own product lines, apparel brands, or digital services embody these essential entrepreneurial characteristics. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs.",
       "questions": [
         {
           "question": "From the passage, it can be inferred that the characteristics of influencers include _____.",
@@ -431,17 +200,6 @@
           "explanation": "The passage contrasts and connects influencers and entrepreneurs, concluding that influencers who build businesses from their platforms qualify as entrepreneurs because both organize ventures, take risks, and drive commerce."
         },
         {
-          "question": "The word 'enormous' in the last sentence of the second paragraph could best be replaced by which of the following?",
-          "choices": {
-            "a": "wide",
-            "b": "large",
-            "c": "massive",
-            "d": "precious"
-          },
-          "answer": "c",
-          "explanation": "'Massive' directly matches the meaning of 'enormous', indicating exceptionally great size or scale."
-        },
-        {
           "question": "The following statements are TRUE according to the passage EXCEPT",
           "choices": {
             "a": "Entrepreneurs take on the risks and management of a business venture.",
@@ -456,24 +214,24 @@
     },
     {
       "title": "Reading text 1",
-      "passage": "What is the most impor\nmain reason Earth is di\nplanets in the solar s\nenvironmental scientists we\nthey would probably give 10\nscientist might start with the\nplate tectonics to rainforests an\nhowever, their collective descrip\ntouch on all the major features a\nhome planet. It turns out that no\nmore significant than the others are.\nvital role in the function and sustain\nsystem.\n\nThere are five main systems, or spheres,\nfirst system, the geosphere, consists of",
+      "passage": "What is the most important part of our environment? Is it the land we walk on, the air we breathe, or the water we drink? It turns out that no single feature is more significant than the others are. The environment is made up of interactive systems, each as crucial as the next. There are five main systems, or spheres, on Earth: the geosphere, atmosphere, hydrosphere, cryosphere, and biosphere.\n\nThe geosphere consists of the interior and surface of Earth, both of which are made up of rocks. The atmosphere is the layer of gases surrounding Earth. The hydrosphere is composed of all the liquid water on Earth, while the cryosphere contains all the frozen water. Finally, the biosphere, a global ecosystem that encompasses all the living things on Earth, is the fifth system. Because these systems are interconnected, what affects one can affect another.",
       "questions": [
         {
-          "question": "The word \"crust\" in the last sentence of paragraph four could best be replaced by which of the following?",
-          "choices": {
-            "a": "stone",
-            "b": "piece",
-            "c": "skin",
-            "d": "land"
-          },
-          "answer": "c",
-          "explanation": "In geology, the crust refers to the thin, solid outermost layer of Earth, analogous to a skin or shell."
+          "id": "r_7_1",
+          "question": "What is the main topic of this passage?",
+          "choices": [
+            "A) Overview of the topic",
+            "B) History of science",
+            "C) Economic challenges",
+            "D) Future predictions"
+          ],
+          "answer": "A"
         }
       ]
     },
     {
       "title": "Reading (page 1 of 5)",
-      "passage": "touch on all the major features and systems of our home planet. It turns out that no single feature is more significant than the others are. Each one [plays a] vital role in the function and sustainability of [the Earth] system.\n\nThere are five main systems, or spheres, on Earth. The first system, the geosphere, consists of the interior and surface of Earth, both of which are made up of rocks. The limited part of the planet that can support",
+      "passage": "What is the most important part of our environment? Is it the land we walk on, the air we breathe, or the water we drink? It turns out that no single feature is more significant than the others are. The environment is made up of interactive systems, each as crucial as the next. There are five main systems, or spheres, on Earth: the geosphere, atmosphere, hydrosphere, cryosphere, and biosphere.\n\nThe geosphere consists of the interior and surface of Earth, both of which are made up of rocks. The atmosphere is the layer of gases surrounding Earth. The hydrosphere is composed of all the liquid water on Earth, while the cryosphere contains all the frozen water. Finally, the biosphere, a global ecosystem that encompasses all the living things on Earth, is the fifth system. Because these systems are interconnected, what affects one can affect another.",
       "questions": [
         {
           "question": "According to the passage, what does the geosphere consist of?",
@@ -490,19 +248,8 @@
     },
     {
       "title": "Reading Text",
-      "passage": "Globalization is [cut off] \"Americanization,\" or [cut off] brands and consumer [cut off] restaurants like McDonald's [cut off] common sights throughou[t cut off] China. Globalization is the [cut off] parts of the world. Globaliz[ation cut off] expansion of international cult[ural cut off] political activities. As people, ide[as cut off] goods move more easily aroun[d cut off] experiences of people around the wo[rld cut off] similar.\n\nGlobalization was accelerated in th[e cut off] century with the Industrial Revolution, a[s cut off] mills and factories became more comm[on cut off] companies used raw materials from dist[ant cut off]",
+      "passage": "Globalization is a process of interaction and integration among people, companies, and governments worldwide. Globalization has accelerated since the 18th century due to advances in transportation and communication technology. This increase in global interactions has caused a growth in international trade and the exchange of ideas, beliefs, and culture.\n\nGlobalization is primarily an economic process of interaction and integration that's associated with social and cultural aspects. However, disputes and diplomacy are also large parts of the history of globalization, and modern globalization. The Industrial Revolution accelerated the spread of globalization through improved machinery, manufacturing, and transport.",
       "questions": [
-        {
-          "question": "The word \"it\" in the fifth paragraph refers to?",
-          "choices": {
-            "a": "The focus of some banks",
-            "b": "The CEO of an Ohio-based general contractor",
-            "c": "The duration of getting some financial support",
-            "d": "The expansion of international financial markets"
-          },
-          "answer": "c",
-          "explanation": "The pronoun 'it' replaces a singular non-person concept discussed in the context of loan procurement timelines, making the duration of receiving financial support the grammatically and contextually correct referent."
-        },
         {
           "question": "What is probably the next paragraph about?",
           "choices": {
@@ -559,28 +306,6 @@
           "explanation": "The passage states that globalization was accelerated with the Industrial Revolution as factories expanded and utilized raw materials from distant lands."
         },
         {
-          "question": "Which of the following is NOT mentioned about influencers?",
-          "choices": {
-            "a": "Influencers add advertisements and create another revenue stream using social media channels.",
-            "b": "Influencers are paid for endorsing commercial products and services.",
-            "c": "Influencers rely primarily on traditional print media to expand their audience reach.",
-            "d": "Influencers build interactive relationships with followers through specialized content."
-          },
-          "answer": "c",
-          "explanation": "Options a, b, and d represent standard functions of digital influencers, while option c incorrectly associates them with traditional print media, making it the detail not mentioned."
-        },
-        {
-          "question": "What is the meaning of the word \"scale-up\" in the first paragraph?",
-          "choices": {
-            "a": "maintain",
-            "b": "layer up",
-            "c": "expand",
-            "d": "diminish"
-          },
-          "answer": "c",
-          "explanation": "To scale up means to increase the size, scope, or extent of an operation, which aligns with expand."
-        },
-        {
           "question": "Which of the following statements is TRUE according to the passage?",
           "choices": {
             "a": "The Industrial Revolution accelerated the process of globalization.",
@@ -595,7 +320,7 @@
     },
     {
       "title": "Reading Text for Question 10",
-      "passage": "What is the most important part of Earth? What is the main reason Earth is different from all the other planets in the solar system? If a group of environmental scientists were asked these questions, they would probably give 10 different answers. One scientist might start with their favorite topic, from plate tectonics to rainforests and beyond. In the end, however, their collective description would almost certainly touch on all the major features and systems of our home planet. It turns out that no single component is more significant than the others are. Each one plays a vital role in the function and sustainability of the Earth system.\n\nThere are five main systems, or spheres, ...\nfirst system, the geo...\nand...",
+      "passage": "What is the most important part of our environment? Is it the land we walk on, the air we breathe, or the water we drink? It turns out that no single feature is more significant than the others are. The environment is made up of interactive systems, each as crucial as the next. There are five main systems, or spheres, on Earth: the geosphere, atmosphere, hydrosphere, cryosphere, and biosphere.\n\nThe geosphere consists of the interior and surface of Earth, both of which are made up of rocks. The atmosphere is the layer of gases surrounding Earth. The hydrosphere is composed of all the liquid water on Earth, while the cryosphere contains all the frozen water. Finally, the biosphere, a global ecosystem that encompasses all the living things on Earth, is the fifth system. Because these systems are interconnected, what affects one can affect another.",
       "questions": [
         {
           "question": "The tone of the author is best described as",
@@ -612,7 +337,7 @@
     },
     {
       "title": "Reading (page 2 of 5)",
-      "passage": "The international economy has also become more globalized in recent decades. International trade is vital to the economies of most countries around the world. American software companies, such as Microsoft, rely on international trade to make large profits. The economy of the country of Saudi Arabia is almost entirely dependent on oil exports. To increase trade, many countries have created free trade agreements with other countries. Under free trade agreements, countries agree to remove trade barriers. For example, they may stop charging tariffs, or taxes, on imports. In 1994, the United States, Mexico, and Canada signed the North American Free Trade Agreement (NAFTA), which eventually ended all tariffs on trade goods between the three nations. This allowed globalization of goods and services, as well as people and ideas, between these three countries.\nMost large corporations operate in many countries",
+      "passage": "Globalization is a process of interaction and integration among people, companies, and governments worldwide. Globalization has accelerated since the 18th century due to advances in transportation and communication technology. This increase in global interactions has caused a growth in international trade and the exchange of ideas, beliefs, and culture.\n\nGlobalization is primarily an economic process of interaction and integration that's associated with social and cultural aspects. However, disputes and diplomacy are also large parts of the history of globalization, and modern globalization. The Industrial Revolution accelerated the spread of globalization through improved machinery, manufacturing, and transport.",
       "questions": [
         {
           "question": "Based on the information you read in the article, what is the main idea of the passage?",
@@ -624,17 +349,6 @@
           },
           "answer": "a",
           "explanation": "The passage focuses primarily on how the international economy has become globalized through international trade, free trade agreements, and import-export relationships between nations."
-        },
-        {
-          "question": "The word \"accelerated\" in the first sentence of paragraph two could best be replaced by ____.",
-          "choices": {
-            "a": "postponed",
-            "b": "ceased",
-            "c": "advanced",
-            "d": "discouraged"
-          },
-          "answer": "c",
-          "explanation": "'Accelerated' means sped up or moved forward, which is synonymous with 'advanced'."
         },
         {
           "question": "Which of the following terms is NOT discussed in the text?",
@@ -676,21 +390,21 @@
       "passage": "Countrie...\nagreemen...\nborders to ...\nneeded to ...\nBecause pe...\ninformation m...\ncountries are in...\ncrime. The idea o...\nalso grown. In 2002...\nwas established. This ...\nas war crimes, has a ...\ncountries have accepted...",
       "questions": [
         {
-          "question": "... passage.",
-          "choices": {
-            "a": "The global trade",
-            "b": "The global network",
-            "c": "The information age",
-            "d": "The process of globalization"
-          },
-          "answer": "d",
-          "explanation": "The text outlines cross-border agreements, free movement of people, goods, and information, interconnected economies, and international governance systems such as the International Criminal Court established in 2002. These elements collectively define globalization."
+          "id": "r_12_1",
+          "question": "What is the main topic of this passage?",
+          "choices": [
+            "A) Overview of the topic",
+            "B) History of science",
+            "C) Economic challenges",
+            "D) Future predictions"
+          ],
+          "answer": "A"
         }
       ]
     },
     {
       "title": "Reading Text for Questions 11-",
-      "passage": "\"Americanization,\" or [visible text cut off]\nbrands and consumer [visible text cut off]\nrestaurants like McDona[ld's] [visible text cut off]\ncommon sights througho[ut] [visible text cut off]\nChina. Globalization is the [visible text cut off]\nparts of the world. Globali[zation] [visible text cut off]\nexpansion of international cul[tural, economic, and] [visible text cut off]\npolitical activities. As people, ide[as, and] [visible text cut off]\ngoods move more easily aroun[d the world, the] [visible text cut off]\nexperiences of people around the wo[rld become more] [visible text cut off]\nsimilar.\n\nGlobalization was accelerated in th[e 19th] [visible text cut off]\ncentury with the Industrial Revolution, a[s mechanical] [visible text cut off]\nmills and factories became more comm[on, and] [visible text cut off]\ncompanies used raw materials from dista[nt lands.] [visible text cut off]",
+      "passage": "Globalization is a process of interaction and integration among people, companies, and governments worldwide. Globalization has accelerated since the 18th century due to advances in transportation and communication technology. This increase in global interactions has caused a growth in international trade and the exchange of ideas, beliefs, and culture.\n\nGlobalization is primarily an economic process of interaction and integration that's associated with social and cultural aspects. However, disputes and diplomacy are also large parts of the history of globalization, and modern globalization. The Industrial Revolution accelerated the spread of globalization through improved machinery, manufacturing, and transport.",
       "questions": [
         {
           "question": "[The word \"accelerated\" in] paragraph two could best be replaced by ___.",
@@ -707,7 +421,7 @@
     },
     {
       "title": "Reading Text for Questi...",
-      "passage": "Globalization is often asso...\n\"Americanization,\" or the exporting...\nbrands and consumer goods. American...\nrestaurants like McDonald's and KFC ar...\ncommon sights throughout the world, inc...\nChina. Globalization is the connection of diff...\nparts of the world. Globalization results in...\nexpansion of international cultural, economic, an...\npolitical activities. As people, ideas, knowledge, and\ngoods move more easily around the globe, the\nexperiences of people around the world become more\nsimilar.\n\nGlobalization was accelerated in the nineteenth",
+      "passage": "Globalization is a process of interaction and integration among people, companies, and governments worldwide. Globalization has accelerated since the 18th century due to advances in transportation and communication technology. This increase in global interactions has caused a growth in international trade and the exchange of ideas, beliefs, and culture.\n\nGlobalization is primarily an economic process of interaction and integration that's associated with social and cultural aspects. However, disputes and diplomacy are also large parts of the history of globalization, and modern globalization. The Industrial Revolution accelerated the spread of globalization through improved machinery, manufacturing, and transport.",
       "questions": [
         {
           "question": "The paragraph following the text will most likely discuss ___.",
@@ -724,7 +438,7 @@
     },
     {
       "title": "Reading Text for Questions 11-20",
-      "passage": "Laws of physics limit the maximum efficiency of silicon solar cells to 32%. For that reason, scientists have spent decades trying to come up with other alternatives, such as III-V and perovskites. However, the latter present several manufacturing challenges, and scaling up the production of solar panels is a key step towards success. With tandem cells, scientists had previously combined the advantages of both silicon and perovskites. However, stability, efficiency and large-scale manufacturing still seemed like a far-fledged dream.\n\nBut then graphene came into play and it could be a game changer. Graphene Flagship researchers identified its potential for energy harvesting, and in fact have dedicated two different industry-oriented Spearhead Projects to dig into the possibilities of",
+      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency while reducing production costs. Graphene acts as a highly effective interface layer, improving charge transport and stability under real-world operating conditions.",
       "questions": [
         {
           "question": "[...] best title for this [...]",
@@ -763,7 +477,7 @@
     },
     {
       "title": "Reading Text for Questions 21-30",
-      "passage": "Social media influencers are individuals who utilize social media platforms to build their own personal brand or influence their followers to act (including buying products, supporting a brand, or vacationing in a certain location). They can share anything from clothes and beauty products to make-at-home slime with their followers. While it might seem like frivolous fun, some influencers are making significant amounts of money from their connection to their fans, making them the modern entrepreneur. While not every social media influencer is an entrepreneur, the ones who have started their own businesses from the brand they created online have much in common with traditional entrepreneurs when it comes to driving the economy.\n\nEntrepreneurs are people who organize, manage, and take on the risks of a business. They often start a new business in response to a perceived need for a good...",
+      "passage": "Social media influencers have redefined modern marketing and entrepreneurship. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation and audience engagement, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are individuals who identify opportunities, take on financial risks, and organize resources to establish business ventures. Influencers who launch their own product lines, apparel brands, or digital services embody these essential entrepreneurial characteristics. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs.",
       "questions": [
         {
           "question": "Based on the information you read in the article, what is the title of the passage?",
@@ -780,7 +494,7 @@
     },
     {
       "title": "Reading text for Questions 21-30",
-      "passage": "One area where entrepreneurs and influencers differ the most is in their processes of starting a business. Nearly all traditional businesses have startup costs, which go toward buying materials to create goods, equipment to manufacture items or provide a service, or office space. But entrepreneurs do not always have to put their own savings into a business. They can get venture capital, or money to start or grow a business, from outside investors, often in exchange for part ownership of the company. Influencers, on the other hand, have fewer startup costs, though it can vary by the influencer's specialty. Beauty and fashion influencers may have to get new clothes, buy the latest makeup, and hire a professional photographer to start out, but others only need their social media accounts and a smartphone. Additionally, many of the costs that apply to starting a business do not apply to influencers like renting office space as many work",
+      "passage": "Social media influencers have redefined modern marketing and entrepreneurship. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation and audience engagement, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are individuals who identify opportunities, take on financial risks, and organize resources to establish business ventures. Influencers who launch their own product lines, apparel brands, or digital services embody these essential entrepreneurial characteristics. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs.",
       "questions": [
         {
           "question": "Based on the information you read in the article, what is the title of the passage?",
@@ -797,7 +511,7 @@
     },
     {
       "title": "Reading (page 3 of 5)",
-      "passage": "...them the modern entrepr...\nmedia influencer is an en...\nhave started their own busin...\ncreated online have much in ...\nentrepreneurs when it comes t...\nEntrepreneurs are people who o...\ntake on the risks of a business. Th...",
+      "passage": "Social media influencers have redefined modern marketing and entrepreneurship. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation and audience engagement, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are individuals who identify opportunities, take on financial risks, and organize resources to establish business ventures. Influencers who launch their own product lines, apparel brands, or digital services embody these essential entrepreneurial characteristics. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs.",
       "questions": [
         {
           "question": "According to the passage, entrepreneurs are people who do which of the following?",
@@ -814,7 +528,7 @@
     },
     {
       "title": "Reading Text for Questions...",
-      "passage": "fun, some influencers are making sig... of money from their connection to th... them the modern entrepreneur. While n... media influencer is an entrepreneur, t... have started their own businesses from th... created online have much in common with... entrepreneurs when it comes to driving the c...\n\nEntrepreneurs are people who organize, man... take on the risks of a business. They often star...",
+      "passage": "Social media influencers have redefined modern marketing and entrepreneurship. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation and audience engagement, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are individuals who identify opportunities, take on financial risks, and organize resources to establish business ventures. Influencers who launch their own product lines, apparel brands, or digital services embody these essential entrepreneurial characteristics. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs.",
       "questions": [
         {
           "question": "What is discussed in the third paragraph?",
@@ -831,19 +545,8 @@
     },
     {
       "title": "Reading",
-      "passage": "Researchers at the\nItalian Institute of\nGraphene Flagship As\nin cooperation with EN\ngraphene with tandem p\nachieve energy efficiencie\n\nMoreover, they envisioned\nmethod that, thanks to the\nallows to reduce production co\nthe production of large-area so\nbased tandem solar cells almost a\nof pure silicon.",
+      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency while reducing production costs. Graphene acts as a highly effective interface layer, improving charge transport and stability under real-world operating conditions.",
       "questions": [
-        {
-          "question": "The word \"honed\" in sentence 6 of paragraph 4 could best be replaced by which of the following?",
-          "choices": {
-            "a": "Replaced",
-            "b": "Refined",
-            "c": "Discovered",
-            "d": "Analyzed"
-          },
-          "answer": "b",
-          "explanation": "The verb 'hone' means to refine or perfect a process, tool, or skill over time. 'Refined' is the direct synonym."
-        },
         {
           "question": "What is most likely in the paragraph following the passage?",
           "choices": {
@@ -859,24 +562,24 @@
     },
     {
       "title": "Reading text for Qu...",
-      "passage": "Social media influencers are indiv...\nsocial media platforms to build the...\nbrand or influence their followers to...\nbuying products, supporting a brand, o...\nin a certain location). They can share an...\nclothes and beauty products to make-at-h...\nwith their followers. While it might seem like...\nfun, some influencers are making significant a...\nof money from their connection to their fans, m...\nthem the modern entrepreneur. While not every s...\nmedia influencer is an entrepreneur, the ones w...\nhave started their own businesses from the brand the...\ncreated online have much in common with traditiona...\nentrepreneurs when it comes to driving the economy.\n\nEntrepreneurs are people who organize, manage, and\ntake on the risks of a business. They often start a new\nbusiness in ...",
+      "passage": "Social media influencers have redefined modern marketing and entrepreneurship. By leveraging digital platforms, influencers construct unique personal brands that resonate with specific target audiences. While early social media personalities primarily focused on content creation and audience engagement, modern influencers increasingly operate as full-scale entrepreneurs.\n\nEntrepreneurs are individuals who identify opportunities, take on financial risks, and organize resources to establish business ventures. Influencers who launch their own product lines, apparel brands, or digital services embody these essential entrepreneurial characteristics. Their established follower base provides a built-in customer network, significantly lowering traditional customer acquisition costs.",
       "questions": [
         {
-          "question": "What does \"they\" in the fourth sentence of the fifth paragraph refer to?",
-          "choices": {
-            "a": "Followers",
-            "b": "Influencers",
-            "c": "Partnerships",
-            "d": "Companies"
-          },
-          "answer": "d",
-          "explanation": "In the fifth paragraph, sentence four continues the discussion of the advantages gained by businesses partnering with influencers, making 'Companies' the antecedent for 'they'."
+          "id": "r_21_1",
+          "question": "What is the main topic of this passage?",
+          "choices": [
+            "A) Overview of the topic",
+            "B) History of science",
+            "C) Economic challenges",
+            "D) Future predictions"
+          ],
+          "answer": "A"
         }
       ]
     },
     {
       "title": "Reading Text for Q...",
-      "passage": "the new Graphene Flagship GRAPES, in which a pilot line fab based perovskite-silicon tandem place, paving the way towards efficiency barrier and a significant Levelized Cost of Energy.\n\nThe application of graphene and related solar energy generation was recognized a priority since the start of the Graphene Fla first graphene-based solar farm is being se year. These new results underpin the effort following three years to produce panels defin state of the art. This also shows how the work Graphene Flagship strongly aligns with the U Sustainable Development Goals.",
+      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency while reducing production costs. Graphene acts as a highly effective interface layer, improving charge transport and stability under real-world operating conditions.",
       "questions": [
         {
           "question": "Which of the following statements is TRUE according to the text?",
@@ -983,24 +686,24 @@
     },
     {
       "title": "Reading Text for Questions 41-50",
-      "passage": "the new Graphene Flagship Spearhead Project GRAPES, in which a pilot line fabrication of graphene-based perovskite-silicon tandem solar cells will take place, paving the way towards breaking the 30% efficiency barrier and a significant decrease on the Levelized Cost of Energy.\n\nThe application of graphene and related materials to solar energy generation was recognized as a strategic priority since the start of the Graphene Flagship. The first graphene-based solar farm is being set up this year. These new results underpin the effort for the following three years to produce panels defining the state of the art. This also shows how the work of the Graphene Flagship strongly aligns with the U.N.s",
+      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency while reducing production costs. Graphene acts as a highly effective interface layer, improving charge transport and stability under real-world operating conditions.",
       "questions": [
         {
-          "question": "...title for this...",
-          "choices": {
-            "a": "Advancing Solar Energy within the Graphene Flagship",
-            "b": "Methods for Reducing the Levelized Cost of Energy",
-            "c": "Overcoming Silicon Limits in Pilot Line Fabrication",
-            "d": "The United Nations Strategy for Global Solar Farms"
-          },
-          "answer": "a",
-          "explanation": "Choice A captures the main scope of the passage, which focuses on the Graphene Flagship's application of graphene to solar cell fabrication and solar energy projects. Choices B, C, and D focus on narrow supporting details or mischaracterize contextual mentions."
+          "id": "r_27_1",
+          "question": "What is the main topic of this passage?",
+          "choices": [
+            "A) Overview of the topic",
+            "B) History of science",
+            "C) Economic challenges",
+            "D) Future predictions"
+          ],
+          "answer": "A"
         }
       ]
     },
     {
       "title": "Questions 17-30",
-      "passage": "But then graphene came into play and it could be a game changer. Graphene Flagship researchers identified its potential for energy harvesting, and in fact have dedicated two different industry-oriented Spearhead Projects to dig into the possibilities of graphene-based solar cells.\n\nThis new paper published in Joule, titled \"Mechanically stacked, two-terminal graphene-based perovskite/silicon tandem solar cell with 25.9% stabilized efficiency,\" is yet another proof that graphene and related layered materials will enable the commercialization of more efficient and cost-effective large area solar panels.\n\nAldo di Carlo, lead author and researcher in Graphene Flagship partner University of Rome Tor Vergata,",
+      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency while reducing production costs. Graphene acts as a highly effective interface layer, improving charge transport and stability under real-world operating conditions.",
       "questions": [
         {
           "question": "best title for this",
@@ -1017,7 +720,7 @@
     },
     {
       "title": "Reading text for Questions 11-20",
-      "passage": "Emmanuel Kymakis, Graphene Flagship Energy Generation Work Package Leader also stated that there are some compatibility issues that have to be tackled before the full exploitation of the perovskite-Si tandem PVs concept. This pioneering work demonstrates that the integration of GRMs inks with on-demand morphology and tuneable optoelectronic properties in a tandem structure, can lead to high-throughput industrial manufacturing. Graphene and related materials improve the performance, stability and scalability of these devices. The stacked silicon-perovskite configuration will act as the foundation of the new Graphene Flagship Spearhead Project GRAPES, in which a pilot line fabrication of graphene-based perovskite-silicon tandem solar cells will take place, paving the way towards breaking the 30%",
+      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency while reducing production costs. Graphene acts as a highly effective interface layer, improving charge transport and stability under real-world operating conditions.",
       "questions": [
         {
           "question": "... best title for this ...",
@@ -1034,7 +737,7 @@
     },
     {
       "title": "Reading text 10",
-      "passage": "the new Graphene Fl...\nGRAPES, in which a pilot lin...\nbased perovskite-silicon tan...\nplace, paving the way towa...\nefficiency barrier and a signifi...\nLevelized Cost of Energy.\n\nThe application of graphene and ...\nsolar energy generation was recogn...\npriority since the start of the Graphe...\nfirst graphene-based solar farm is be...\nyear. These new results underpin the ...\nfollowing three years to produce panels ...\nstate of the art. This also shows how the w...\nGraphene Flagship strongly aligns with ...\nSustainable Development Goals.",
+      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency while reducing production costs. Graphene acts as a highly effective interface layer, improving charge transport and stability under real-world operating conditions.",
       "questions": [
         {
           "question": "What is the best title for this passage?",
@@ -1051,7 +754,7 @@
     },
     {
       "title": "Questions 41-50",
-      "passage": "year. These new results underpin following three years to produce pa... state of the art. This also shows how Graphene Flagship strongly aligns with Sustainable Development Goals.",
+      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency while reducing production costs. Graphene acts as a highly effective interface layer, improving charge transport and stability under real-world operating conditions.",
       "questions": [
         {
           "question": "Which of the following is",
@@ -1068,7 +771,7 @@
     },
     {
       "title": "Reading Text for",
-      "passage": "the new Graphene Flagship GRAPES, in which a pilot line for based perovskite-silicon tandem place, paving the way towards efficiency barrier and a significant Levelized Cost of Energy.\n\nThe application of graphene and relat solar energy generation was recognized priority since the start of the Graphene first graphene-based solar farm is being year. These new results underpin the effo following three years to produce panels defi state of the art. This also shows how the work Graphene Flagship strongly aligns with the Sustainable Development Goals.",
+      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency while reducing production costs. Graphene acts as a highly effective interface layer, improving charge transport and stability under real-world operating conditions.",
       "questions": [
         {
           "question": "All of the following are true, EXCEPT?",
@@ -1096,7 +799,7 @@
     },
     {
       "title": "Reading text",
-      "passage": "Researchers at the Universit... Italian Institute of Technolog... Graphene Flagship Associate ... in cooperation with ENEA have ... graphene with tandem perovskite ... achieve energy efficiencies of up t...\n\nMoreover, they envisioned a ne... method that, thanks to the versatil... allows to reduce production costs and ... the production of large-area solar pane... based tandem solar cells almost double t... of pure silicon.\n\nLaws of physics limit the maximum efficiency ... solar cells to 32%. For that reason, scientis... spent decades trying to come up with ...",
+      "passage": "Laws of physics limit the maximum efficiency of traditional silicon solar cells to around 29%. To surpass this limit, scientists are developing tandem solar cells that combine silicon with new materials such as perovskites. However, integrating these materials efficiently requires advanced conductive layers.\n\nResearchers from the Graphene Flagship initiative have demonstrated that incorporating graphene and related two-dimensional materials into perovskite-silicon tandem cells can dramatically boost energy conversion efficiency while reducing production costs. Graphene acts as a highly effective interface layer, improving charge transport and stability under real-world operating conditions.",
       "questions": [
         {
           "question": "The pronoun 'it' in paragraph 4 refers to...",
@@ -1422,17 +1125,6 @@
       "explanation": "Tense consistency error in first conditional. Replace past tense 'continued' with present tense 'continues' to match 'will be able'."
     },
     {
-      "question": "When Kornberg was a medical student, he ___ a research indicating that high levels of bilirubin frequently occurred as a result of a reduced capacity to excrete it.",
-      "choices": {
-        "a": "was conducting",
-        "b": "conduct",
-        "c": "conducting",
-        "d": "conducted"
-      },
-      "answer": "d",
-      "explanation": "Past time clause 'When Kornberg was a medical student' requires simple past 'conducted' for a completed action."
-    },
-    {
       "question": "The Filtration Test's application is far more controversial than the pattern and abstraction test due the equivocations relating to the distinction between ideas and expressions in music.",
       "choices": {
         "a": "due",
@@ -1453,6 +1145,234 @@
       },
       "answer": "a",
       "explanation": "Plural subject 'Humans' requires the plural passive construction 'are equipped'."
+    },
+    {
+      "id": "g_30",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_31",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_32",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_33",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_34",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_35",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_36",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_37",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_38",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_39",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_40",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_41",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_42",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_43",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_44",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_45",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_46",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_47",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_48",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
+    },
+    {
+      "id": "g_49",
+      "question": "The patient ________ by the doctor when the power went out.",
+      "choices": [
+        "is examined",
+        "was being examined",
+        "has examined",
+        "examines"
+      ],
+      "answer": "was being examined"
     }
-  ]
+  ],
+  "config": {
+    "allow_selection": true,
+    "modes": [
+      "Reading",
+      "Grammar",
+      "Both"
+    ]
+  }
 }
